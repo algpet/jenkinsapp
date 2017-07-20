@@ -69,12 +69,12 @@
                     <distribution>some distro</distribution>
                     <group>Application/Collectors</group>
                     <packager>SWWDC</packager>
-                    <prefix>/usr/local</prefix>
+                    <!--<prefix>/usr/local</prefix>-->
                     <changelogFile>src/changelog</changelogFile>
 
                     <mappings>
                         <mapping>
-                            <directory>/somedir</directory>
+                            <directory>/lib/mytest</directory>
                             <sources>
                                 <source>
                                     <location>src/main/resources/somedir</location>
