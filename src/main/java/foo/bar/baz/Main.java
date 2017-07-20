@@ -12,7 +12,7 @@ import java.time.LocalDateTime;
 public class Main {
 
     public static void main(String args[]){
-        
+        System.out.println("started");
         while (true){
             try{
                 BufferedWriter bw = new BufferedWriter(new FileWriter("log.txt",true));

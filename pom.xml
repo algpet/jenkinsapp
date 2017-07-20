@@ -68,7 +68,6 @@
                     <license>some license</license>
                     <distribution>some distro</distribution>
                     <group>Application/Collectors</group>
-                    <icon>src/main/resources/icon.gif</icon>
                     <packager>SWWDC</packager>
                     <prefix>/usr/local</prefix>
                     <changelogFile>src/changelog</changelogFile>
@@ -76,6 +75,11 @@
                     <mappings>
                         <mapping>
                             <directory>/somedir</directory>
+                            <sources>
+                                <source>
+                                    <location>/resources/somedir</location>
+                                </source>
+                            </sources>
                         </mapping>
                     </mappings>
 
