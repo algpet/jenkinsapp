@@ -77,7 +77,7 @@
                             <directory>/somedir</directory>
                             <sources>
                                 <source>
-                                    <location>/src/main/resources/somedir</location>
+                                    <location>src/main/resources/somedir</location>
                                 </source>
                             </sources>
                         </mapping>
