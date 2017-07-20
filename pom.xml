@@ -74,10 +74,11 @@
 
                     <mappings>
                         <mapping>
-                            <directory>/lib/mytest</directory>
+                            <directory>/lib/mytest/</directory>
                             <sources>
                                 <source>
-                                    <location>src/main/resources/somedir</location>
+                                    <location>somedir/</location>
+
                                 </source>
                             </sources>
                         </mapping>
