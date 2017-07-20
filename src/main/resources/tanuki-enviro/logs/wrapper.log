@@ -1,0 +1,1718 @@
+STATUS | wrapper  | 2017/07/17 01:28:05 | --> Wrapper Started as Daemon
+STATUS | wrapper  | 2017/07/17 01:28:05 | Java Service Wrapper Community Edition 64-bit 3.5.32
+STATUS | wrapper  | 2017/07/17 01:28:05 |   Copyright (C) 1999-2017 Tanuki Software, Ltd. All Rights Reserved.
+STATUS | wrapper  | 2017/07/17 01:28:05 |     http://wrapper.tanukisoftware.com
+STATUS | wrapper  | 2017/07/17 01:28:05 | 
+STATUS | wrapper  | 2017/07/17 01:28:05 | Launching a JVM...
+INFO   | jvm 1    | 2017/07/17 01:28:05 | WrapperManager: Initializing...
+INFO   | jvm 1    | 2017/07/17 01:28:06 | WrapperSimpleApp Error: Unable to locate the class foo.bar.baz.Main : java.lang.ClassNotFoundException: foo.bar.baz.Main
+INFO   | jvm 1    | 2017/07/17 01:28:06 | 
+INFO   | jvm 1    | 2017/07/17 01:28:06 | WrapperSimpleApp Usage:
+INFO   | jvm 1    | 2017/07/17 01:28:06 | WrapperManager Error: Error in WrapperListener.start callback.  java.lang.IllegalArgumentException: can't parse argument number: app_class{/app_method}
+INFO   | jvm 1    | 2017/07/17 01:28:06 | WrapperManager Error: java.lang.IllegalArgumentException: can't parse argument number: app_class{/app_method}
+INFO   | jvm 1    | 2017/07/17 01:28:06 | WrapperManager Error: 	at java.text.MessageFormat.makeFormat(MessageFormat.java:1429)
+INFO   | jvm 1    | 2017/07/17 01:28:06 | WrapperManager Error: 	at java.text.MessageFormat.applyPattern(MessageFormat.java:479)
+INFO   | jvm 1    | 2017/07/17 01:28:06 | WrapperManager Error: 	at java.text.MessageFormat.<init>(MessageFormat.java:362)
+INFO   | jvm 1    | 2017/07/17 01:28:06 | WrapperManager Error: 	at java.text.MessageFormat.format(MessageFormat.java:840)
+INFO   | jvm 1    | 2017/07/17 01:28:06 | WrapperManager Error: 	at org.tanukisoftware.wrapper.WrapperResources.getString(WrapperResources.java:194)
+INFO   | jvm 1    | 2017/07/17 01:28:06 | WrapperManager Error: 	at org.tanukisoftware.wrapper.WrapperSimpleApp.showUsage(WrapperSimpleApp.java:597)
+INFO   | jvm 1    | 2017/07/17 01:28:06 | WrapperManager Error: 	at org.tanukisoftware.wrapper.WrapperSimpleApp.start(WrapperSimpleApp.java:441)
+INFO   | jvm 1    | 2017/07/17 01:28:06 | WrapperManager Error: 	at org.tanukisoftware.wrapper.WrapperManager$11.run(WrapperManager.java:4284)
+INFO   | jvm 1    | 2017/07/17 01:28:06 | WrapperManager Error: Caused by: java.lang.NumberFormatException: For input string: "app_class{/app_method}"
+INFO   | jvm 1    | 2017/07/17 01:28:06 | WrapperManager Error: 	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+INFO   | jvm 1    | 2017/07/17 01:28:06 | WrapperManager Error: 	at java.lang.Integer.parseInt(Integer.java:580)
+INFO   | jvm 1    | 2017/07/17 01:28:06 | WrapperManager Error: 	at java.lang.Integer.parseInt(Integer.java:615)
+INFO   | jvm 1    | 2017/07/17 01:28:06 | WrapperManager Error: 	at java.text.MessageFormat.makeFormat(MessageFormat.java:1427)
+INFO   | jvm 1    | 2017/07/17 01:28:06 | WrapperManager Error: 	... 7 more
+STATUS | wrapper  | 2017/07/17 01:28:07 | <-- Wrapper Stopped
+STATUS | wrapper  | 2017/07/17 01:47:05 | --> Wrapper Started as Daemon
+STATUS | wrapper  | 2017/07/17 01:47:05 | Java Service Wrapper Community Edition 64-bit 3.5.32
+STATUS | wrapper  | 2017/07/17 01:47:05 |   Copyright (C) 1999-2017 Tanuki Software, Ltd. All Rights Reserved.
+STATUS | wrapper  | 2017/07/17 01:47:05 |     http://wrapper.tanukisoftware.com
+STATUS | wrapper  | 2017/07/17 01:47:05 | 
+STATUS | wrapper  | 2017/07/17 01:47:05 | Launching a JVM...
+INFO   | jvm 1    | 2017/07/17 01:47:05 | WrapperManager: Initializing...
+INFO   | jvm 1    | 2017/07/17 01:47:06 | WrapperSimpleApp Error: Unable to locate the class Main.jar : java.lang.ClassNotFoundException: Main.jar
+INFO   | jvm 1    | 2017/07/17 01:47:06 | 
+INFO   | jvm 1    | 2017/07/17 01:47:06 | WrapperSimpleApp Usage:
+INFO   | jvm 1    | 2017/07/17 01:47:06 | WrapperManager Error: Error in WrapperListener.start callback.  java.lang.IllegalArgumentException: can't parse argument number: app_class{/app_method}
+INFO   | jvm 1    | 2017/07/17 01:47:06 | WrapperManager Error: java.lang.IllegalArgumentException: can't parse argument number: app_class{/app_method}
+INFO   | jvm 1    | 2017/07/17 01:47:06 | WrapperManager Error: 	at java.text.MessageFormat.makeFormat(MessageFormat.java:1429)
+INFO   | jvm 1    | 2017/07/17 01:47:06 | WrapperManager Error: 	at java.text.MessageFormat.applyPattern(MessageFormat.java:479)
+INFO   | jvm 1    | 2017/07/17 01:47:06 | WrapperManager Error: 	at java.text.MessageFormat.<init>(MessageFormat.java:362)
+INFO   | jvm 1    | 2017/07/17 01:47:06 | WrapperManager Error: 	at java.text.MessageFormat.format(MessageFormat.java:840)
+INFO   | jvm 1    | 2017/07/17 01:47:06 | WrapperManager Error: 	at org.tanukisoftware.wrapper.WrapperResources.getString(WrapperResources.java:194)
+INFO   | jvm 1    | 2017/07/17 01:47:06 | WrapperManager Error: 	at org.tanukisoftware.wrapper.WrapperSimpleApp.showUsage(WrapperSimpleApp.java:597)
+INFO   | jvm 1    | 2017/07/17 01:47:06 | WrapperManager Error: 	at org.tanukisoftware.wrapper.WrapperSimpleApp.start(WrapperSimpleApp.java:441)
+INFO   | jvm 1    | 2017/07/17 01:47:06 | WrapperManager Error: 	at org.tanukisoftware.wrapper.WrapperManager$11.run(WrapperManager.java:4284)
+INFO   | jvm 1    | 2017/07/17 01:47:06 | WrapperManager Error: Caused by: java.lang.NumberFormatException: For input string: "app_class{/app_method}"
+INFO   | jvm 1    | 2017/07/17 01:47:06 | WrapperManager Error: 	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+INFO   | jvm 1    | 2017/07/17 01:47:06 | WrapperManager Error: 	at java.lang.Integer.parseInt(Integer.java:580)
+INFO   | jvm 1    | 2017/07/17 01:47:06 | WrapperManager Error: 	at java.lang.Integer.parseInt(Integer.java:615)
+INFO   | jvm 1    | 2017/07/17 01:47:06 | WrapperManager Error: 	at java.text.MessageFormat.makeFormat(MessageFormat.java:1427)
+INFO   | jvm 1    | 2017/07/17 01:47:06 | WrapperManager Error: 	... 7 more
+STATUS | wrapper  | 2017/07/17 01:47:07 | <-- Wrapper Stopped
+STATUS | wrapper  | 2017/07/17 01:48:37 | --> Wrapper Started as Daemon
+STATUS | wrapper  | 2017/07/17 01:48:37 | Java Service Wrapper Community Edition 64-bit 3.5.32
+STATUS | wrapper  | 2017/07/17 01:48:37 |   Copyright (C) 1999-2017 Tanuki Software, Ltd. All Rights Reserved.
+STATUS | wrapper  | 2017/07/17 01:48:37 |     http://wrapper.tanukisoftware.com
+STATUS | wrapper  | 2017/07/17 01:48:37 | 
+STATUS | wrapper  | 2017/07/17 01:48:37 | Launching a JVM...
+INFO   | jvm 1    | 2017/07/17 01:48:37 | WrapperManager: Initializing...
+INFO   | jvm 1    | 2017/07/17 01:48:37 | WrapperSimpleApp Error: Unable to locate the class app.jar : java.lang.ClassNotFoundException: app.jar
+INFO   | jvm 1    | 2017/07/17 01:48:37 | 
+INFO   | jvm 1    | 2017/07/17 01:48:37 | WrapperSimpleApp Usage:
+INFO   | jvm 1    | 2017/07/17 01:48:37 | WrapperManager Error: Error in WrapperListener.start callback.  java.lang.IllegalArgumentException: can't parse argument number: app_class{/app_method}
+INFO   | jvm 1    | 2017/07/17 01:48:37 | WrapperManager Error: java.lang.IllegalArgumentException: can't parse argument number: app_class{/app_method}
+INFO   | jvm 1    | 2017/07/17 01:48:37 | WrapperManager Error: 	at java.text.MessageFormat.makeFormat(MessageFormat.java:1429)
+INFO   | jvm 1    | 2017/07/17 01:48:37 | WrapperManager Error: 	at java.text.MessageFormat.applyPattern(MessageFormat.java:479)
+INFO   | jvm 1    | 2017/07/17 01:48:37 | WrapperManager Error: 	at java.text.MessageFormat.<init>(MessageFormat.java:362)
+INFO   | jvm 1    | 2017/07/17 01:48:37 | WrapperManager Error: 	at java.text.MessageFormat.format(MessageFormat.java:840)
+INFO   | jvm 1    | 2017/07/17 01:48:37 | WrapperManager Error: 	at org.tanukisoftware.wrapper.WrapperResources.getString(WrapperResources.java:194)
+INFO   | jvm 1    | 2017/07/17 01:48:37 | WrapperManager Error: 	at org.tanukisoftware.wrapper.WrapperSimpleApp.showUsage(WrapperSimpleApp.java:597)
+INFO   | jvm 1    | 2017/07/17 01:48:37 | WrapperManager Error: 	at org.tanukisoftware.wrapper.WrapperSimpleApp.start(WrapperSimpleApp.java:441)
+INFO   | jvm 1    | 2017/07/17 01:48:37 | WrapperManager Error: 	at org.tanukisoftware.wrapper.WrapperManager$11.run(WrapperManager.java:4284)
+INFO   | jvm 1    | 2017/07/17 01:48:37 | WrapperManager Error: Caused by: java.lang.NumberFormatException: For input string: "app_class{/app_method}"
+INFO   | jvm 1    | 2017/07/17 01:48:37 | WrapperManager Error: 	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+INFO   | jvm 1    | 2017/07/17 01:48:37 | WrapperManager Error: 	at java.lang.Integer.parseInt(Integer.java:580)
+INFO   | jvm 1    | 2017/07/17 01:48:37 | WrapperManager Error: 	at java.lang.Integer.parseInt(Integer.java:615)
+INFO   | jvm 1    | 2017/07/17 01:48:37 | WrapperManager Error: 	at java.text.MessageFormat.makeFormat(MessageFormat.java:1427)
+INFO   | jvm 1    | 2017/07/17 01:48:37 | WrapperManager Error: 	... 7 more
+STATUS | wrapper  | 2017/07/17 01:48:38 | <-- Wrapper Stopped
+STATUS | wrapper  | 2017/07/17 01:49:11 | --> Wrapper Started as Daemon
+STATUS | wrapper  | 2017/07/17 01:49:11 | Java Service Wrapper Community Edition 64-bit 3.5.32
+STATUS | wrapper  | 2017/07/17 01:49:11 |   Copyright (C) 1999-2017 Tanuki Software, Ltd. All Rights Reserved.
+STATUS | wrapper  | 2017/07/17 01:49:11 |     http://wrapper.tanukisoftware.com
+STATUS | wrapper  | 2017/07/17 01:49:11 | 
+STATUS | wrapper  | 2017/07/17 01:49:12 | Launching a JVM...
+INFO   | jvm 1    | 2017/07/17 01:49:12 | WrapperManager: Initializing...
+INFO   | jvm 1    | 2017/07/17 01:49:12 | WrapperSimpleApp Error: Unable to locate the class -jar : java.lang.ClassNotFoundException: -jar
+INFO   | jvm 1    | 2017/07/17 01:49:12 | 
+INFO   | jvm 1    | 2017/07/17 01:49:12 | WrapperSimpleApp Usage:
+INFO   | jvm 1    | 2017/07/17 01:49:12 | WrapperManager Error: Error in WrapperListener.start callback.  java.lang.IllegalArgumentException: can't parse argument number: app_class{/app_method}
+INFO   | jvm 1    | 2017/07/17 01:49:12 | WrapperManager Error: java.lang.IllegalArgumentException: can't parse argument number: app_class{/app_method}
+INFO   | jvm 1    | 2017/07/17 01:49:12 | WrapperManager Error: 	at java.text.MessageFormat.makeFormat(MessageFormat.java:1429)
+INFO   | jvm 1    | 2017/07/17 01:49:12 | WrapperManager Error: 	at java.text.MessageFormat.applyPattern(MessageFormat.java:479)
+INFO   | jvm 1    | 2017/07/17 01:49:12 | WrapperManager Error: 	at java.text.MessageFormat.<init>(MessageFormat.java:362)
+INFO   | jvm 1    | 2017/07/17 01:49:12 | WrapperManager Error: 	at java.text.MessageFormat.format(MessageFormat.java:840)
+INFO   | jvm 1    | 2017/07/17 01:49:12 | WrapperManager Error: 	at org.tanukisoftware.wrapper.WrapperResources.getString(WrapperResources.java:194)
+INFO   | jvm 1    | 2017/07/17 01:49:12 | WrapperManager Error: 	at org.tanukisoftware.wrapper.WrapperSimpleApp.showUsage(WrapperSimpleApp.java:597)
+INFO   | jvm 1    | 2017/07/17 01:49:12 | WrapperManager Error: 	at org.tanukisoftware.wrapper.WrapperSimpleApp.start(WrapperSimpleApp.java:441)
+INFO   | jvm 1    | 2017/07/17 01:49:12 | WrapperManager Error: 	at org.tanukisoftware.wrapper.WrapperManager$11.run(WrapperManager.java:4284)
+INFO   | jvm 1    | 2017/07/17 01:49:12 | WrapperManager Error: Caused by: java.lang.NumberFormatException: For input string: "app_class{/app_method}"
+INFO   | jvm 1    | 2017/07/17 01:49:12 | WrapperManager Error: 	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+INFO   | jvm 1    | 2017/07/17 01:49:12 | WrapperManager Error: 	at java.lang.Integer.parseInt(Integer.java:580)
+INFO   | jvm 1    | 2017/07/17 01:49:12 | WrapperManager Error: 	at java.lang.Integer.parseInt(Integer.java:615)
+INFO   | jvm 1    | 2017/07/17 01:49:12 | WrapperManager Error: 	at java.text.MessageFormat.makeFormat(MessageFormat.java:1427)
+INFO   | jvm 1    | 2017/07/17 01:49:12 | WrapperManager Error: 	... 7 more
+STATUS | wrapper  | 2017/07/17 01:49:13 | <-- Wrapper Stopped
+STATUS | wrapper  | 2017/07/17 01:50:19 | --> Wrapper Started as Daemon
+STATUS | wrapper  | 2017/07/17 01:50:19 | Java Service Wrapper Community Edition 64-bit 3.5.32
+STATUS | wrapper  | 2017/07/17 01:50:19 |   Copyright (C) 1999-2017 Tanuki Software, Ltd. All Rights Reserved.
+STATUS | wrapper  | 2017/07/17 01:50:19 |     http://wrapper.tanukisoftware.com
+STATUS | wrapper  | 2017/07/17 01:50:19 | 
+STATUS | wrapper  | 2017/07/17 01:50:19 | Launching a JVM...
+INFO   | jvm 1    | 2017/07/17 01:50:20 | WrapperManager: Initializing...
+INFO   | jvm 1    | 2017/07/17 01:50:20 | WrapperSimpleApp Error: Unable to locate the class app.jar : java.lang.ClassNotFoundException: app.jar
+INFO   | jvm 1    | 2017/07/17 01:50:20 | 
+INFO   | jvm 1    | 2017/07/17 01:50:20 | WrapperSimpleApp Usage:
+INFO   | jvm 1    | 2017/07/17 01:50:20 | WrapperManager Error: Error in WrapperListener.start callback.  java.lang.IllegalArgumentException: can't parse argument number: app_class{/app_method}
+INFO   | jvm 1    | 2017/07/17 01:50:20 | WrapperManager Error: java.lang.IllegalArgumentException: can't parse argument number: app_class{/app_method}
+INFO   | jvm 1    | 2017/07/17 01:50:20 | WrapperManager Error: 	at java.text.MessageFormat.makeFormat(MessageFormat.java:1429)
+INFO   | jvm 1    | 2017/07/17 01:50:20 | WrapperManager Error: 	at java.text.MessageFormat.applyPattern(MessageFormat.java:479)
+INFO   | jvm 1    | 2017/07/17 01:50:20 | WrapperManager Error: 	at java.text.MessageFormat.<init>(MessageFormat.java:362)
+INFO   | jvm 1    | 2017/07/17 01:50:20 | WrapperManager Error: 	at java.text.MessageFormat.format(MessageFormat.java:840)
+INFO   | jvm 1    | 2017/07/17 01:50:20 | WrapperManager Error: 	at org.tanukisoftware.wrapper.WrapperResources.getString(WrapperResources.java:194)
+INFO   | jvm 1    | 2017/07/17 01:50:20 | WrapperManager Error: 	at org.tanukisoftware.wrapper.WrapperSimpleApp.showUsage(WrapperSimpleApp.java:597)
+INFO   | jvm 1    | 2017/07/17 01:50:20 | WrapperManager Error: 	at org.tanukisoftware.wrapper.WrapperSimpleApp.start(WrapperSimpleApp.java:441)
+INFO   | jvm 1    | 2017/07/17 01:50:20 | WrapperManager Error: 	at org.tanukisoftware.wrapper.WrapperManager$11.run(WrapperManager.java:4284)
+INFO   | jvm 1    | 2017/07/17 01:50:20 | WrapperManager Error: Caused by: java.lang.NumberFormatException: For input string: "app_class{/app_method}"
+INFO   | jvm 1    | 2017/07/17 01:50:20 | WrapperManager Error: 	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+INFO   | jvm 1    | 2017/07/17 01:50:20 | WrapperManager Error: 	at java.lang.Integer.parseInt(Integer.java:580)
+INFO   | jvm 1    | 2017/07/17 01:50:20 | WrapperManager Error: 	at java.lang.Integer.parseInt(Integer.java:615)
+INFO   | jvm 1    | 2017/07/17 01:50:20 | WrapperManager Error: 	at java.text.MessageFormat.makeFormat(MessageFormat.java:1427)
+INFO   | jvm 1    | 2017/07/17 01:50:20 | WrapperManager Error: 	... 7 more
+STATUS | wrapper  | 2017/07/17 01:50:21 | <-- Wrapper Stopped
+STATUS | wrapper  | 2017/07/20 01:30:15 | --> Wrapper Started as Daemon
+STATUS | wrapper  | 2017/07/20 01:30:15 | Java Service Wrapper Community Edition 64-bit 3.5.32
+STATUS | wrapper  | 2017/07/20 01:30:15 |   Copyright (C) 1999-2017 Tanuki Software, Ltd. All Rights Reserved.
+STATUS | wrapper  | 2017/07/20 01:30:15 |     http://wrapper.tanukisoftware.com
+STATUS | wrapper  | 2017/07/20 01:30:15 | 
+STATUS | wrapper  | 2017/07/20 01:30:16 | Launching a JVM...
+INFO   | jvm 1    | 2017/07/20 01:30:16 | WrapperManager: Initializing...
+INFO   | jvm 1    | 2017/07/20 01:30:16 | WrapperManager: 
+INFO   | jvm 1    | 2017/07/20 01:30:16 | WrapperManager: ERROR - Unable to load the Wrapper's native library because none of the
+INFO   | jvm 1    | 2017/07/20 01:30:16 | WrapperManager:         following files:
+INFO   | jvm 1    | 2017/07/20 01:30:16 | WrapperManager:           libwrapper-linux-x86-64.so
+INFO   | jvm 1    | 2017/07/20 01:30:16 | WrapperManager:           libwrapper.so
+INFO   | jvm 1    | 2017/07/20 01:30:16 | WrapperManager:         could be located on the following java.library.path:
+INFO   | jvm 1    | 2017/07/20 01:30:16 | WrapperManager:           /home/algis/Desktop/tanuki/APP_ROOT/bin/../lib
+INFO   | jvm 1    | 2017/07/20 01:30:16 | WrapperManager:         Please see the documentation for the wrapper.java.library.path
+INFO   | jvm 1    | 2017/07/20 01:30:16 | WrapperManager:         configuration property.
+INFO   | jvm 1    | 2017/07/20 01:30:16 | WrapperManager: 
+STATUS | wrapper  | 2017/07/20 01:30:17 | <-- Wrapper Stopped
+STATUS | wrapper  | 2017/07/20 01:32:04 | --> Wrapper Started as Daemon
+STATUS | wrapper  | 2017/07/20 01:32:04 | Java Service Wrapper Community Edition 64-bit 3.5.32
+STATUS | wrapper  | 2017/07/20 01:32:04 |   Copyright (C) 1999-2017 Tanuki Software, Ltd. All Rights Reserved.
+STATUS | wrapper  | 2017/07/20 01:32:04 |     http://wrapper.tanukisoftware.com
+STATUS | wrapper  | 2017/07/20 01:32:04 | 
+STATUS | wrapper  | 2017/07/20 01:32:04 | Launching a JVM...
+INFO   | jvm 1    | 2017/07/20 01:32:04 | WrapperManager: Initializing...
+INFO   | jvm 1    | 2017/07/20 01:32:04 | WrapperManager: 
+INFO   | jvm 1    | 2017/07/20 01:32:04 | WrapperManager: ERROR - Unable to load the Wrapper's native library because none of the
+INFO   | jvm 1    | 2017/07/20 01:32:04 | WrapperManager:         following files:
+INFO   | jvm 1    | 2017/07/20 01:32:04 | WrapperManager:           libwrapper-linux-x86-64.so
+INFO   | jvm 1    | 2017/07/20 01:32:04 | WrapperManager:           libwrapper.so
+INFO   | jvm 1    | 2017/07/20 01:32:04 | WrapperManager:         could be located on the following java.library.path:
+INFO   | jvm 1    | 2017/07/20 01:32:04 | WrapperManager:           /home/algis/Desktop/tanuki/APP_ROOT/bin/../lib
+INFO   | jvm 1    | 2017/07/20 01:32:04 | WrapperManager:         Please see the documentation for the wrapper.java.library.path
+INFO   | jvm 1    | 2017/07/20 01:32:04 | WrapperManager:         configuration property.
+INFO   | jvm 1    | 2017/07/20 01:32:04 | WrapperManager: 
+STATUS | wrapper  | 2017/07/20 01:32:06 | <-- Wrapper Stopped
+STATUS | wrapper  | 2017/07/20 01:32:11 | --> Wrapper Started as Daemon
+STATUS | wrapper  | 2017/07/20 01:32:11 | Java Service Wrapper Community Edition 64-bit 3.5.32
+STATUS | wrapper  | 2017/07/20 01:32:11 |   Copyright (C) 1999-2017 Tanuki Software, Ltd. All Rights Reserved.
+STATUS | wrapper  | 2017/07/20 01:32:11 |     http://wrapper.tanukisoftware.com
+STATUS | wrapper  | 2017/07/20 01:32:11 | 
+STATUS | wrapper  | 2017/07/20 01:32:11 | Launching a JVM...
+INFO   | jvm 1    | 2017/07/20 01:32:12 | WrapperManager: Initializing...
+INFO   | jvm 1    | 2017/07/20 01:32:12 | WrapperManager: 
+INFO   | jvm 1    | 2017/07/20 01:32:12 | WrapperManager: ERROR - Unable to load the Wrapper's native library because none of the
+INFO   | jvm 1    | 2017/07/20 01:32:12 | WrapperManager:         following files:
+INFO   | jvm 1    | 2017/07/20 01:32:12 | WrapperManager:           libwrapper-linux-x86-64.so
+INFO   | jvm 1    | 2017/07/20 01:32:12 | WrapperManager:           libwrapper.so
+INFO   | jvm 1    | 2017/07/20 01:32:12 | WrapperManager:         could be located on the following java.library.path:
+INFO   | jvm 1    | 2017/07/20 01:32:12 | WrapperManager:           /home/algis/Desktop/tanuki/APP_ROOT/bin/../lib
+INFO   | jvm 1    | 2017/07/20 01:32:12 | WrapperManager:         Please see the documentation for the wrapper.java.library.path
+INFO   | jvm 1    | 2017/07/20 01:32:12 | WrapperManager:         configuration property.
+INFO   | jvm 1    | 2017/07/20 01:32:12 | WrapperManager: 
+STATUS | wrapper  | 2017/07/20 01:32:13 | <-- Wrapper Stopped
+STATUS | wrapper  | 2017/07/20 01:32:27 | --> Wrapper Started as Daemon
+STATUS | wrapper  | 2017/07/20 01:32:27 | Java Service Wrapper Community Edition 64-bit 3.5.32
+STATUS | wrapper  | 2017/07/20 01:32:27 |   Copyright (C) 1999-2017 Tanuki Software, Ltd. All Rights Reserved.
+STATUS | wrapper  | 2017/07/20 01:32:27 |     http://wrapper.tanukisoftware.com
+STATUS | wrapper  | 2017/07/20 01:32:27 | 
+STATUS | wrapper  | 2017/07/20 01:32:27 | Launching a JVM...
+INFO   | jvm 1    | 2017/07/20 01:32:27 | WrapperManager: Initializing...
+INFO   | jvm 1    | 2017/07/20 01:32:27 | WrapperManager: 
+INFO   | jvm 1    | 2017/07/20 01:32:27 | WrapperManager: ERROR - Unable to load the Wrapper's native library because none of the
+INFO   | jvm 1    | 2017/07/20 01:32:27 | WrapperManager:         following files:
+INFO   | jvm 1    | 2017/07/20 01:32:27 | WrapperManager:           libwrapper-linux-x86-64.so
+INFO   | jvm 1    | 2017/07/20 01:32:27 | WrapperManager:           libwrapper.so
+INFO   | jvm 1    | 2017/07/20 01:32:27 | WrapperManager:         could be located on the following java.library.path:
+INFO   | jvm 1    | 2017/07/20 01:32:27 | WrapperManager:           /home/algis/Desktop/tanuki/APP_ROOT/bin/../lib
+INFO   | jvm 1    | 2017/07/20 01:32:27 | WrapperManager:         Please see the documentation for the wrapper.java.library.path
+INFO   | jvm 1    | 2017/07/20 01:32:27 | WrapperManager:         configuration property.
+INFO   | jvm 1    | 2017/07/20 01:32:27 | WrapperManager: 
+STATUS | wrapper  | 2017/07/20 01:32:29 | <-- Wrapper Stopped
+STATUS | wrapper  | 2017/07/20 01:32:33 | --> Wrapper Started as Daemon
+STATUS | wrapper  | 2017/07/20 01:32:33 | Java Service Wrapper Community Edition 64-bit 3.5.32
+STATUS | wrapper  | 2017/07/20 01:32:33 |   Copyright (C) 1999-2017 Tanuki Software, Ltd. All Rights Reserved.
+STATUS | wrapper  | 2017/07/20 01:32:33 |     http://wrapper.tanukisoftware.com
+STATUS | wrapper  | 2017/07/20 01:32:33 | 
+STATUS | wrapper  | 2017/07/20 01:32:34 | Launching a JVM...
+INFO   | jvm 1    | 2017/07/20 01:32:34 | WrapperManager: Initializing...
+INFO   | jvm 1    | 2017/07/20 01:32:34 | WrapperManager: 
+INFO   | jvm 1    | 2017/07/20 01:32:34 | WrapperManager: ERROR - Unable to load the Wrapper's native library because none of the
+INFO   | jvm 1    | 2017/07/20 01:32:34 | WrapperManager:         following files:
+INFO   | jvm 1    | 2017/07/20 01:32:34 | WrapperManager:           libwrapper-linux-x86-64.so
+INFO   | jvm 1    | 2017/07/20 01:32:34 | WrapperManager:           libwrapper.so
+INFO   | jvm 1    | 2017/07/20 01:32:34 | WrapperManager:         could be located on the following java.library.path:
+INFO   | jvm 1    | 2017/07/20 01:32:34 | WrapperManager:           /home/algis/Desktop/tanuki/APP_ROOT/bin/../lib
+INFO   | jvm 1    | 2017/07/20 01:32:34 | WrapperManager:         Please see the documentation for the wrapper.java.library.path
+INFO   | jvm 1    | 2017/07/20 01:32:34 | WrapperManager:         configuration property.
+INFO   | jvm 1    | 2017/07/20 01:32:34 | WrapperManager: 
+STATUS | wrapper  | 2017/07/20 01:32:35 | <-- Wrapper Stopped
+STATUS | wrapper  | 2017/07/20 01:32:53 | --> Wrapper Started as Daemon
+STATUS | wrapper  | 2017/07/20 01:32:53 | Java Service Wrapper Community Edition 64-bit 3.5.32
+STATUS | wrapper  | 2017/07/20 01:32:53 |   Copyright (C) 1999-2017 Tanuki Software, Ltd. All Rights Reserved.
+STATUS | wrapper  | 2017/07/20 01:32:53 |     http://wrapper.tanukisoftware.com
+STATUS | wrapper  | 2017/07/20 01:32:53 | 
+STATUS | wrapper  | 2017/07/20 01:32:54 | Launching a JVM...
+INFO   | jvm 1    | 2017/07/20 01:32:54 | WrapperManager: Initializing...
+INFO   | jvm 1    | 2017/07/20 01:32:54 | WrapperManager: 
+INFO   | jvm 1    | 2017/07/20 01:32:54 | WrapperManager: ERROR - Unable to load the Wrapper's native library because none of the
+INFO   | jvm 1    | 2017/07/20 01:32:54 | WrapperManager:         following files:
+INFO   | jvm 1    | 2017/07/20 01:32:54 | WrapperManager:           libwrapper-linux-x86-64.so
+INFO   | jvm 1    | 2017/07/20 01:32:54 | WrapperManager:           libwrapper.so
+INFO   | jvm 1    | 2017/07/20 01:32:54 | WrapperManager:         could be located on the following java.library.path:
+INFO   | jvm 1    | 2017/07/20 01:32:54 | WrapperManager:           /home/algis/Desktop/tanuki/APP_ROOT/bin/../lib
+INFO   | jvm 1    | 2017/07/20 01:32:54 | WrapperManager:         Please see the documentation for the wrapper.java.library.path
+INFO   | jvm 1    | 2017/07/20 01:32:54 | WrapperManager:         configuration property.
+INFO   | jvm 1    | 2017/07/20 01:32:54 | WrapperManager: 
+STATUS | wrapper  | 2017/07/20 01:32:55 | <-- Wrapper Stopped
+DEBUG  | wrapper  | 2017/07/20 01:35:30 | The "wrapper.name" property was defined on the Wrapper command line and can not be overwritten.
+DEBUG  | wrapper  | 2017/07/20 01:35:30 |   Ignoring redefinition on line #192 of configuration file: /home/algis/Desktop/tanuki/APP_ROOT/conf/wrapper.conf
+DEBUG  | wrapper  | 2017/07/20 01:35:30 |   Fixed Value wrapper.name=app
+DEBUG  | wrapper  | 2017/07/20 01:35:30 |   Ignored Value wrapper.name=@app.name@
+DEBUG  | wrapper  | 2017/07/20 01:35:30 | The "wrapper.displayname" property was defined on the Wrapper command line and can not be overwritten.
+DEBUG  | wrapper  | 2017/07/20 01:35:30 |   Ignoring redefinition on line #195 of configuration file: /home/algis/Desktop/tanuki/APP_ROOT/conf/wrapper.conf
+DEBUG  | wrapper  | 2017/07/20 01:35:30 |   Fixed Value wrapper.displayname=console logging app
+DEBUG  | wrapper  | 2017/07/20 01:35:30 |   Ignored Value wrapper.displayname=@app.long.name@
+DEBUG  | wrapper  | 2017/07/20 01:35:30 | Spawning intermediate process...
+DEBUG  | wrapper  | 2017/07/20 01:35:30 | Spawning daemon process...
+DEBUG  | wrapper  | 2017/07/20 01:35:30 | Reloading configuration.
+DEBUG  | wrapper  | 2017/07/20 01:35:30 | Configured log file set to '/home/algis/Desktop/tanuki/APP_ROOT/logs/wrapper.log'.
+DEBUG  | wrapper  | 2017/07/20 01:35:30 | active log file changed: /home/algis/Desktop/tanuki/APP_ROOT/logs/wrapper.log
+STATUS | wrapper  | 2017/07/20 01:35:30 | --> Wrapper Started as Daemon
+STATUS | wrapper  | 2017/07/20 01:35:30 | Java Service Wrapper Community Edition 64-bit 3.5.32
+STATUS | wrapper  | 2017/07/20 01:35:30 |   Copyright (C) 1999-2017 Tanuki Software, Ltd. All Rights Reserved.
+STATUS | wrapper  | 2017/07/20 01:35:30 |     http://wrapper.tanukisoftware.com
+STATUS | wrapper  | 2017/07/20 01:35:30 | 
+DEBUG  | wrapper  | 2017/07/20 01:35:30 | Release time: 2017/03/31 00:00:00
+DEBUG  | wrapper  | 2017/07/20 01:35:30 | Build time:   2017/03/29 21:59:00
+DEBUG  | wrapper  | 2017/07/20 01:35:30 | Timezone:     EET (EEST) Offset: -7200, hasDaylight: 1
+DEBUG  | wrapper  | 2017/07/20 01:35:30 | Using tick timer.
+DEBUG  | wrapper  | 2017/07/20 01:35:30 | PID:          29899
+DEBUG  | wrapper  | 2017/07/20 01:35:30 | 
+DEBUG  | wrapper  | 2017/07/20 01:35:30 | Wrapper configuration properties (Name=Value) BEGIN:
+DEBUG  | wrapper  | 2017/07/20 01:35:30 |   wrapper.app.parameter.1=app.jar
+DEBUG  | wrapper  | 2017/07/20 01:35:30 |   wrapper.check.deadlock=TRUE
+DEBUG  | wrapper  | 2017/07/20 01:35:30 |   wrapper.check.deadlock.action=RESTART
+DEBUG  | wrapper  | 2017/07/20 01:35:30 |   wrapper.check.deadlock.interval=60
+DEBUG  | wrapper  | 2017/07/20 01:35:30 |   wrapper.check.deadlock.output=FULL
+DEBUG  | wrapper  | 2017/07/20 01:35:30 |   wrapper.console.format=PM
+DEBUG  | wrapper  | 2017/07/20 01:35:30 |   wrapper.console.loglevel=INFO
+DEBUG  | wrapper  | 2017/07/20 01:35:30 |   wrapper.console.title=@app.long.name@
+DEBUG  | wrapper  | 2017/07/20 01:35:30 |   wrapper.daemonize=TRUE
+DEBUG  | wrapper  | 2017/07/20 01:35:30 |   wrapper.debug=TRUE
+DEBUG  | wrapper  | 2017/07/20 01:35:30 |   wrapper.description=@app.description@
+DEBUG  | wrapper  | 2017/07/20 01:35:30 |   wrapper.displayname=console logging app
+DEBUG  | wrapper  | 2017/07/20 01:35:30 |   wrapper.event.jvm_restart.email.body=The JVM was restarted.\n\nPlease check on its status.\n
+DEBUG  | wrapper  | 2017/07/20 01:35:30 |   wrapper.filter.action.1000=NONE
+DEBUG  | wrapper  | 2017/07/20 01:35:30 |   wrapper.filter.action.1001=RESTART
+DEBUG  | wrapper  | 2017/07/20 01:35:30 |   wrapper.filter.message.1001=The JVM has run out of memory.
+DEBUG  | wrapper  | 2017/07/20 01:35:30 |   wrapper.filter.trigger.1000=[Loaded java.lang.OutOfMemoryError
+DEBUG  | wrapper  | 2017/07/20 01:35:30 |   wrapper.filter.trigger.1001=java.lang.OutOfMemoryError
+DEBUG  | wrapper  | 2017/07/20 01:35:30 |   wrapper.ignore_sequence_gaps=TRUE
+DEBUG  | wrapper  | 2017/07/20 01:35:30 |   wrapper.java.additional.1=
+DEBUG  | wrapper  | 2017/07/20 01:35:30 |   wrapper.java.additional.auto_bits=TRUE
+DEBUG  | wrapper  | 2017/07/20 01:35:30 |   wrapper.java.classpath.1=../lib/wrapper.jar
+DEBUG  | wrapper  | 2017/07/20 01:35:30 |   wrapper.java.command=java
+DEBUG  | wrapper  | 2017/07/20 01:35:30 |   wrapper.java.library.path.1=../lib
+DEBUG  | wrapper  | 2017/07/20 01:35:30 |   wrapper.java.mainclass=org.tanukisoftware.wrapper.WrapperJarApp
+DEBUG  | wrapper  | 2017/07/20 01:35:30 |   wrapper.java.statusfile=/home/algis/Desktop/tanuki/APP_ROOT/bin/./app.java.status
+DEBUG  | wrapper  | 2017/07/20 01:35:30 |   wrapper.lang.folder=../lang
+DEBUG  | wrapper  | 2017/07/20 01:35:30 |   wrapper.logfile=../logs/wrapper.log
+DEBUG  | wrapper  | 2017/07/20 01:35:30 |   wrapper.logfile.format=LPTM
+DEBUG  | wrapper  | 2017/07/20 01:35:30 |   wrapper.logfile.loglevel=INFO
+DEBUG  | wrapper  | 2017/07/20 01:35:30 |   wrapper.logfile.maxfiles=0
+DEBUG  | wrapper  | 2017/07/20 01:35:30 |   wrapper.logfile.maxsize=0
+DEBUG  | wrapper  | 2017/07/20 01:35:30 |   wrapper.name=app
+DEBUG  | wrapper  | 2017/07/20 01:35:30 |   wrapper.ntservice.dependency.1=
+DEBUG  | wrapper  | 2017/07/20 01:35:30 |   wrapper.ntservice.interactive=FALSE
+DEBUG  | wrapper  | 2017/07/20 01:35:30 |   wrapper.ntservice.starttype=AUTO_START
+DEBUG  | wrapper  | 2017/07/20 01:35:30 |   wrapper.pidfile=/home/algis/Desktop/tanuki/APP_ROOT/bin/./app.pid
+DEBUG  | wrapper  | 2017/07/20 01:35:30 |   wrapper.pidfile.strict=TRUE
+DEBUG  | wrapper  | 2017/07/20 01:35:30 |   wrapper.script.version=3.5.32
+DEBUG  | wrapper  | 2017/07/20 01:35:30 |   wrapper.statusfile=/home/algis/Desktop/tanuki/APP_ROOT/bin/./app.status
+DEBUG  | wrapper  | 2017/07/20 01:35:30 |   wrapper.syslog.ident=app
+DEBUG  | wrapper  | 2017/07/20 01:35:30 |   wrapper.syslog.loglevel=NONE
+DEBUG  | wrapper  | 2017/07/20 01:35:30 | 
+DEBUG  | wrapper  | 2017/07/20 01:35:30 | Environment variables (Source | Name=Value) BEGIN:
+DEBUG  | wrapper  | 2017/07/20 01:35:30 |   P---- | _=bin/app
+DEBUG  | wrapper  | 2017/07/20 01:35:30 |   P---- | ACCT_LIST=sample.log
+DEBUG  | wrapper  | 2017/07/20 01:35:30 |   P---- | CATALINA_HOME=/etc/apache-tomcat-9.0.0.M8
+DEBUG  | wrapper  | 2017/07/20 01:35:30 |   P---- | CLUTTER_IM_MODULE=xim
+DEBUG  | wrapper  | 2017/07/20 01:35:30 |   P---- | COLORTERM=gnome-terminal
+DEBUG  | wrapper  | 2017/07/20 01:35:30 |   P---- | DBUS_SESSION_BUS_ADDRESS=unix:abstract=/tmp/dbus-6ea4KT8D0u
+DEBUG  | wrapper  | 2017/07/20 01:35:30 |   P---- | DEFAULTS_PATH=/usr/share/gconf/gnome-fallback-compiz.default.path
+DEBUG  | wrapper  | 2017/07/20 01:35:30 |   P---- | DERBY_HOME=/usr/lib/jvm/java-8-oracle/db
+DEBUG  | wrapper  | 2017/07/20 01:35:30 |   P---- | DESKTOP_SESSION=gnome-fallback-compiz
+DEBUG  | wrapper  | 2017/07/20 01:35:30 |   P---- | DISPLAY=:0
+DEBUG  | wrapper  | 2017/07/20 01:35:30 |   P---- | GDM_LANG=ru_RU
+DEBUG  | wrapper  | 2017/07/20 01:35:30 |   P---- | GDMSESSION=gnome-fallback-compiz
+DEBUG  | wrapper  | 2017/07/20 01:35:30 |   P---- | GNOME_DESKTOP_SESSION_ID=this-is-deprecated
+DEBUG  | wrapper  | 2017/07/20 01:35:30 |   P---- | GNOME_KEYRING_CONTROL=/run/user/1000/keyring-00VirU
+DEBUG  | wrapper  | 2017/07/20 01:35:30 |   P---- | GNOME_KEYRING_PID=1834
+DEBUG  | wrapper  | 2017/07/20 01:35:30 |   P---- | GPG_AGENT_INFO=/tmp/gpg-JXtkIL/S.gpg-agent:1953:1
+DEBUG  | wrapper  | 2017/07/20 01:35:30 |   P---- | GRADLE_HOME=/usr/share/gradle
+DEBUG  | wrapper  | 2017/07/20 01:35:30 |   P---- | GTK_IM_MODULE=ibus
+DEBUG  | wrapper  | 2017/07/20 01:35:30 |   P---- | GTK_MODULES=overlay-scrollbar:unity-gtk-module
+DEBUG  | wrapper  | 2017/07/20 01:35:30 |   P---- | HBASE_HOME=/usr/lib/hbase/hbase-0.98.24-hadoop2
+DEBUG  | wrapper  | 2017/07/20 01:35:30 |   P---- | HOME=/home/algis
+DEBUG  | wrapper  | 2017/07/20 01:35:30 |   P---- | IM_CONFIG_PHASE=1
+DEBUG  | wrapper  | 2017/07/20 01:35:30 |   P---- | INSTANCE=
+DEBUG  | wrapper  | 2017/07/20 01:35:30 |   P---- | J2REDIR=/usr/lib/jvm/java-8-oracle/jre
+DEBUG  | wrapper  | 2017/07/20 01:35:30 |   P---- | J2SDKDIR=/usr/lib/jvm/java-8-oracle
+DEBUG  | wrapper  | 2017/07/20 01:35:30 |   P---- | JAVA_HOME=/usr/lib/jvm/java-8-oracle
+DEBUG  | wrapper  | 2017/07/20 01:35:30 |   P---- | JOB=dbus
+DEBUG  | wrapper  | 2017/07/20 01:35:30 |   P---- | LANG=ru_RU.UTF-8
+DEBUG  | wrapper  | 2017/07/20 01:35:30 |   P---- | LANGUAGE=ru_RU
+DEBUG  | wrapper  | 2017/07/20 01:35:30 |   P---- | LC_ADDRESS=lv_LV.UTF-8
+DEBUG  | wrapper  | 2017/07/20 01:35:30 |   P---- | LC_IDENTIFICATION=lv_LV.UTF-8
+DEBUG  | wrapper  | 2017/07/20 01:35:30 |   P---- | LC_MEASUREMENT=lv_LV.UTF-8
+DEBUG  | wrapper  | 2017/07/20 01:35:30 |   P---- | LC_MONETARY=lv_LV.UTF-8
+DEBUG  | wrapper  | 2017/07/20 01:35:30 |   P---- | LC_NAME=lv_LV.UTF-8
+DEBUG  | wrapper  | 2017/07/20 01:35:30 |   P---- | LC_NUMERIC=lv_LV.UTF-8
+DEBUG  | wrapper  | 2017/07/20 01:35:30 |   P---- | LC_PAPER=lv_LV.UTF-8
+DEBUG  | wrapper  | 2017/07/20 01:35:30 |   P---- | LC_TELEPHONE=lv_LV.UTF-8
+DEBUG  | wrapper  | 2017/07/20 01:35:30 |   P---- | LC_TIME=lv_LV.UTF-8
+DEBUG  | wrapper  | 2017/07/20 01:35:30 |   P---- | LD_LIBRARY_PATH=/opt/mqm/java/lib64:
+DEBUG  | wrapper  | 2017/07/20 01:35:30 |   P---- | LESSCLOSE=/usr/bin/lesspipe %s %s
+DEBUG  | wrapper  | 2017/07/20 01:35:30 |   P---- | LESSOPEN=| /usr/bin/lesspipe %s
+DEBUG  | wrapper  | 2017/07/20 01:35:30 |   P---- | LOGNAME=algis
+DEBUG  | wrapper  | 2017/07/20 01:35:30 |   P---- | LS_COLORS=rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arj=01;31:*.taz=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lz=01;31:*.xz=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.axv=01;35:*.anx=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.axa=00;36:*.oga=00;36:*.spx=00;36:*.xspf=00;36:
+DEBUG  | wrapper  | 2017/07/20 01:35:30 |   P---- | MANDATORY_PATH=/usr/share/gconf/gnome-fallback-compiz.mandatory.path
+DEBUG  | wrapper  | 2017/07/20 01:35:30 |   P---- | OLDPWD=/home/algis/Desktop/tanuki/APP_ROOT/bin
+DEBUG  | wrapper  | 2017/07/20 01:35:30 |   P---- | PATH=/home/algis/miniconda3/bin:/usr/local/heroku/bin:/home/algis/google-cloud-sdk/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/jvm/java-8-oracle/bin:/usr/lib/jvm/java-8-oracle/db/bin:/usr/lib/jvm/java-8-oracle/jre/bin:/usr/lib/hbase/hbase-0.98.24-hadoop2/bin
+DEBUG  | wrapper  | 2017/07/20 01:35:30 |   P---- | PWD=/home/algis/Desktop/tanuki/APP_ROOT
+DEBUG  | wrapper  | 2017/07/20 01:35:30 |   P---- | QT4_IM_MODULE=xim
+DEBUG  | wrapper  | 2017/07/20 01:35:30 |   P---- | QT_IM_MODULE=ibus
+DEBUG  | wrapper  | 2017/07/20 01:35:30 |   P---- | QT_QPA_PLATFORMTHEME=appmenu-qt5
+DEBUG  | wrapper  | 2017/07/20 01:35:30 |   P---- | SELINUX_INIT=YES
+DEBUG  | wrapper  | 2017/07/20 01:35:30 |   P---- | SESSION=gnome-fallback-compiz
+DEBUG  | wrapper  | 2017/07/20 01:35:30 |   P---- | SESSION_MANAGER=local/Speedy:@/tmp/.ICE-unix/2000,unix/Speedy:/tmp/.ICE-unix/2000
+DEBUG  | wrapper  | 2017/07/20 01:35:30 |   P---- | SESSIONTYPE=gnome-session
+DEBUG  | wrapper  | 2017/07/20 01:35:30 |   P---- | SHELL=/bin/bash
+DEBUG  | wrapper  | 2017/07/20 01:35:30 |   P---- | SHLVL=1
+DEBUG  | wrapper  | 2017/07/20 01:35:30 |   P---- | SSH_AUTH_SOCK=/run/user/1000/keyring-00VirU/ssh
+DEBUG  | wrapper  | 2017/07/20 01:35:30 |   P---- | TERM=xterm
+DEBUG  | wrapper  | 2017/07/20 01:35:30 |   P---- | TEXTDOMAIN=im-config
+DEBUG  | wrapper  | 2017/07/20 01:35:30 |   P---- | TEXTDOMAINDIR=/usr/share/locale/
+DEBUG  | wrapper  | 2017/07/20 01:35:30 |   P---- | UPSTART_SESSION=unix:abstract=/com/ubuntu/upstart-session/1000/1837
+DEBUG  | wrapper  | 2017/07/20 01:35:30 |   P---- | USER=algis
+DEBUG  | wrapper  | 2017/07/20 01:35:30 |   P---- | VTE_VERSION=3409
+DEBUG  | wrapper  | 2017/07/20 01:35:30 |   P---- | WINDOWID=65011724
+DEBUG  | wrapper  | 2017/07/20 01:35:30 |   ---W- | WRAPPER_ARCH=x86
+DEBUG  | wrapper  | 2017/07/20 01:35:30 |   ---W- | WRAPPER_BIN_DIR=/home/algis/Desktop/tanuki/APP_ROOT/bin
+DEBUG  | wrapper  | 2017/07/20 01:35:30 |   ---W- | WRAPPER_BITS=64
+DEBUG  | wrapper  | 2017/07/20 01:35:30 |   ---W- | WRAPPER_CONF_DIR=/home/algis/Desktop/tanuki/APP_ROOT/conf
+DEBUG  | wrapper  | 2017/07/20 01:35:30 |   ---W- | WRAPPER_FILE_SEPARATOR=/
+DEBUG  | wrapper  | 2017/07/20 01:35:30 |   ---W- | WRAPPER_HOST_NAME=Speedy
+DEBUG  | wrapper  | 2017/07/20 01:35:30 |   ---W- | WRAPPER_HOSTNAME=Speedy
+DEBUG  | wrapper  | 2017/07/20 01:35:30 |   P--W- | WRAPPER_INIT_DIR=/home/algis/Desktop/tanuki/APP_ROOT
+DEBUG  | wrapper  | 2017/07/20 01:35:30 |   ---W- | WRAPPER_LANG=en
+DEBUG  | wrapper  | 2017/07/20 01:35:30 |   ---W- | WRAPPER_OS=linux
+DEBUG  | wrapper  | 2017/07/20 01:35:30 |   ---W- | WRAPPER_PATH_SEPARATOR=:
+DEBUG  | wrapper  | 2017/07/20 01:35:30 |   ---W- | WRAPPER_PID=29899
+DEBUG  | wrapper  | 2017/07/20 01:35:30 |   ---W- | WRAPPER_WORKING_DIR=/home/algis/Desktop/tanuki/APP_ROOT/bin
+DEBUG  | wrapper  | 2017/07/20 01:35:30 |   P---- | XAUTHORITY=/home/algis/.Xauthority
+DEBUG  | wrapper  | 2017/07/20 01:35:30 |   P---- | XDG_CONFIG_DIRS=/etc/xdg/xdg-gnome-fallback-compiz:/usr/share/upstart/xdg:/etc/xdg
+DEBUG  | wrapper  | 2017/07/20 01:35:30 |   P---- | XDG_CURRENT_DESKTOP=Unity
+DEBUG  | wrapper  | 2017/07/20 01:35:30 |   P---- | XDG_DATA_DIRS=/usr/share/gnome-fallback-compiz:/usr/share/gnome:/usr/local/share/:/usr/share/
+DEBUG  | wrapper  | 2017/07/20 01:35:30 |   P---- | XDG_GREETER_DATA_DIR=/var/lib/lightdm-data/algis
+DEBUG  | wrapper  | 2017/07/20 01:35:30 |   P---- | XDG_MENU_PREFIX=gnome-
+DEBUG  | wrapper  | 2017/07/20 01:35:30 |   P---- | XDG_RUNTIME_DIR=/run/user/1000
+DEBUG  | wrapper  | 2017/07/20 01:35:30 |   P---- | XDG_SEAT=seat0
+DEBUG  | wrapper  | 2017/07/20 01:35:30 |   P---- | XDG_SEAT_PATH=/org/freedesktop/DisplayManager/Seat0
+DEBUG  | wrapper  | 2017/07/20 01:35:30 |   P---- | XDG_SESSION_ID=c2
+DEBUG  | wrapper  | 2017/07/20 01:35:30 |   P---- | XDG_SESSION_PATH=/org/freedesktop/DisplayManager/Session0
+DEBUG  | wrapper  | 2017/07/20 01:35:30 |   P---- | XDG_VTNR=7
+DEBUG  | wrapper  | 2017/07/20 01:35:30 |   P---- | XMODIFIERS=@im=ibus
+DEBUG  | wrapper  | 2017/07/20 01:35:30 | Environment variables END:
+DEBUG  | wrapper  | 2017/07/20 01:35:30 | 
+DEBUG  | wrapper  | 2017/07/20 01:35:30 | Number of open file descriptors limits: 15000 (soft), 15000 (hard).
+DEBUG  | wrapper  | 2017/07/20 01:35:30 | Use tick timer mutex=FALSE
+DEBUG  | wrapper  | 2017/07/20 01:35:30 | Preparing to restart with mode 1.
+DEBUG  | wrapperp | 2017/07/20 01:35:30 | server listening on port 32000.
+DEBUG  | wrapper  | 2017/07/20 01:35:30 | Unable to resolve the real path of wrapper.java.command as a relative reference: java
+DEBUG  | wrapper  | 2017/07/20 01:35:30 | Attempt to locate wrapper.java.command on system PATH: java
+DEBUG  | wrapper  | 2017/07/20 01:35:30 | Resolved the real path of wrapper.java.command from system PATH: /usr/lib/jvm/java-8-oracle/jre/bin/java
+DEBUG  | wrapper  | 2017/07/20 01:35:30 | Magic number for file /usr/lib/jvm/java-8-oracle/jre/bin/java: 0x7f454c46
+DEBUG  | wrapper  | 2017/07/20 01:35:30 | Startup Timeouts: wrapper.startup.timeout=30, wrapper.startup.delay.console=0, wrapper.startup.delay.service=0, wrapper.restart.delay=5
+DEBUG  | wrapper  | 2017/07/20 01:35:30 | Ping settings: wrapper.ping.interval=5, wrapper.ping.interval.logged=1, wrapper.ping.timeout=30, wrapper.ping.alert.threshold=7
+DEBUG  | wrapper  | 2017/07/20 01:35:30 | Shutdown Timeouts: wrapper.shutdown.timeout=30, wrapper.jvm_exit.timeout=15, wrapper.jvm_cleanup.timeout=10, wrapper.jvm_terminate.timeout=10
+STATUS | wrapper  | 2017/07/20 01:35:30 | Launching a JVM...
+DEBUG  | wrapper  | 2017/07/20 01:35:30 | Java Command Line:
+DEBUG  | wrapper  | 2017/07/20 01:35:30 |   Command[0] : /usr/lib/jvm/java-8-oracle/jre/bin/java
+DEBUG  | wrapper  | 2017/07/20 01:35:30 |   Command[1] : -Djava.library.path=../lib
+DEBUG  | wrapper  | 2017/07/20 01:35:30 |   Command[2] : -classpath
+DEBUG  | wrapper  | 2017/07/20 01:35:30 |   Command[3] : ../lib/wrapper.jar
+DEBUG  | wrapper  | 2017/07/20 01:35:30 |   Command[4] : -Dwrapper.key=X_lsLeN6GzkPqH2R
+DEBUG  | wrapper  | 2017/07/20 01:35:30 |   Command[5] : -Dwrapper.port=32000
+DEBUG  | wrapper  | 2017/07/20 01:35:30 |   Command[6] : -Dwrapper.jvm.port.min=31000
+DEBUG  | wrapper  | 2017/07/20 01:35:30 |   Command[7] : -Dwrapper.jvm.port.max=31999
+DEBUG  | wrapper  | 2017/07/20 01:35:30 |   Command[8] : -Dwrapper.debug=TRUE
+DEBUG  | wrapper  | 2017/07/20 01:35:30 |   Command[9] : -Dwrapper.disable_console_input=TRUE
+DEBUG  | wrapper  | 2017/07/20 01:35:30 |   Command[10] : -Dwrapper.pid=29899
+DEBUG  | wrapper  | 2017/07/20 01:35:30 |   Command[11] : -Dwrapper.version=3.5.32
+DEBUG  | wrapper  | 2017/07/20 01:35:30 |   Command[12] : -Dwrapper.native_library=wrapper
+DEBUG  | wrapper  | 2017/07/20 01:35:30 |   Command[13] : -Dwrapper.arch=x86
+DEBUG  | wrapper  | 2017/07/20 01:35:30 |   Command[14] : -Dwrapper.service=TRUE
+DEBUG  | wrapper  | 2017/07/20 01:35:30 |   Command[15] : -Dwrapper.cpu.timeout=10
+DEBUG  | wrapper  | 2017/07/20 01:35:30 |   Command[16] : -Dwrapper.jvmid=1
+DEBUG  | wrapper  | 2017/07/20 01:35:30 |   Command[17] : org.tanukisoftware.wrapper.WrapperJarApp
+DEBUG  | wrapper  | 2017/07/20 01:35:30 |   Command[18] : app.jar
+INFO   | jvm 1    | 2017/07/20 01:35:30 | WrapperManager Debug: WrapperManager class initialized by thread: main   Using classloader: sun.misc.Launcher$AppClassLoader@33909752
+INFO   | jvm 1    | 2017/07/20 01:35:30 | WrapperManager: Initializing...
+INFO   | jvm 1    | 2017/07/20 01:35:30 | WrapperManager Debug: JVM #1
+INFO   | jvm 1    | 2017/07/20 01:35:30 | WrapperManager Debug: Running a 64-bit JVM.
+INFO   | jvm 1    | 2017/07/20 01:35:30 | WrapperManager Debug: org.tanukisoftware.wrapper.WrapperManager package information:
+INFO   | jvm 1    | 2017/07/20 01:35:30 | WrapperManager Debug:   Implementation Title: org.tanukisoftware.wrapper
+INFO   | jvm 1    | 2017/07/20 01:35:30 | WrapperManager Debug:   Implementation Vendor: Tanuki Software, Ltd.
+INFO   | jvm 1    | 2017/07/20 01:35:30 | WrapperManager Debug:   Implementation Version: 3.5.32
+INFO   | jvm 1    | 2017/07/20 01:35:30 | WrapperManager Debug:   Is Sealed?: False
+INFO   | jvm 1    | 2017/07/20 01:35:30 | WrapperManager Debug: org.tanukisoftware.wrapper.WrapperManager protection domain:
+INFO   | jvm 1    | 2017/07/20 01:35:30 | WrapperManager Debug:   Location: file:/home/algis/Desktop/tanuki/APP_ROOT/lib/wrapper.jar
+INFO   | jvm 1    | 2017/07/20 01:35:30 | WrapperManager Debug:     Size: 126 696
+INFO   | jvm 1    | 2017/07/20 01:35:30 | WrapperManager Debug:     MD5: 3257e5a0addf35ad11c38735336643bd
+INFO   | jvm 1    | 2017/07/20 01:35:30 | WrapperManager Debug: Registering shutdown hook
+INFO   | jvm 1    | 2017/07/20 01:35:30 | WrapperManager Debug: Using wrapper
+INFO   | jvm 1    | 2017/07/20 01:35:31 | WrapperManager Debug: Registered MBean with Platform MBean Server: org.tanukisoftware.wrapper:type=WrapperManager
+INFO   | jvm 1    | 2017/07/20 01:35:31 | WrapperManager Debug: Load native library.  There are multiple possible file names and the first to be found will be used.  Errors loading non-existing files is normal and is only a problem if they all fail.
+INFO   | jvm 1    | 2017/07/20 01:35:31 | WrapperManager Debug:   Attempt to load native library with name: libwrapper-linux-x86-64.so  Result: no wrapper-linux-x86-64 in java.library.path
+INFO   | jvm 1    | 2017/07/20 01:35:31 | WrapperManager Debug:   Attempt to load native library with name: libwrapper.so  Result: no wrapper in java.library.path
+INFO   | jvm 1    | 2017/07/20 01:35:31 | WrapperManager: 
+INFO   | jvm 1    | 2017/07/20 01:35:31 | WrapperManager: ERROR - Unable to load the Wrapper's native library because none of the
+INFO   | jvm 1    | 2017/07/20 01:35:31 | WrapperManager:         following files:
+INFO   | jvm 1    | 2017/07/20 01:35:31 | WrapperManager:           libwrapper-linux-x86-64.so
+INFO   | jvm 1    | 2017/07/20 01:35:31 | WrapperManager:           libwrapper.so
+INFO   | jvm 1    | 2017/07/20 01:35:31 | WrapperManager:         could be located on the following java.library.path:
+INFO   | jvm 1    | 2017/07/20 01:35:31 | WrapperManager:           /home/algis/Desktop/tanuki/APP_ROOT/bin/../lib
+INFO   | jvm 1    | 2017/07/20 01:35:31 | WrapperManager:         Please see the documentation for the wrapper.java.library.path
+INFO   | jvm 1    | 2017/07/20 01:35:31 | WrapperManager:         configuration property.
+INFO   | jvm 1    | 2017/07/20 01:35:31 | WrapperManager: 
+INFO   | jvm 1    | 2017/07/20 01:35:31 | WrapperManager Debug: Java PID       : 0
+INFO   | jvm 1    | 2017/07/20 01:35:31 | WrapperManager Debug: Java Version   : 1.8.0_121-b13 Java HotSpot(TM) 64-Bit Server VM
+INFO   | jvm 1    | 2017/07/20 01:35:31 | WrapperManager Debug: Java VM Vendor : Oracle Corporation
+INFO   | jvm 1    | 2017/07/20 01:35:31 | WrapperManager Debug: OS Name        : Linux
+INFO   | jvm 1    | 2017/07/20 01:35:31 | WrapperManager Debug: OS Arch        : amd64
+INFO   | jvm 1    | 2017/07/20 01:35:31 | WrapperManager Debug: 
+INFO   | jvm 1    | 2017/07/20 01:35:31 | WrapperManager Debug: Startup runner thread started.
+INFO   | jvm 1    | 2017/07/20 01:35:31 | WrapperManager Debug: Control event monitor thread started.
+INFO   | jvm 1    | 2017/07/20 01:35:31 | WrapperJarApp Debug: Jar Main-Class: foo.bar.baz.Main
+INFO   | jvm 1    | 2017/07/20 01:35:31 | WrapperJarApp Debug: Jar Classpath: Not specified.
+INFO   | jvm 1    | 2017/07/20 01:35:31 | WrapperJarApp Debug:     Classpath[0]=file:/home/algis/Desktop/tanuki/APP_ROOT/bin/app.jar
+INFO   | jvm 1    | 2017/07/20 01:35:31 | WrapperManager Debug: WrapperManager.start(a org.tanukisoftware.wrapper.WrapperJarApp, args[]) called by thread: main
+INFO   | jvm 1    | 2017/07/20 01:35:31 | WrapperManager Debug: Initial thread: main Priority: 5
+INFO   | jvm 1    | 2017/07/20 01:35:31 | WrapperManager Debug: Communications runner thread started.
+INFO   | jvm 1    | 2017/07/20 01:35:31 | WrapperManager Debug: Open socket to wrapper...Wrapper-Connection
+INFO   | jvm 1    | 2017/07/20 01:35:31 | WrapperManager Debug: Opened Socket from 31 000 to 32 000
+INFO   | jvm 1    | 2017/07/20 01:35:31 | WrapperManager Debug: Send a packet KEY : X_lsLeN6GzkPqH2R
+INFO   | jvm 1    | 2017/07/20 01:35:31 | WrapperManager Debug: WrapperManager.stop(1) called by thread: Wrapper-Connection
+INFO   | jvm 1    | 2017/07/20 01:35:31 | WrapperManager Debug: Send a packet STOP : 1
+INFO   | jvm 1    | 2017/07/20 01:35:31 | WrapperManager Debug: Pausing for 1 000ms to allow a clean shutdown...
+DEBUG  | wrapperp | 2017/07/20 01:35:31 | accepted a socket on port 32000 from 127.0.0.1 at port 31000
+DEBUG  | wrapperp | 2017/07/20 01:35:31 | closing backend server.
+DEBUG  | wrapperp | 2017/07/20 01:35:31 | read a packet KEY : X_lsLeN6GzkPqH2R
+DEBUG  | wrapper  | 2017/07/20 01:35:31 | Got key from JVM: X_lsLeN6GzkPqH2R
+DEBUG  | wrapperp | 2017/07/20 01:35:31 | Send a packet LOW_LOG_LEVEL : 1
+DEBUG  | wrapperp | 2017/07/20 01:35:31 | Send a packet LOGFILE : /home/algis/Desktop/tanuki/APP_ROOT/logs/wrapper.log
+DEBUG  | wrapperp | 2017/07/20 01:35:31 | Send a packet PROPERTIES : (Property Values, Size=5387)
+DEBUG  | wrapperp | 2017/07/20 01:35:31 | read a packet STOP : 1
+DEBUG  | wrapper  | 2017/07/20 01:35:31 | JVM requested a shutdown. (1)
+DEBUG  | wrapper  | 2017/07/20 01:35:31 | wrapperStopProcess(1, FALSE) called.
+DEBUG  | wrapper  | 2017/07/20 01:35:31 | Sending stop signal to JVM
+DEBUG  | wrapperp | 2017/07/20 01:35:31 | Send a packet STOP : NULL
+INFO   | jvm 1    | 2017/07/20 01:35:32 | WrapperManager Debug: Thread, Wrapper-Connection, handling the shutdown process.
+INFO   | jvm 1    | 2017/07/20 01:35:32 | WrapperManager Debug: shutdownJVM(1) Thread: Wrapper-Connection
+INFO   | jvm 1    | 2017/07/20 01:35:32 | WrapperManager Debug: wait for 0 shutdown locks to be released.
+INFO   | jvm 1    | 2017/07/20 01:35:32 | WrapperManager Debug: Send a packet STOPPED : 1
+DEBUG  | wrapperp | 2017/07/20 01:35:32 | read a packet STOPPED : 1
+DEBUG  | wrapper  | 2017/07/20 01:35:32 | JVM signaled that it was stopped.
+DEBUG  | wrapper  | 2017/07/20 01:35:32 | Signal trapped.  Details:
+DEBUG  | wrapper  | 2017/07/20 01:35:32 |   signal number=17 (SIGCHLD), source="unknown"
+DEBUG  | wrapper  | 2017/07/20 01:35:32 | Received SIGCHLD, checking JVM process status.
+DEBUG  | wrapper  | 2017/07/20 01:35:32 | JVM process exited with a code of 1, however the wrapper exit code was already 1.
+DEBUG  | wrapper  | 2017/07/20 01:35:32 | JVM exited normally.
+DEBUG  | wrapperp | 2017/07/20 01:35:32 | Closing backend socket.
+INFO   | jvm 1    | 2017/07/20 01:35:32 | WrapperManager Debug: Closing backend connection.
+INFO   | jvm 1    | 2017/07/20 01:35:32 | WrapperManager Debug: calling System.exit(1)
+INFO   | jvm 1    | 2017/07/20 01:35:32 | WrapperManager Debug: WrapperManager stopped due to System Exit
+STATUS | wrapper  | 2017/07/20 01:35:32 | <-- Wrapper Stopped
+DEBUG  | wrapper  | 2017/07/20 01:38:46 | Configured log file set to '/home/algis/Desktop/tanuki/APP_ROOT/logs/wrapper.log'.
+DEBUG  | wrapper  | 2017/07/20 01:38:46 | active log file changed: /home/algis/Desktop/tanuki/APP_ROOT/logs/wrapper.log
+STATUS | wrapper  | 2017/07/20 01:38:46 | --> Wrapper Started as Console
+STATUS | wrapper  | 2017/07/20 01:38:46 | Java Service Wrapper Community Edition 64-bit 3.5.32
+STATUS | wrapper  | 2017/07/20 01:38:46 |   Copyright (C) 1999-2017 Tanuki Software, Ltd. All Rights Reserved.
+STATUS | wrapper  | 2017/07/20 01:38:46 |     http://wrapper.tanukisoftware.com
+STATUS | wrapper  | 2017/07/20 01:38:46 | 
+DEBUG  | wrapper  | 2017/07/20 01:38:46 | Release time: 2017/03/31 00:00:00
+DEBUG  | wrapper  | 2017/07/20 01:38:46 | Build time:   2017/03/29 21:59:00
+DEBUG  | wrapper  | 2017/07/20 01:38:46 | Timezone:     EET (EEST) Offset: -7200, hasDaylight: 1
+DEBUG  | wrapper  | 2017/07/20 01:38:46 | Using tick timer.
+DEBUG  | wrapper  | 2017/07/20 01:38:46 | PID:          30077
+DEBUG  | wrapper  | 2017/07/20 01:38:46 | 
+DEBUG  | wrapper  | 2017/07/20 01:38:46 | Wrapper configuration properties (Name=Value) BEGIN:
+DEBUG  | wrapper  | 2017/07/20 01:38:46 |   wrapper.app.parameter.1=app.jar
+DEBUG  | wrapper  | 2017/07/20 01:38:46 |   wrapper.check.deadlock=TRUE
+DEBUG  | wrapper  | 2017/07/20 01:38:46 |   wrapper.check.deadlock.action=RESTART
+DEBUG  | wrapper  | 2017/07/20 01:38:46 |   wrapper.check.deadlock.interval=60
+DEBUG  | wrapper  | 2017/07/20 01:38:46 |   wrapper.check.deadlock.output=FULL
+DEBUG  | wrapper  | 2017/07/20 01:38:46 |   wrapper.console.format=PM
+DEBUG  | wrapper  | 2017/07/20 01:38:46 |   wrapper.console.loglevel=INFO
+DEBUG  | wrapper  | 2017/07/20 01:38:46 |   wrapper.console.title=@app.long.name@
+DEBUG  | wrapper  | 2017/07/20 01:38:46 |   wrapper.debug=TRUE
+DEBUG  | wrapper  | 2017/07/20 01:38:46 |   wrapper.description=@app.description@
+DEBUG  | wrapper  | 2017/07/20 01:38:46 |   wrapper.displayname=console logging app
+DEBUG  | wrapper  | 2017/07/20 01:38:46 |   wrapper.event.jvm_restart.email.body=The JVM was restarted.\n\nPlease check on its status.\n
+DEBUG  | wrapper  | 2017/07/20 01:38:46 |   wrapper.filter.action.1000=NONE
+DEBUG  | wrapper  | 2017/07/20 01:38:46 |   wrapper.filter.action.1001=RESTART
+DEBUG  | wrapper  | 2017/07/20 01:38:46 |   wrapper.filter.message.1001=The JVM has run out of memory.
+DEBUG  | wrapper  | 2017/07/20 01:38:46 |   wrapper.filter.trigger.1000=[Loaded java.lang.OutOfMemoryError
+DEBUG  | wrapper  | 2017/07/20 01:38:46 |   wrapper.filter.trigger.1001=java.lang.OutOfMemoryError
+DEBUG  | wrapper  | 2017/07/20 01:38:46 |   wrapper.ignore_sequence_gaps=TRUE
+DEBUG  | wrapper  | 2017/07/20 01:38:46 |   wrapper.java.additional.1=
+DEBUG  | wrapper  | 2017/07/20 01:38:46 |   wrapper.java.additional.auto_bits=TRUE
+DEBUG  | wrapper  | 2017/07/20 01:38:46 |   wrapper.java.classpath.1=../lib/wrapper.jar
+DEBUG  | wrapper  | 2017/07/20 01:38:46 |   wrapper.java.command=java
+DEBUG  | wrapper  | 2017/07/20 01:38:46 |   wrapper.java.library.path.1=../lib
+DEBUG  | wrapper  | 2017/07/20 01:38:46 |   wrapper.java.mainclass=org.tanukisoftware.wrapper.WrapperJarApp
+DEBUG  | wrapper  | 2017/07/20 01:38:46 |   wrapper.java.statusfile=/home/algis/Desktop/tanuki/APP_ROOT/bin/./app.java.status
+DEBUG  | wrapper  | 2017/07/20 01:38:46 |   wrapper.lang.folder=../lang
+DEBUG  | wrapper  | 2017/07/20 01:38:46 |   wrapper.logfile=../logs/wrapper.log
+DEBUG  | wrapper  | 2017/07/20 01:38:46 |   wrapper.logfile.format=LPTM
+DEBUG  | wrapper  | 2017/07/20 01:38:46 |   wrapper.logfile.loglevel=INFO
+DEBUG  | wrapper  | 2017/07/20 01:38:46 |   wrapper.logfile.maxfiles=0
+DEBUG  | wrapper  | 2017/07/20 01:38:46 |   wrapper.logfile.maxsize=0
+DEBUG  | wrapper  | 2017/07/20 01:38:46 |   wrapper.name=app
+DEBUG  | wrapper  | 2017/07/20 01:38:46 |   wrapper.ntservice.dependency.1=
+DEBUG  | wrapper  | 2017/07/20 01:38:46 |   wrapper.ntservice.interactive=FALSE
+DEBUG  | wrapper  | 2017/07/20 01:38:46 |   wrapper.ntservice.starttype=AUTO_START
+DEBUG  | wrapper  | 2017/07/20 01:38:46 |   wrapper.pidfile=/home/algis/Desktop/tanuki/APP_ROOT/bin/./app.pid
+DEBUG  | wrapper  | 2017/07/20 01:38:46 |   wrapper.pidfile.strict=TRUE
+DEBUG  | wrapper  | 2017/07/20 01:38:46 |   wrapper.script.version=3.5.32
+DEBUG  | wrapper  | 2017/07/20 01:38:46 |   wrapper.statusfile=/home/algis/Desktop/tanuki/APP_ROOT/bin/./app.status
+DEBUG  | wrapper  | 2017/07/20 01:38:46 |   wrapper.syslog.ident=app
+DEBUG  | wrapper  | 2017/07/20 01:38:46 |   wrapper.syslog.loglevel=NONE
+DEBUG  | wrapper  | 2017/07/20 01:38:46 | 
+DEBUG  | wrapper  | 2017/07/20 01:38:46 | Environment variables (Source | Name=Value) BEGIN:
+DEBUG  | wrapper  | 2017/07/20 01:38:46 |   P---- | _=bin/app
+DEBUG  | wrapper  | 2017/07/20 01:38:46 |   P---- | ACCT_LIST=sample.log
+DEBUG  | wrapper  | 2017/07/20 01:38:46 |   P---- | CATALINA_HOME=/etc/apache-tomcat-9.0.0.M8
+DEBUG  | wrapper  | 2017/07/20 01:38:46 |   P---- | CLUTTER_IM_MODULE=xim
+DEBUG  | wrapper  | 2017/07/20 01:38:46 |   P---- | COLORTERM=gnome-terminal
+DEBUG  | wrapper  | 2017/07/20 01:38:46 |   P---- | DBUS_SESSION_BUS_ADDRESS=unix:abstract=/tmp/dbus-6ea4KT8D0u
+DEBUG  | wrapper  | 2017/07/20 01:38:46 |   P---- | DEFAULTS_PATH=/usr/share/gconf/gnome-fallback-compiz.default.path
+DEBUG  | wrapper  | 2017/07/20 01:38:46 |   P---- | DERBY_HOME=/usr/lib/jvm/java-8-oracle/db
+DEBUG  | wrapper  | 2017/07/20 01:38:46 |   P---- | DESKTOP_SESSION=gnome-fallback-compiz
+DEBUG  | wrapper  | 2017/07/20 01:38:46 |   P---- | DISPLAY=:0
+DEBUG  | wrapper  | 2017/07/20 01:38:46 |   P---- | GDM_LANG=ru_RU
+DEBUG  | wrapper  | 2017/07/20 01:38:46 |   P---- | GDMSESSION=gnome-fallback-compiz
+DEBUG  | wrapper  | 2017/07/20 01:38:46 |   P---- | GNOME_DESKTOP_SESSION_ID=this-is-deprecated
+DEBUG  | wrapper  | 2017/07/20 01:38:46 |   P---- | GNOME_KEYRING_CONTROL=/run/user/1000/keyring-00VirU
+DEBUG  | wrapper  | 2017/07/20 01:38:46 |   P---- | GNOME_KEYRING_PID=1834
+DEBUG  | wrapper  | 2017/07/20 01:38:46 |   P---- | GPG_AGENT_INFO=/tmp/gpg-JXtkIL/S.gpg-agent:1953:1
+DEBUG  | wrapper  | 2017/07/20 01:38:46 |   P---- | GRADLE_HOME=/usr/share/gradle
+DEBUG  | wrapper  | 2017/07/20 01:38:46 |   P---- | GTK_IM_MODULE=ibus
+DEBUG  | wrapper  | 2017/07/20 01:38:46 |   P---- | GTK_MODULES=overlay-scrollbar:unity-gtk-module
+DEBUG  | wrapper  | 2017/07/20 01:38:46 |   P---- | HBASE_HOME=/usr/lib/hbase/hbase-0.98.24-hadoop2
+DEBUG  | wrapper  | 2017/07/20 01:38:46 |   P---- | HOME=/home/algis
+DEBUG  | wrapper  | 2017/07/20 01:38:46 |   P---- | IM_CONFIG_PHASE=1
+DEBUG  | wrapper  | 2017/07/20 01:38:46 |   P---- | INSTANCE=
+DEBUG  | wrapper  | 2017/07/20 01:38:46 |   P---- | J2REDIR=/usr/lib/jvm/java-8-oracle/jre
+DEBUG  | wrapper  | 2017/07/20 01:38:46 |   P---- | J2SDKDIR=/usr/lib/jvm/java-8-oracle
+DEBUG  | wrapper  | 2017/07/20 01:38:46 |   P---- | JAVA_HOME=/usr/lib/jvm/java-8-oracle
+DEBUG  | wrapper  | 2017/07/20 01:38:46 |   P---- | JOB=dbus
+DEBUG  | wrapper  | 2017/07/20 01:38:46 |   P---- | LANG=ru_RU.UTF-8
+DEBUG  | wrapper  | 2017/07/20 01:38:46 |   P---- | LANGUAGE=ru_RU
+DEBUG  | wrapper  | 2017/07/20 01:38:46 |   P---- | LC_ADDRESS=lv_LV.UTF-8
+DEBUG  | wrapper  | 2017/07/20 01:38:46 |   P---- | LC_IDENTIFICATION=lv_LV.UTF-8
+DEBUG  | wrapper  | 2017/07/20 01:38:46 |   P---- | LC_MEASUREMENT=lv_LV.UTF-8
+DEBUG  | wrapper  | 2017/07/20 01:38:46 |   P---- | LC_MONETARY=lv_LV.UTF-8
+DEBUG  | wrapper  | 2017/07/20 01:38:46 |   P---- | LC_NAME=lv_LV.UTF-8
+DEBUG  | wrapper  | 2017/07/20 01:38:46 |   P---- | LC_NUMERIC=lv_LV.UTF-8
+DEBUG  | wrapper  | 2017/07/20 01:38:46 |   P---- | LC_PAPER=lv_LV.UTF-8
+DEBUG  | wrapper  | 2017/07/20 01:38:46 |   P---- | LC_TELEPHONE=lv_LV.UTF-8
+DEBUG  | wrapper  | 2017/07/20 01:38:46 |   P---- | LC_TIME=lv_LV.UTF-8
+DEBUG  | wrapper  | 2017/07/20 01:38:46 |   P---- | LD_LIBRARY_PATH=/opt/mqm/java/lib64:
+DEBUG  | wrapper  | 2017/07/20 01:38:46 |   P---- | LESSCLOSE=/usr/bin/lesspipe %s %s
+DEBUG  | wrapper  | 2017/07/20 01:38:46 |   P---- | LESSOPEN=| /usr/bin/lesspipe %s
+DEBUG  | wrapper  | 2017/07/20 01:38:46 |   P---- | LOGNAME=algis
+DEBUG  | wrapper  | 2017/07/20 01:38:46 |   P---- | LS_COLORS=rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arj=01;31:*.taz=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lz=01;31:*.xz=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.axv=01;35:*.anx=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.axa=00;36:*.oga=00;36:*.spx=00;36:*.xspf=00;36:
+DEBUG  | wrapper  | 2017/07/20 01:38:46 |   P---- | MANDATORY_PATH=/usr/share/gconf/gnome-fallback-compiz.mandatory.path
+DEBUG  | wrapper  | 2017/07/20 01:38:46 |   P---- | OLDPWD=/home/algis/Desktop/tanuki/APP_ROOT/bin
+DEBUG  | wrapper  | 2017/07/20 01:38:46 |   P---- | PATH=/home/algis/miniconda3/bin:/usr/local/heroku/bin:/home/algis/google-cloud-sdk/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/jvm/java-8-oracle/bin:/usr/lib/jvm/java-8-oracle/db/bin:/usr/lib/jvm/java-8-oracle/jre/bin:/usr/lib/hbase/hbase-0.98.24-hadoop2/bin
+DEBUG  | wrapper  | 2017/07/20 01:38:46 |   P---- | PWD=/home/algis/Desktop/tanuki/APP_ROOT
+DEBUG  | wrapper  | 2017/07/20 01:38:46 |   P---- | QT4_IM_MODULE=xim
+DEBUG  | wrapper  | 2017/07/20 01:38:46 |   P---- | QT_IM_MODULE=ibus
+DEBUG  | wrapper  | 2017/07/20 01:38:46 |   P---- | QT_QPA_PLATFORMTHEME=appmenu-qt5
+DEBUG  | wrapper  | 2017/07/20 01:38:46 |   P---- | SELINUX_INIT=YES
+DEBUG  | wrapper  | 2017/07/20 01:38:46 |   P---- | SESSION=gnome-fallback-compiz
+DEBUG  | wrapper  | 2017/07/20 01:38:46 |   P---- | SESSION_MANAGER=local/Speedy:@/tmp/.ICE-unix/2000,unix/Speedy:/tmp/.ICE-unix/2000
+DEBUG  | wrapper  | 2017/07/20 01:38:46 |   P---- | SESSIONTYPE=gnome-session
+DEBUG  | wrapper  | 2017/07/20 01:38:46 |   P---- | SHELL=/bin/bash
+DEBUG  | wrapper  | 2017/07/20 01:38:46 |   P---- | SHLVL=1
+DEBUG  | wrapper  | 2017/07/20 01:38:46 |   P---- | SSH_AUTH_SOCK=/run/user/1000/keyring-00VirU/ssh
+DEBUG  | wrapper  | 2017/07/20 01:38:46 |   P---- | TERM=xterm
+DEBUG  | wrapper  | 2017/07/20 01:38:46 |   P---- | TEXTDOMAIN=im-config
+DEBUG  | wrapper  | 2017/07/20 01:38:46 |   P---- | TEXTDOMAINDIR=/usr/share/locale/
+DEBUG  | wrapper  | 2017/07/20 01:38:46 |   P---- | UPSTART_SESSION=unix:abstract=/com/ubuntu/upstart-session/1000/1837
+DEBUG  | wrapper  | 2017/07/20 01:38:46 |   P---- | USER=algis
+DEBUG  | wrapper  | 2017/07/20 01:38:46 |   P---- | VTE_VERSION=3409
+DEBUG  | wrapper  | 2017/07/20 01:38:46 |   P---- | WINDOWID=65011724
+DEBUG  | wrapper  | 2017/07/20 01:38:46 |   ---W- | WRAPPER_ARCH=x86
+DEBUG  | wrapper  | 2017/07/20 01:38:46 |   ---W- | WRAPPER_BIN_DIR=/home/algis/Desktop/tanuki/APP_ROOT/bin
+DEBUG  | wrapper  | 2017/07/20 01:38:46 |   ---W- | WRAPPER_BITS=64
+DEBUG  | wrapper  | 2017/07/20 01:38:46 |   ---W- | WRAPPER_CONF_DIR=/home/algis/Desktop/tanuki/APP_ROOT/conf
+DEBUG  | wrapper  | 2017/07/20 01:38:46 |   ---W- | WRAPPER_FILE_SEPARATOR=/
+DEBUG  | wrapper  | 2017/07/20 01:38:46 |   ---W- | WRAPPER_HOST_NAME=Speedy
+DEBUG  | wrapper  | 2017/07/20 01:38:46 |   ---W- | WRAPPER_HOSTNAME=Speedy
+DEBUG  | wrapper  | 2017/07/20 01:38:46 |   P--W- | WRAPPER_INIT_DIR=/home/algis/Desktop/tanuki/APP_ROOT
+DEBUG  | wrapper  | 2017/07/20 01:38:46 |   ---W- | WRAPPER_LANG=en
+DEBUG  | wrapper  | 2017/07/20 01:38:46 |   ---W- | WRAPPER_OS=linux
+DEBUG  | wrapper  | 2017/07/20 01:38:46 |   ---W- | WRAPPER_PATH_SEPARATOR=:
+DEBUG  | wrapper  | 2017/07/20 01:38:46 |   ---W- | WRAPPER_PID=30077
+DEBUG  | wrapper  | 2017/07/20 01:38:46 |   ---W- | WRAPPER_WORKING_DIR=/home/algis/Desktop/tanuki/APP_ROOT/bin
+DEBUG  | wrapper  | 2017/07/20 01:38:46 |   P---- | XAUTHORITY=/home/algis/.Xauthority
+DEBUG  | wrapper  | 2017/07/20 01:38:46 |   P---- | XDG_CONFIG_DIRS=/etc/xdg/xdg-gnome-fallback-compiz:/usr/share/upstart/xdg:/etc/xdg
+DEBUG  | wrapper  | 2017/07/20 01:38:46 |   P---- | XDG_CURRENT_DESKTOP=Unity
+DEBUG  | wrapper  | 2017/07/20 01:38:46 |   P---- | XDG_DATA_DIRS=/usr/share/gnome-fallback-compiz:/usr/share/gnome:/usr/local/share/:/usr/share/
+DEBUG  | wrapper  | 2017/07/20 01:38:46 |   P---- | XDG_GREETER_DATA_DIR=/var/lib/lightdm-data/algis
+DEBUG  | wrapper  | 2017/07/20 01:38:46 |   P---- | XDG_MENU_PREFIX=gnome-
+DEBUG  | wrapper  | 2017/07/20 01:38:46 |   P---- | XDG_RUNTIME_DIR=/run/user/1000
+DEBUG  | wrapper  | 2017/07/20 01:38:46 |   P---- | XDG_SEAT=seat0
+DEBUG  | wrapper  | 2017/07/20 01:38:46 |   P---- | XDG_SEAT_PATH=/org/freedesktop/DisplayManager/Seat0
+DEBUG  | wrapper  | 2017/07/20 01:38:46 |   P---- | XDG_SESSION_ID=c2
+DEBUG  | wrapper  | 2017/07/20 01:38:46 |   P---- | XDG_SESSION_PATH=/org/freedesktop/DisplayManager/Session0
+DEBUG  | wrapper  | 2017/07/20 01:38:46 |   P---- | XDG_VTNR=7
+DEBUG  | wrapper  | 2017/07/20 01:38:46 |   P---- | XMODIFIERS=@im=ibus
+DEBUG  | wrapper  | 2017/07/20 01:38:46 | Environment variables END:
+DEBUG  | wrapper  | 2017/07/20 01:38:46 | 
+DEBUG  | wrapper  | 2017/07/20 01:38:46 | Number of open file descriptors limits: 15000 (soft), 15000 (hard).
+DEBUG  | wrapper  | 2017/07/20 01:38:46 | Use tick timer mutex=FALSE
+DEBUG  | wrapper  | 2017/07/20 01:38:46 | Preparing to restart with mode 1.
+DEBUG  | wrapperp | 2017/07/20 01:38:46 | server listening on port 32000.
+DEBUG  | wrapper  | 2017/07/20 01:38:46 | Unable to resolve the real path of wrapper.java.command as a relative reference: java
+DEBUG  | wrapper  | 2017/07/20 01:38:46 | Attempt to locate wrapper.java.command on system PATH: java
+DEBUG  | wrapper  | 2017/07/20 01:38:46 | Resolved the real path of wrapper.java.command from system PATH: /usr/lib/jvm/java-8-oracle/jre/bin/java
+DEBUG  | wrapper  | 2017/07/20 01:38:46 | Magic number for file /usr/lib/jvm/java-8-oracle/jre/bin/java: 0x7f454c46
+DEBUG  | wrapper  | 2017/07/20 01:38:46 | Startup Timeouts: wrapper.startup.timeout=30, wrapper.startup.delay.console=0, wrapper.startup.delay.service=0, wrapper.restart.delay=5
+DEBUG  | wrapper  | 2017/07/20 01:38:46 | Ping settings: wrapper.ping.interval=5, wrapper.ping.interval.logged=1, wrapper.ping.timeout=30, wrapper.ping.alert.threshold=7
+DEBUG  | wrapper  | 2017/07/20 01:38:46 | Shutdown Timeouts: wrapper.shutdown.timeout=30, wrapper.jvm_exit.timeout=15, wrapper.jvm_cleanup.timeout=10, wrapper.jvm_terminate.timeout=10
+STATUS | wrapper  | 2017/07/20 01:38:46 | Launching a JVM...
+DEBUG  | wrapper  | 2017/07/20 01:38:46 | Java Command Line:
+DEBUG  | wrapper  | 2017/07/20 01:38:46 |   Command[0] : /usr/lib/jvm/java-8-oracle/jre/bin/java
+DEBUG  | wrapper  | 2017/07/20 01:38:46 |   Command[1] : -Djava.library.path=../lib
+DEBUG  | wrapper  | 2017/07/20 01:38:46 |   Command[2] : -classpath
+DEBUG  | wrapper  | 2017/07/20 01:38:46 |   Command[3] : ../lib/wrapper.jar
+DEBUG  | wrapper  | 2017/07/20 01:38:46 |   Command[4] : -Dwrapper.key=HYabP02r2aHy5RVX
+DEBUG  | wrapper  | 2017/07/20 01:38:46 |   Command[5] : -Dwrapper.port=32000
+DEBUG  | wrapper  | 2017/07/20 01:38:46 |   Command[6] : -Dwrapper.jvm.port.min=31000
+DEBUG  | wrapper  | 2017/07/20 01:38:46 |   Command[7] : -Dwrapper.jvm.port.max=31999
+DEBUG  | wrapper  | 2017/07/20 01:38:46 |   Command[8] : -Dwrapper.debug=TRUE
+DEBUG  | wrapper  | 2017/07/20 01:38:46 |   Command[9] : -Dwrapper.pid=30077
+DEBUG  | wrapper  | 2017/07/20 01:38:46 |   Command[10] : -Dwrapper.version=3.5.32
+DEBUG  | wrapper  | 2017/07/20 01:38:46 |   Command[11] : -Dwrapper.native_library=wrapper
+DEBUG  | wrapper  | 2017/07/20 01:38:46 |   Command[12] : -Dwrapper.arch=x86
+DEBUG  | wrapper  | 2017/07/20 01:38:46 |   Command[13] : -Dwrapper.cpu.timeout=10
+DEBUG  | wrapper  | 2017/07/20 01:38:46 |   Command[14] : -Dwrapper.jvmid=1
+DEBUG  | wrapper  | 2017/07/20 01:38:46 |   Command[15] : org.tanukisoftware.wrapper.WrapperJarApp
+DEBUG  | wrapper  | 2017/07/20 01:38:46 |   Command[16] : app.jar
+INFO   | jvm 1    | 2017/07/20 01:38:46 | WrapperManager Debug: WrapperManager class initialized by thread: main   Using classloader: sun.misc.Launcher$AppClassLoader@33909752
+INFO   | jvm 1    | 2017/07/20 01:38:46 | WrapperManager: Initializing...
+INFO   | jvm 1    | 2017/07/20 01:38:46 | WrapperManager Debug: JVM #1
+INFO   | jvm 1    | 2017/07/20 01:38:46 | WrapperManager Debug: Running a 64-bit JVM.
+INFO   | jvm 1    | 2017/07/20 01:38:46 | WrapperManager Debug: org.tanukisoftware.wrapper.WrapperManager package information:
+INFO   | jvm 1    | 2017/07/20 01:38:46 | WrapperManager Debug:   Implementation Title: org.tanukisoftware.wrapper
+INFO   | jvm 1    | 2017/07/20 01:38:46 | WrapperManager Debug:   Implementation Vendor: Tanuki Software, Ltd.
+INFO   | jvm 1    | 2017/07/20 01:38:46 | WrapperManager Debug:   Implementation Version: 3.5.32
+INFO   | jvm 1    | 2017/07/20 01:38:46 | WrapperManager Debug:   Is Sealed?: False
+INFO   | jvm 1    | 2017/07/20 01:38:46 | WrapperManager Debug: org.tanukisoftware.wrapper.WrapperManager protection domain:
+INFO   | jvm 1    | 2017/07/20 01:38:46 | WrapperManager Debug:   Location: file:/home/algis/Desktop/tanuki/APP_ROOT/lib/wrapper.jar
+INFO   | jvm 1    | 2017/07/20 01:38:46 | WrapperManager Debug:     Size: 126 696
+INFO   | jvm 1    | 2017/07/20 01:38:46 | WrapperManager Debug:     MD5: 3257e5a0addf35ad11c38735336643bd
+INFO   | jvm 1    | 2017/07/20 01:38:46 | WrapperManager Debug: Registering shutdown hook
+INFO   | jvm 1    | 2017/07/20 01:38:46 | WrapperManager Debug: Using wrapper
+INFO   | jvm 1    | 2017/07/20 01:38:46 | WrapperManager Debug: Registered MBean with Platform MBean Server: org.tanukisoftware.wrapper:type=WrapperManager
+INFO   | jvm 1    | 2017/07/20 01:38:46 | WrapperManager Debug: Load native library.  There are multiple possible file names and the first to be found will be used.  Errors loading non-existing files is normal and is only a problem if they all fail.
+INFO   | jvm 1    | 2017/07/20 01:38:46 | WrapperManager Debug:   Attempt to load native library with name: libwrapper-linux-x86-64.so  Result: no wrapper-linux-x86-64 in java.library.path
+INFO   | jvm 1    | 2017/07/20 01:38:46 | WrapperManager Debug:   Attempt to load native library with name: libwrapper.so  Result: no wrapper in java.library.path
+INFO   | jvm 1    | 2017/07/20 01:38:46 | WrapperManager: 
+INFO   | jvm 1    | 2017/07/20 01:38:46 | WrapperManager: ERROR - Unable to load the Wrapper's native library because none of the
+INFO   | jvm 1    | 2017/07/20 01:38:46 | WrapperManager:         following files:
+INFO   | jvm 1    | 2017/07/20 01:38:46 | WrapperManager:           libwrapper-linux-x86-64.so
+INFO   | jvm 1    | 2017/07/20 01:38:46 | WrapperManager:           libwrapper.so
+INFO   | jvm 1    | 2017/07/20 01:38:46 | WrapperManager:         could be located on the following java.library.path:
+INFO   | jvm 1    | 2017/07/20 01:38:46 | WrapperManager:           /home/algis/Desktop/tanuki/APP_ROOT/bin/../lib
+INFO   | jvm 1    | 2017/07/20 01:38:46 | WrapperManager:         Please see the documentation for the wrapper.java.library.path
+INFO   | jvm 1    | 2017/07/20 01:38:46 | WrapperManager:         configuration property.
+INFO   | jvm 1    | 2017/07/20 01:38:46 | WrapperManager: 
+INFO   | jvm 1    | 2017/07/20 01:38:46 | WrapperManager Debug: Java PID       : 0
+INFO   | jvm 1    | 2017/07/20 01:38:46 | WrapperManager Debug: Java Version   : 1.8.0_121-b13 Java HotSpot(TM) 64-Bit Server VM
+INFO   | jvm 1    | 2017/07/20 01:38:46 | WrapperManager Debug: Java VM Vendor : Oracle Corporation
+INFO   | jvm 1    | 2017/07/20 01:38:46 | WrapperManager Debug: OS Name        : Linux
+INFO   | jvm 1    | 2017/07/20 01:38:46 | WrapperManager Debug: OS Arch        : amd64
+INFO   | jvm 1    | 2017/07/20 01:38:46 | WrapperManager Debug: 
+INFO   | jvm 1    | 2017/07/20 01:38:46 | WrapperManager Debug: Startup runner thread started.
+INFO   | jvm 1    | 2017/07/20 01:38:46 | WrapperManager Debug: Control event monitor thread started.
+INFO   | jvm 1    | 2017/07/20 01:38:46 | WrapperJarApp Debug: Jar Main-Class: foo.bar.baz.Main
+INFO   | jvm 1    | 2017/07/20 01:38:46 | WrapperJarApp Debug: Jar Classpath: Not specified.
+INFO   | jvm 1    | 2017/07/20 01:38:46 | WrapperJarApp Debug:     Classpath[0]=file:/home/algis/Desktop/tanuki/APP_ROOT/bin/app.jar
+INFO   | jvm 1    | 2017/07/20 01:38:46 | WrapperManager Debug: WrapperManager.start(a org.tanukisoftware.wrapper.WrapperJarApp, args[]) called by thread: main
+INFO   | jvm 1    | 2017/07/20 01:38:46 | WrapperManager Debug: Initial thread: main Priority: 5
+INFO   | jvm 1    | 2017/07/20 01:38:46 | WrapperManager Debug: Communications runner thread started.
+INFO   | jvm 1    | 2017/07/20 01:38:46 | WrapperManager Debug: Open socket to wrapper...Wrapper-Connection
+INFO   | jvm 1    | 2017/07/20 01:38:46 | WrapperManager Debug: Opened Socket from 31 000 to 32 000
+INFO   | jvm 1    | 2017/07/20 01:38:46 | WrapperManager Debug: Send a packet KEY : HYabP02r2aHy5RVX
+INFO   | jvm 1    | 2017/07/20 01:38:46 | WrapperManager Debug: WrapperManager.stop(1) called by thread: Wrapper-Connection
+INFO   | jvm 1    | 2017/07/20 01:38:46 | WrapperManager Debug: Send a packet STOP : 1
+INFO   | jvm 1    | 2017/07/20 01:38:46 | WrapperManager Debug: Pausing for 1 000ms to allow a clean shutdown...
+DEBUG  | wrapperp | 2017/07/20 01:38:46 | accepted a socket on port 32000 from 127.0.0.1 at port 31000
+DEBUG  | wrapperp | 2017/07/20 01:38:46 | closing backend server.
+DEBUG  | wrapperp | 2017/07/20 01:38:46 | read a packet KEY : HYabP02r2aHy5RVX
+DEBUG  | wrapper  | 2017/07/20 01:38:46 | Got key from JVM: HYabP02r2aHy5RVX
+DEBUG  | wrapperp | 2017/07/20 01:38:46 | Send a packet LOW_LOG_LEVEL : 1
+DEBUG  | wrapperp | 2017/07/20 01:38:46 | Send a packet LOGFILE : /home/algis/Desktop/tanuki/APP_ROOT/logs/wrapper.log
+DEBUG  | wrapperp | 2017/07/20 01:38:46 | Send a packet PROPERTIES : (Property Values, Size=5444)
+DEBUG  | wrapperp | 2017/07/20 01:38:46 | read a packet STOP : 1
+DEBUG  | wrapper  | 2017/07/20 01:38:46 | JVM requested a shutdown. (1)
+DEBUG  | wrapper  | 2017/07/20 01:38:46 | wrapperStopProcess(1, FALSE) called.
+DEBUG  | wrapper  | 2017/07/20 01:38:46 | Sending stop signal to JVM
+DEBUG  | wrapperp | 2017/07/20 01:38:46 | Send a packet STOP : NULL
+INFO   | jvm 1    | 2017/07/20 01:38:47 | WrapperManager Debug: Thread, Wrapper-Connection, handling the shutdown process.
+INFO   | jvm 1    | 2017/07/20 01:38:47 | WrapperManager Debug: shutdownJVM(1) Thread: Wrapper-Connection
+INFO   | jvm 1    | 2017/07/20 01:38:47 | WrapperManager Debug: wait for 0 shutdown locks to be released.
+INFO   | jvm 1    | 2017/07/20 01:38:47 | WrapperManager Debug: Send a packet STOPPED : 1
+DEBUG  | wrapperp | 2017/07/20 01:38:47 | read a packet STOPPED : 1
+DEBUG  | wrapper  | 2017/07/20 01:38:47 | JVM signaled that it was stopped.
+DEBUG  | wrapper  | 2017/07/20 01:38:48 | Signal trapped.  Details:
+DEBUG  | wrapper  | 2017/07/20 01:38:48 |   signal number=17 (SIGCHLD), source="unknown"
+DEBUG  | wrapper  | 2017/07/20 01:38:48 | Received SIGCHLD, checking JVM process status.
+DEBUG  | wrapper  | 2017/07/20 01:38:48 | JVM process exited with a code of 1, however the wrapper exit code was already 1.
+DEBUG  | wrapper  | 2017/07/20 01:38:48 | JVM exited normally.
+DEBUG  | wrapperp | 2017/07/20 01:38:48 | Closing backend socket.
+INFO   | jvm 1    | 2017/07/20 01:38:48 | WrapperManager Debug: Closing backend connection.
+INFO   | jvm 1    | 2017/07/20 01:38:48 | WrapperManager Debug: calling System.exit(1)
+INFO   | jvm 1    | 2017/07/20 01:38:48 | WrapperManager Debug: WrapperManager stopped due to System Exit
+STATUS | wrapper  | 2017/07/20 01:38:48 | <-- Wrapper Stopped
+DEBUG  | wrapper  | 2017/07/20 01:42:04 | Configured log file set to '/home/algis/Desktop/tanuki/APP_ROOT/logs/wrapper.log'.
+DEBUG  | wrapper  | 2017/07/20 01:42:04 | active log file changed: /home/algis/Desktop/tanuki/APP_ROOT/logs/wrapper.log
+STATUS | wrapper  | 2017/07/20 01:42:04 | --> Wrapper Started as Console
+STATUS | wrapper  | 2017/07/20 01:42:04 | Java Service Wrapper Community Edition 64-bit 3.5.32
+STATUS | wrapper  | 2017/07/20 01:42:04 |   Copyright (C) 1999-2017 Tanuki Software, Ltd. All Rights Reserved.
+STATUS | wrapper  | 2017/07/20 01:42:04 |     http://wrapper.tanukisoftware.com
+STATUS | wrapper  | 2017/07/20 01:42:04 | 
+DEBUG  | wrapper  | 2017/07/20 01:42:04 | Release time: 2017/03/31 00:00:00
+DEBUG  | wrapper  | 2017/07/20 01:42:04 | Build time:   2017/03/29 21:59:00
+DEBUG  | wrapper  | 2017/07/20 01:42:04 | Timezone:     EET (EEST) Offset: -7200, hasDaylight: 1
+DEBUG  | wrapper  | 2017/07/20 01:42:04 | Using tick timer.
+DEBUG  | wrapper  | 2017/07/20 01:42:04 | PID:          30547
+DEBUG  | wrapper  | 2017/07/20 01:42:04 | 
+DEBUG  | wrapper  | 2017/07/20 01:42:04 | Wrapper configuration properties (Name=Value) BEGIN:
+DEBUG  | wrapper  | 2017/07/20 01:42:04 |   wrapper.app.parameter.1=app.jar
+DEBUG  | wrapper  | 2017/07/20 01:42:04 |   wrapper.check.deadlock=TRUE
+DEBUG  | wrapper  | 2017/07/20 01:42:04 |   wrapper.check.deadlock.action=RESTART
+DEBUG  | wrapper  | 2017/07/20 01:42:04 |   wrapper.check.deadlock.interval=60
+DEBUG  | wrapper  | 2017/07/20 01:42:04 |   wrapper.check.deadlock.output=FULL
+DEBUG  | wrapper  | 2017/07/20 01:42:04 |   wrapper.console.format=PM
+DEBUG  | wrapper  | 2017/07/20 01:42:04 |   wrapper.console.loglevel=INFO
+DEBUG  | wrapper  | 2017/07/20 01:42:04 |   wrapper.console.title=@app.long.name@
+DEBUG  | wrapper  | 2017/07/20 01:42:04 |   wrapper.debug=TRUE
+DEBUG  | wrapper  | 2017/07/20 01:42:04 |   wrapper.description=@app.description@
+DEBUG  | wrapper  | 2017/07/20 01:42:04 |   wrapper.displayname=console logging app
+DEBUG  | wrapper  | 2017/07/20 01:42:04 |   wrapper.event.jvm_restart.email.body=The JVM was restarted.\n\nPlease check on its status.\n
+DEBUG  | wrapper  | 2017/07/20 01:42:04 |   wrapper.filter.action.1000=NONE
+DEBUG  | wrapper  | 2017/07/20 01:42:04 |   wrapper.filter.action.1001=RESTART
+DEBUG  | wrapper  | 2017/07/20 01:42:04 |   wrapper.filter.message.1001=The JVM has run out of memory.
+DEBUG  | wrapper  | 2017/07/20 01:42:04 |   wrapper.filter.trigger.1000=[Loaded java.lang.OutOfMemoryError
+DEBUG  | wrapper  | 2017/07/20 01:42:04 |   wrapper.filter.trigger.1001=java.lang.OutOfMemoryError
+DEBUG  | wrapper  | 2017/07/20 01:42:04 |   wrapper.ignore_sequence_gaps=TRUE
+DEBUG  | wrapper  | 2017/07/20 01:42:04 |   wrapper.java.additional.1=
+DEBUG  | wrapper  | 2017/07/20 01:42:04 |   wrapper.java.additional.auto_bits=TRUE
+DEBUG  | wrapper  | 2017/07/20 01:42:04 |   wrapper.java.classpath.1=../lib/wrapper.jar
+DEBUG  | wrapper  | 2017/07/20 01:42:04 |   wrapper.java.command=java
+DEBUG  | wrapper  | 2017/07/20 01:42:04 |   wrapper.java.library.path.1=../lib
+DEBUG  | wrapper  | 2017/07/20 01:42:04 |   wrapper.java.mainclass=org.tanukisoftware.wrapper.WrapperJarApp
+DEBUG  | wrapper  | 2017/07/20 01:42:04 |   wrapper.java.statusfile=/home/algis/Desktop/tanuki/APP_ROOT/bin/./app.java.status
+DEBUG  | wrapper  | 2017/07/20 01:42:04 |   wrapper.lang.folder=../lang
+DEBUG  | wrapper  | 2017/07/20 01:42:04 |   wrapper.logfile=../logs/wrapper.log
+DEBUG  | wrapper  | 2017/07/20 01:42:04 |   wrapper.logfile.format=LPTM
+DEBUG  | wrapper  | 2017/07/20 01:42:04 |   wrapper.logfile.loglevel=INFO
+DEBUG  | wrapper  | 2017/07/20 01:42:04 |   wrapper.logfile.maxfiles=0
+DEBUG  | wrapper  | 2017/07/20 01:42:04 |   wrapper.logfile.maxsize=0
+DEBUG  | wrapper  | 2017/07/20 01:42:04 |   wrapper.name=app
+DEBUG  | wrapper  | 2017/07/20 01:42:04 |   wrapper.ntservice.dependency.1=
+DEBUG  | wrapper  | 2017/07/20 01:42:04 |   wrapper.ntservice.interactive=FALSE
+DEBUG  | wrapper  | 2017/07/20 01:42:04 |   wrapper.ntservice.starttype=AUTO_START
+DEBUG  | wrapper  | 2017/07/20 01:42:04 |   wrapper.pidfile=/home/algis/Desktop/tanuki/APP_ROOT/bin/./app.pid
+DEBUG  | wrapper  | 2017/07/20 01:42:04 |   wrapper.pidfile.strict=TRUE
+DEBUG  | wrapper  | 2017/07/20 01:42:04 |   wrapper.script.version=3.5.32
+DEBUG  | wrapper  | 2017/07/20 01:42:04 |   wrapper.statusfile=/home/algis/Desktop/tanuki/APP_ROOT/bin/./app.status
+DEBUG  | wrapper  | 2017/07/20 01:42:04 |   wrapper.syslog.ident=app
+DEBUG  | wrapper  | 2017/07/20 01:42:04 |   wrapper.syslog.loglevel=NONE
+DEBUG  | wrapper  | 2017/07/20 01:42:04 | 
+DEBUG  | wrapper  | 2017/07/20 01:42:04 | Environment variables (Source | Name=Value) BEGIN:
+DEBUG  | wrapper  | 2017/07/20 01:42:04 |   P---- | _=bin/app
+DEBUG  | wrapper  | 2017/07/20 01:42:04 |   P---- | ACCT_LIST=sample.log
+DEBUG  | wrapper  | 2017/07/20 01:42:04 |   P---- | CATALINA_HOME=/etc/apache-tomcat-9.0.0.M8
+DEBUG  | wrapper  | 2017/07/20 01:42:04 |   P---- | CLUTTER_IM_MODULE=xim
+DEBUG  | wrapper  | 2017/07/20 01:42:04 |   P---- | COLORTERM=gnome-terminal
+DEBUG  | wrapper  | 2017/07/20 01:42:04 |   P---- | DBUS_SESSION_BUS_ADDRESS=unix:abstract=/tmp/dbus-6ea4KT8D0u
+DEBUG  | wrapper  | 2017/07/20 01:42:04 |   P---- | DEFAULTS_PATH=/usr/share/gconf/gnome-fallback-compiz.default.path
+DEBUG  | wrapper  | 2017/07/20 01:42:04 |   P---- | DERBY_HOME=/usr/lib/jvm/java-8-oracle/db
+DEBUG  | wrapper  | 2017/07/20 01:42:04 |   P---- | DESKTOP_SESSION=gnome-fallback-compiz
+DEBUG  | wrapper  | 2017/07/20 01:42:04 |   P---- | DISPLAY=:0
+DEBUG  | wrapper  | 2017/07/20 01:42:04 |   P---- | GDM_LANG=ru_RU
+DEBUG  | wrapper  | 2017/07/20 01:42:04 |   P---- | GDMSESSION=gnome-fallback-compiz
+DEBUG  | wrapper  | 2017/07/20 01:42:04 |   P---- | GNOME_DESKTOP_SESSION_ID=this-is-deprecated
+DEBUG  | wrapper  | 2017/07/20 01:42:04 |   P---- | GNOME_KEYRING_CONTROL=/run/user/1000/keyring-00VirU
+DEBUG  | wrapper  | 2017/07/20 01:42:04 |   P---- | GNOME_KEYRING_PID=1834
+DEBUG  | wrapper  | 2017/07/20 01:42:04 |   P---- | GPG_AGENT_INFO=/tmp/gpg-JXtkIL/S.gpg-agent:1953:1
+DEBUG  | wrapper  | 2017/07/20 01:42:04 |   P---- | GRADLE_HOME=/usr/share/gradle
+DEBUG  | wrapper  | 2017/07/20 01:42:04 |   P---- | GTK_IM_MODULE=ibus
+DEBUG  | wrapper  | 2017/07/20 01:42:04 |   P---- | GTK_MODULES=overlay-scrollbar:unity-gtk-module
+DEBUG  | wrapper  | 2017/07/20 01:42:04 |   P---- | HBASE_HOME=/usr/lib/hbase/hbase-0.98.24-hadoop2
+DEBUG  | wrapper  | 2017/07/20 01:42:04 |   P---- | HOME=/home/algis
+DEBUG  | wrapper  | 2017/07/20 01:42:04 |   P---- | IM_CONFIG_PHASE=1
+DEBUG  | wrapper  | 2017/07/20 01:42:04 |   P---- | INSTANCE=
+DEBUG  | wrapper  | 2017/07/20 01:42:04 |   P---- | J2REDIR=/usr/lib/jvm/java-8-oracle/jre
+DEBUG  | wrapper  | 2017/07/20 01:42:04 |   P---- | J2SDKDIR=/usr/lib/jvm/java-8-oracle
+DEBUG  | wrapper  | 2017/07/20 01:42:04 |   P---- | JAVA_HOME=/usr/lib/jvm/java-8-oracle
+DEBUG  | wrapper  | 2017/07/20 01:42:04 |   P---- | JOB=dbus
+DEBUG  | wrapper  | 2017/07/20 01:42:04 |   P---- | LANG=ru_RU.UTF-8
+DEBUG  | wrapper  | 2017/07/20 01:42:04 |   P---- | LANGUAGE=ru_RU
+DEBUG  | wrapper  | 2017/07/20 01:42:04 |   P---- | LC_ADDRESS=lv_LV.UTF-8
+DEBUG  | wrapper  | 2017/07/20 01:42:04 |   P---- | LC_IDENTIFICATION=lv_LV.UTF-8
+DEBUG  | wrapper  | 2017/07/20 01:42:04 |   P---- | LC_MEASUREMENT=lv_LV.UTF-8
+DEBUG  | wrapper  | 2017/07/20 01:42:04 |   P---- | LC_MONETARY=lv_LV.UTF-8
+DEBUG  | wrapper  | 2017/07/20 01:42:04 |   P---- | LC_NAME=lv_LV.UTF-8
+DEBUG  | wrapper  | 2017/07/20 01:42:04 |   P---- | LC_NUMERIC=lv_LV.UTF-8
+DEBUG  | wrapper  | 2017/07/20 01:42:04 |   P---- | LC_PAPER=lv_LV.UTF-8
+DEBUG  | wrapper  | 2017/07/20 01:42:04 |   P---- | LC_TELEPHONE=lv_LV.UTF-8
+DEBUG  | wrapper  | 2017/07/20 01:42:04 |   P---- | LC_TIME=lv_LV.UTF-8
+DEBUG  | wrapper  | 2017/07/20 01:42:04 |   P---- | LD_LIBRARY_PATH=/opt/mqm/java/lib64:
+DEBUG  | wrapper  | 2017/07/20 01:42:04 |   P---- | LESSCLOSE=/usr/bin/lesspipe %s %s
+DEBUG  | wrapper  | 2017/07/20 01:42:04 |   P---- | LESSOPEN=| /usr/bin/lesspipe %s
+DEBUG  | wrapper  | 2017/07/20 01:42:04 |   P---- | LOGNAME=algis
+DEBUG  | wrapper  | 2017/07/20 01:42:04 |   P---- | LS_COLORS=rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arj=01;31:*.taz=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lz=01;31:*.xz=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.axv=01;35:*.anx=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.axa=00;36:*.oga=00;36:*.spx=00;36:*.xspf=00;36:
+DEBUG  | wrapper  | 2017/07/20 01:42:04 |   P---- | MANDATORY_PATH=/usr/share/gconf/gnome-fallback-compiz.mandatory.path
+DEBUG  | wrapper  | 2017/07/20 01:42:04 |   P---- | OLDPWD=/home/algis/Desktop/tanuki/APP_ROOT/bin
+DEBUG  | wrapper  | 2017/07/20 01:42:04 |   P---- | PATH=/home/algis/miniconda3/bin:/usr/local/heroku/bin:/home/algis/google-cloud-sdk/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/jvm/java-8-oracle/bin:/usr/lib/jvm/java-8-oracle/db/bin:/usr/lib/jvm/java-8-oracle/jre/bin:/usr/lib/hbase/hbase-0.98.24-hadoop2/bin
+DEBUG  | wrapper  | 2017/07/20 01:42:04 |   P---- | PWD=/home/algis/Desktop/tanuki/APP_ROOT
+DEBUG  | wrapper  | 2017/07/20 01:42:04 |   P---- | QT4_IM_MODULE=xim
+DEBUG  | wrapper  | 2017/07/20 01:42:04 |   P---- | QT_IM_MODULE=ibus
+DEBUG  | wrapper  | 2017/07/20 01:42:04 |   P---- | QT_QPA_PLATFORMTHEME=appmenu-qt5
+DEBUG  | wrapper  | 2017/07/20 01:42:04 |   P---- | SELINUX_INIT=YES
+DEBUG  | wrapper  | 2017/07/20 01:42:04 |   P---- | SESSION=gnome-fallback-compiz
+DEBUG  | wrapper  | 2017/07/20 01:42:04 |   P---- | SESSION_MANAGER=local/Speedy:@/tmp/.ICE-unix/2000,unix/Speedy:/tmp/.ICE-unix/2000
+DEBUG  | wrapper  | 2017/07/20 01:42:04 |   P---- | SESSIONTYPE=gnome-session
+DEBUG  | wrapper  | 2017/07/20 01:42:04 |   P---- | SHELL=/bin/bash
+DEBUG  | wrapper  | 2017/07/20 01:42:04 |   P---- | SHLVL=1
+DEBUG  | wrapper  | 2017/07/20 01:42:04 |   P---- | SSH_AUTH_SOCK=/run/user/1000/keyring-00VirU/ssh
+DEBUG  | wrapper  | 2017/07/20 01:42:04 |   P---- | TERM=xterm
+DEBUG  | wrapper  | 2017/07/20 01:42:04 |   P---- | TEXTDOMAIN=im-config
+DEBUG  | wrapper  | 2017/07/20 01:42:04 |   P---- | TEXTDOMAINDIR=/usr/share/locale/
+DEBUG  | wrapper  | 2017/07/20 01:42:04 |   P---- | UPSTART_SESSION=unix:abstract=/com/ubuntu/upstart-session/1000/1837
+DEBUG  | wrapper  | 2017/07/20 01:42:04 |   P---- | USER=algis
+DEBUG  | wrapper  | 2017/07/20 01:42:04 |   P---- | VTE_VERSION=3409
+DEBUG  | wrapper  | 2017/07/20 01:42:04 |   P---- | WINDOWID=65011724
+DEBUG  | wrapper  | 2017/07/20 01:42:04 |   ---W- | WRAPPER_ARCH=x86
+DEBUG  | wrapper  | 2017/07/20 01:42:04 |   ---W- | WRAPPER_BIN_DIR=/home/algis/Desktop/tanuki/APP_ROOT/bin
+DEBUG  | wrapper  | 2017/07/20 01:42:04 |   ---W- | WRAPPER_BITS=64
+DEBUG  | wrapper  | 2017/07/20 01:42:04 |   ---W- | WRAPPER_CONF_DIR=/home/algis/Desktop/tanuki/APP_ROOT/conf
+DEBUG  | wrapper  | 2017/07/20 01:42:04 |   ---W- | WRAPPER_FILE_SEPARATOR=/
+DEBUG  | wrapper  | 2017/07/20 01:42:04 |   ---W- | WRAPPER_HOST_NAME=Speedy
+DEBUG  | wrapper  | 2017/07/20 01:42:04 |   ---W- | WRAPPER_HOSTNAME=Speedy
+DEBUG  | wrapper  | 2017/07/20 01:42:04 |   P--W- | WRAPPER_INIT_DIR=/home/algis/Desktop/tanuki/APP_ROOT
+DEBUG  | wrapper  | 2017/07/20 01:42:04 |   ---W- | WRAPPER_LANG=en
+DEBUG  | wrapper  | 2017/07/20 01:42:04 |   ---W- | WRAPPER_OS=linux
+DEBUG  | wrapper  | 2017/07/20 01:42:04 |   ---W- | WRAPPER_PATH_SEPARATOR=:
+DEBUG  | wrapper  | 2017/07/20 01:42:04 |   ---W- | WRAPPER_PID=30547
+DEBUG  | wrapper  | 2017/07/20 01:42:04 |   ---W- | WRAPPER_WORKING_DIR=/home/algis/Desktop/tanuki/APP_ROOT/bin
+DEBUG  | wrapper  | 2017/07/20 01:42:04 |   P---- | XAUTHORITY=/home/algis/.Xauthority
+DEBUG  | wrapper  | 2017/07/20 01:42:04 |   P---- | XDG_CONFIG_DIRS=/etc/xdg/xdg-gnome-fallback-compiz:/usr/share/upstart/xdg:/etc/xdg
+DEBUG  | wrapper  | 2017/07/20 01:42:04 |   P---- | XDG_CURRENT_DESKTOP=Unity
+DEBUG  | wrapper  | 2017/07/20 01:42:04 |   P---- | XDG_DATA_DIRS=/usr/share/gnome-fallback-compiz:/usr/share/gnome:/usr/local/share/:/usr/share/
+DEBUG  | wrapper  | 2017/07/20 01:42:04 |   P---- | XDG_GREETER_DATA_DIR=/var/lib/lightdm-data/algis
+DEBUG  | wrapper  | 2017/07/20 01:42:04 |   P---- | XDG_MENU_PREFIX=gnome-
+DEBUG  | wrapper  | 2017/07/20 01:42:04 |   P---- | XDG_RUNTIME_DIR=/run/user/1000
+DEBUG  | wrapper  | 2017/07/20 01:42:04 |   P---- | XDG_SEAT=seat0
+DEBUG  | wrapper  | 2017/07/20 01:42:04 |   P---- | XDG_SEAT_PATH=/org/freedesktop/DisplayManager/Seat0
+DEBUG  | wrapper  | 2017/07/20 01:42:04 |   P---- | XDG_SESSION_ID=c2
+DEBUG  | wrapper  | 2017/07/20 01:42:04 |   P---- | XDG_SESSION_PATH=/org/freedesktop/DisplayManager/Session0
+DEBUG  | wrapper  | 2017/07/20 01:42:04 |   P---- | XDG_VTNR=7
+DEBUG  | wrapper  | 2017/07/20 01:42:04 |   P---- | XMODIFIERS=@im=ibus
+DEBUG  | wrapper  | 2017/07/20 01:42:04 | Environment variables END:
+DEBUG  | wrapper  | 2017/07/20 01:42:04 | 
+DEBUG  | wrapper  | 2017/07/20 01:42:04 | Number of open file descriptors limits: 15000 (soft), 15000 (hard).
+DEBUG  | wrapper  | 2017/07/20 01:42:04 | Use tick timer mutex=FALSE
+DEBUG  | wrapper  | 2017/07/20 01:42:04 | Preparing to restart with mode 1.
+DEBUG  | wrapperp | 2017/07/20 01:42:05 | server listening on port 32000.
+DEBUG  | wrapper  | 2017/07/20 01:42:05 | Unable to resolve the real path of wrapper.java.command as a relative reference: java
+DEBUG  | wrapper  | 2017/07/20 01:42:05 | Attempt to locate wrapper.java.command on system PATH: java
+DEBUG  | wrapper  | 2017/07/20 01:42:05 | Resolved the real path of wrapper.java.command from system PATH: /usr/lib/jvm/java-8-oracle/jre/bin/java
+DEBUG  | wrapper  | 2017/07/20 01:42:05 | Magic number for file /usr/lib/jvm/java-8-oracle/jre/bin/java: 0x7f454c46
+DEBUG  | wrapper  | 2017/07/20 01:42:05 | Startup Timeouts: wrapper.startup.timeout=30, wrapper.startup.delay.console=0, wrapper.startup.delay.service=0, wrapper.restart.delay=5
+DEBUG  | wrapper  | 2017/07/20 01:42:05 | Ping settings: wrapper.ping.interval=5, wrapper.ping.interval.logged=1, wrapper.ping.timeout=30, wrapper.ping.alert.threshold=7
+DEBUG  | wrapper  | 2017/07/20 01:42:05 | Shutdown Timeouts: wrapper.shutdown.timeout=30, wrapper.jvm_exit.timeout=15, wrapper.jvm_cleanup.timeout=10, wrapper.jvm_terminate.timeout=10
+STATUS | wrapper  | 2017/07/20 01:42:05 | Launching a JVM...
+DEBUG  | wrapper  | 2017/07/20 01:42:05 | Java Command Line:
+DEBUG  | wrapper  | 2017/07/20 01:42:05 |   Command[0] : /usr/lib/jvm/java-8-oracle/jre/bin/java
+DEBUG  | wrapper  | 2017/07/20 01:42:05 |   Command[1] : -Djava.library.path=../lib
+DEBUG  | wrapper  | 2017/07/20 01:42:05 |   Command[2] : -classpath
+DEBUG  | wrapper  | 2017/07/20 01:42:05 |   Command[3] : ../lib/wrapper.jar
+DEBUG  | wrapper  | 2017/07/20 01:42:05 |   Command[4] : -Dwrapper.key=vFoUbsUFlwAgYEKV
+DEBUG  | wrapper  | 2017/07/20 01:42:05 |   Command[5] : -Dwrapper.port=32000
+DEBUG  | wrapper  | 2017/07/20 01:42:05 |   Command[6] : -Dwrapper.jvm.port.min=31000
+DEBUG  | wrapper  | 2017/07/20 01:42:05 |   Command[7] : -Dwrapper.jvm.port.max=31999
+DEBUG  | wrapper  | 2017/07/20 01:42:05 |   Command[8] : -Dwrapper.debug=TRUE
+DEBUG  | wrapper  | 2017/07/20 01:42:05 |   Command[9] : -Dwrapper.pid=30547
+DEBUG  | wrapper  | 2017/07/20 01:42:05 |   Command[10] : -Dwrapper.version=3.5.32
+DEBUG  | wrapper  | 2017/07/20 01:42:05 |   Command[11] : -Dwrapper.native_library=wrapper
+DEBUG  | wrapper  | 2017/07/20 01:42:05 |   Command[12] : -Dwrapper.arch=x86
+DEBUG  | wrapper  | 2017/07/20 01:42:05 |   Command[13] : -Dwrapper.cpu.timeout=10
+DEBUG  | wrapper  | 2017/07/20 01:42:05 |   Command[14] : -Dwrapper.jvmid=1
+DEBUG  | wrapper  | 2017/07/20 01:42:05 |   Command[15] : org.tanukisoftware.wrapper.WrapperJarApp
+DEBUG  | wrapper  | 2017/07/20 01:42:05 |   Command[16] : app.jar
+INFO   | jvm 1    | 2017/07/20 01:42:05 | WrapperManager Debug: WrapperManager class initialized by thread: main   Using classloader: sun.misc.Launcher$AppClassLoader@33909752
+INFO   | jvm 1    | 2017/07/20 01:42:05 | WrapperManager: Initializing...
+INFO   | jvm 1    | 2017/07/20 01:42:05 | WrapperManager Debug: JVM #1
+INFO   | jvm 1    | 2017/07/20 01:42:05 | WrapperManager Debug: Running a 64-bit JVM.
+INFO   | jvm 1    | 2017/07/20 01:42:05 | WrapperManager Debug: org.tanukisoftware.wrapper.WrapperManager package information:
+INFO   | jvm 1    | 2017/07/20 01:42:05 | WrapperManager Debug:   Implementation Title: org.tanukisoftware.wrapper
+INFO   | jvm 1    | 2017/07/20 01:42:05 | WrapperManager Debug:   Implementation Vendor: Tanuki Software, Ltd.
+INFO   | jvm 1    | 2017/07/20 01:42:05 | WrapperManager Debug:   Implementation Version: 3.5.32
+INFO   | jvm 1    | 2017/07/20 01:42:05 | WrapperManager Debug:   Is Sealed?: False
+INFO   | jvm 1    | 2017/07/20 01:42:05 | WrapperManager Debug: org.tanukisoftware.wrapper.WrapperManager protection domain:
+INFO   | jvm 1    | 2017/07/20 01:42:05 | WrapperManager Debug:   Location: file:/home/algis/Desktop/tanuki/APP_ROOT/lib/wrapper.jar
+INFO   | jvm 1    | 2017/07/20 01:42:05 | WrapperManager Debug:     Size: 126 696
+INFO   | jvm 1    | 2017/07/20 01:42:05 | WrapperManager Debug:     MD5: 3257e5a0addf35ad11c38735336643bd
+INFO   | jvm 1    | 2017/07/20 01:42:05 | WrapperManager Debug: Registering shutdown hook
+INFO   | jvm 1    | 2017/07/20 01:42:05 | WrapperManager Debug: Using wrapper
+INFO   | jvm 1    | 2017/07/20 01:42:05 | WrapperManager Debug: Registered MBean with Platform MBean Server: org.tanukisoftware.wrapper:type=WrapperManager
+INFO   | jvm 1    | 2017/07/20 01:42:05 | WrapperManager Debug: Load native library.  There are multiple possible file names and the first to be found will be used.  Errors loading non-existing files is normal and is only a problem if they all fail.
+INFO   | jvm 1    | 2017/07/20 01:42:05 | WrapperManager Debug:   Attempt to load native library with name: libwrapper-linux-x86-64.so  Result: no wrapper-linux-x86-64 in java.library.path
+INFO   | jvm 1    | 2017/07/20 01:42:05 | WrapperManager Debug:   Attempt to load native library with name: libwrapper.so  Result: no wrapper in java.library.path
+INFO   | jvm 1    | 2017/07/20 01:42:05 | WrapperManager: 
+INFO   | jvm 1    | 2017/07/20 01:42:05 | WrapperManager: ERROR - Unable to load the Wrapper's native library because none of the
+INFO   | jvm 1    | 2017/07/20 01:42:05 | WrapperManager:         following files:
+INFO   | jvm 1    | 2017/07/20 01:42:05 | WrapperManager:           libwrapper-linux-x86-64.so
+INFO   | jvm 1    | 2017/07/20 01:42:05 | WrapperManager:           libwrapper.so
+INFO   | jvm 1    | 2017/07/20 01:42:05 | WrapperManager:         could be located on the following java.library.path:
+INFO   | jvm 1    | 2017/07/20 01:42:05 | WrapperManager:           /home/algis/Desktop/tanuki/APP_ROOT/bin/../lib
+INFO   | jvm 1    | 2017/07/20 01:42:05 | WrapperManager:         Please see the documentation for the wrapper.java.library.path
+INFO   | jvm 1    | 2017/07/20 01:42:05 | WrapperManager:         configuration property.
+INFO   | jvm 1    | 2017/07/20 01:42:05 | WrapperManager: 
+INFO   | jvm 1    | 2017/07/20 01:42:05 | WrapperManager Debug: Java PID       : 0
+INFO   | jvm 1    | 2017/07/20 01:42:05 | WrapperManager Debug: Java Version   : 1.8.0_121-b13 Java HotSpot(TM) 64-Bit Server VM
+INFO   | jvm 1    | 2017/07/20 01:42:05 | WrapperManager Debug: Java VM Vendor : Oracle Corporation
+INFO   | jvm 1    | 2017/07/20 01:42:05 | WrapperManager Debug: OS Name        : Linux
+INFO   | jvm 1    | 2017/07/20 01:42:05 | WrapperManager Debug: OS Arch        : amd64
+INFO   | jvm 1    | 2017/07/20 01:42:05 | WrapperManager Debug: 
+INFO   | jvm 1    | 2017/07/20 01:42:05 | WrapperManager Debug: Startup runner thread started.
+INFO   | jvm 1    | 2017/07/20 01:42:05 | WrapperManager Debug: Control event monitor thread started.
+INFO   | jvm 1    | 2017/07/20 01:42:05 | WrapperJarApp Debug: Jar Main-Class: foo.bar.baz.Main
+INFO   | jvm 1    | 2017/07/20 01:42:05 | WrapperJarApp Debug: Jar Classpath: Not specified.
+INFO   | jvm 1    | 2017/07/20 01:42:05 | WrapperJarApp Debug:     Classpath[0]=file:/home/algis/Desktop/tanuki/APP_ROOT/bin/app.jar
+INFO   | jvm 1    | 2017/07/20 01:42:05 | WrapperManager Debug: WrapperManager.start(a org.tanukisoftware.wrapper.WrapperJarApp, args[]) called by thread: main
+INFO   | jvm 1    | 2017/07/20 01:42:05 | WrapperManager Debug: Initial thread: main Priority: 5
+INFO   | jvm 1    | 2017/07/20 01:42:05 | WrapperManager Debug: Communications runner thread started.
+INFO   | jvm 1    | 2017/07/20 01:42:05 | WrapperManager Debug: Open socket to wrapper...Wrapper-Connection
+INFO   | jvm 1    | 2017/07/20 01:42:05 | WrapperManager Debug: Opened Socket from 31 000 to 32 000
+INFO   | jvm 1    | 2017/07/20 01:42:05 | WrapperManager Debug: Send a packet KEY : vFoUbsUFlwAgYEKV
+INFO   | jvm 1    | 2017/07/20 01:42:05 | WrapperManager Debug: WrapperManager.stop(1) called by thread: Wrapper-Connection
+INFO   | jvm 1    | 2017/07/20 01:42:05 | WrapperManager Debug: Send a packet STOP : 1
+INFO   | jvm 1    | 2017/07/20 01:42:05 | WrapperManager Debug: Pausing for 1 000ms to allow a clean shutdown...
+DEBUG  | wrapperp | 2017/07/20 01:42:05 | accepted a socket on port 32000 from 127.0.0.1 at port 31000
+DEBUG  | wrapperp | 2017/07/20 01:42:05 | closing backend server.
+DEBUG  | wrapperp | 2017/07/20 01:42:05 | read a packet KEY : vFoUbsUFlwAgYEKV
+DEBUG  | wrapper  | 2017/07/20 01:42:05 | Got key from JVM: vFoUbsUFlwAgYEKV
+DEBUG  | wrapperp | 2017/07/20 01:42:05 | Send a packet LOW_LOG_LEVEL : 1
+DEBUG  | wrapperp | 2017/07/20 01:42:05 | Send a packet LOGFILE : /home/algis/Desktop/tanuki/APP_ROOT/logs/wrapper.log
+DEBUG  | wrapperp | 2017/07/20 01:42:05 | Send a packet PROPERTIES : (Property Values, Size=5444)
+DEBUG  | wrapperp | 2017/07/20 01:42:05 | read a packet STOP : 1
+DEBUG  | wrapper  | 2017/07/20 01:42:05 | JVM requested a shutdown. (1)
+DEBUG  | wrapper  | 2017/07/20 01:42:05 | wrapperStopProcess(1, FALSE) called.
+DEBUG  | wrapper  | 2017/07/20 01:42:05 | Sending stop signal to JVM
+DEBUG  | wrapperp | 2017/07/20 01:42:05 | Send a packet STOP : NULL
+INFO   | jvm 1    | 2017/07/20 01:42:06 | WrapperManager Debug: Thread, Wrapper-Connection, handling the shutdown process.
+INFO   | jvm 1    | 2017/07/20 01:42:06 | WrapperManager Debug: shutdownJVM(1) Thread: Wrapper-Connection
+INFO   | jvm 1    | 2017/07/20 01:42:06 | WrapperManager Debug: wait for 0 shutdown locks to be released.
+INFO   | jvm 1    | 2017/07/20 01:42:06 | WrapperManager Debug: Send a packet STOPPED : 1
+DEBUG  | wrapperp | 2017/07/20 01:42:06 | read a packet STOPPED : 1
+DEBUG  | wrapper  | 2017/07/20 01:42:06 | JVM signaled that it was stopped.
+DEBUG  | wrapper  | 2017/07/20 01:42:06 | Signal trapped.  Details:
+DEBUG  | wrapper  | 2017/07/20 01:42:06 |   signal number=17 (SIGCHLD), source="unknown"
+DEBUG  | wrapper  | 2017/07/20 01:42:06 | Received SIGCHLD, checking JVM process status.
+DEBUG  | wrapper  | 2017/07/20 01:42:06 | JVM process exited with a code of 1, however the wrapper exit code was already 1.
+DEBUG  | wrapper  | 2017/07/20 01:42:06 | JVM exited normally.
+DEBUG  | wrapperp | 2017/07/20 01:42:06 | Closing backend socket.
+INFO   | jvm 1    | 2017/07/20 01:42:06 | WrapperManager Debug: Closing backend connection.
+INFO   | jvm 1    | 2017/07/20 01:42:06 | WrapperManager Debug: calling System.exit(1)
+INFO   | jvm 1    | 2017/07/20 01:42:06 | WrapperManager Debug: WrapperManager stopped due to System Exit
+STATUS | wrapper  | 2017/07/20 01:42:06 | <-- Wrapper Stopped
+DEBUG  | wrapper  | 2017/07/20 01:45:38 | Configured log file set to '/home/algis/Desktop/tanuki/APP_ROOT/logs/wrapper.log'.
+DEBUG  | wrapper  | 2017/07/20 01:45:38 | active log file changed: /home/algis/Desktop/tanuki/APP_ROOT/logs/wrapper.log
+STATUS | wrapper  | 2017/07/20 01:45:38 | --> Wrapper Started as Console
+STATUS | wrapper  | 2017/07/20 01:45:38 | Java Service Wrapper Community Edition 64-bit 3.5.32
+STATUS | wrapper  | 2017/07/20 01:45:38 |   Copyright (C) 1999-2017 Tanuki Software, Ltd. All Rights Reserved.
+STATUS | wrapper  | 2017/07/20 01:45:38 |     http://wrapper.tanukisoftware.com
+STATUS | wrapper  | 2017/07/20 01:45:38 | 
+DEBUG  | wrapper  | 2017/07/20 01:45:38 | Release time: 2017/03/31 00:00:00
+DEBUG  | wrapper  | 2017/07/20 01:45:38 | Build time:   2017/03/29 21:59:00
+DEBUG  | wrapper  | 2017/07/20 01:45:38 | Timezone:     EET (EEST) Offset: -7200, hasDaylight: 1
+DEBUG  | wrapper  | 2017/07/20 01:45:38 | Using tick timer.
+DEBUG  | wrapper  | 2017/07/20 01:45:38 | PID:          30925
+DEBUG  | wrapper  | 2017/07/20 01:45:38 | 
+DEBUG  | wrapper  | 2017/07/20 01:45:38 | Wrapper configuration properties (Name=Value) BEGIN:
+DEBUG  | wrapper  | 2017/07/20 01:45:38 |   wrapper.app.parameter.1=app.jar
+DEBUG  | wrapper  | 2017/07/20 01:45:38 |   wrapper.check.deadlock=TRUE
+DEBUG  | wrapper  | 2017/07/20 01:45:38 |   wrapper.check.deadlock.action=RESTART
+DEBUG  | wrapper  | 2017/07/20 01:45:38 |   wrapper.check.deadlock.interval=60
+DEBUG  | wrapper  | 2017/07/20 01:45:38 |   wrapper.check.deadlock.output=FULL
+DEBUG  | wrapper  | 2017/07/20 01:45:38 |   wrapper.console.format=PM
+DEBUG  | wrapper  | 2017/07/20 01:45:38 |   wrapper.console.loglevel=INFO
+DEBUG  | wrapper  | 2017/07/20 01:45:38 |   wrapper.console.title=@app.long.name@
+DEBUG  | wrapper  | 2017/07/20 01:45:38 |   wrapper.debug=TRUE
+DEBUG  | wrapper  | 2017/07/20 01:45:38 |   wrapper.description=@app.description@
+DEBUG  | wrapper  | 2017/07/20 01:45:38 |   wrapper.displayname=console logging app
+DEBUG  | wrapper  | 2017/07/20 01:45:38 |   wrapper.event.jvm_restart.email.body=The JVM was restarted.\n\nPlease check on its status.\n
+DEBUG  | wrapper  | 2017/07/20 01:45:38 |   wrapper.filter.action.1000=NONE
+DEBUG  | wrapper  | 2017/07/20 01:45:38 |   wrapper.filter.action.1001=RESTART
+DEBUG  | wrapper  | 2017/07/20 01:45:38 |   wrapper.filter.message.1001=The JVM has run out of memory.
+DEBUG  | wrapper  | 2017/07/20 01:45:38 |   wrapper.filter.trigger.1000=[Loaded java.lang.OutOfMemoryError
+DEBUG  | wrapper  | 2017/07/20 01:45:38 |   wrapper.filter.trigger.1001=java.lang.OutOfMemoryError
+DEBUG  | wrapper  | 2017/07/20 01:45:38 |   wrapper.ignore_sequence_gaps=TRUE
+DEBUG  | wrapper  | 2017/07/20 01:45:38 |   wrapper.java.additional.1=
+DEBUG  | wrapper  | 2017/07/20 01:45:38 |   wrapper.java.additional.auto_bits=TRUE
+DEBUG  | wrapper  | 2017/07/20 01:45:38 |   wrapper.java.classpath.1=../lib/wrapper.jar
+DEBUG  | wrapper  | 2017/07/20 01:45:38 |   wrapper.java.command=java
+DEBUG  | wrapper  | 2017/07/20 01:45:38 |   wrapper.java.library.path.1=../lib
+DEBUG  | wrapper  | 2017/07/20 01:45:38 |   wrapper.java.mainclass=org.tanukisoftware.wrapper.WrapperJarApp
+DEBUG  | wrapper  | 2017/07/20 01:45:38 |   wrapper.java.statusfile=/home/algis/Desktop/tanuki/APP_ROOT/bin/./app.java.status
+DEBUG  | wrapper  | 2017/07/20 01:45:38 |   wrapper.lang.folder=../lang
+DEBUG  | wrapper  | 2017/07/20 01:45:38 |   wrapper.logfile=../logs/wrapper.log
+DEBUG  | wrapper  | 2017/07/20 01:45:38 |   wrapper.logfile.format=LPTM
+DEBUG  | wrapper  | 2017/07/20 01:45:38 |   wrapper.logfile.loglevel=INFO
+DEBUG  | wrapper  | 2017/07/20 01:45:38 |   wrapper.logfile.maxfiles=0
+DEBUG  | wrapper  | 2017/07/20 01:45:38 |   wrapper.logfile.maxsize=0
+DEBUG  | wrapper  | 2017/07/20 01:45:38 |   wrapper.name=app
+DEBUG  | wrapper  | 2017/07/20 01:45:38 |   wrapper.ntservice.dependency.1=
+DEBUG  | wrapper  | 2017/07/20 01:45:38 |   wrapper.ntservice.interactive=FALSE
+DEBUG  | wrapper  | 2017/07/20 01:45:38 |   wrapper.ntservice.starttype=AUTO_START
+DEBUG  | wrapper  | 2017/07/20 01:45:38 |   wrapper.pidfile=/home/algis/Desktop/tanuki/APP_ROOT/bin/./app.pid
+DEBUG  | wrapper  | 2017/07/20 01:45:38 |   wrapper.pidfile.strict=TRUE
+DEBUG  | wrapper  | 2017/07/20 01:45:38 |   wrapper.script.version=3.5.32
+DEBUG  | wrapper  | 2017/07/20 01:45:38 |   wrapper.statusfile=/home/algis/Desktop/tanuki/APP_ROOT/bin/./app.status
+DEBUG  | wrapper  | 2017/07/20 01:45:38 |   wrapper.syslog.ident=app
+DEBUG  | wrapper  | 2017/07/20 01:45:38 |   wrapper.syslog.loglevel=NONE
+DEBUG  | wrapper  | 2017/07/20 01:45:38 | 
+DEBUG  | wrapper  | 2017/07/20 01:45:38 | Environment variables (Source | Name=Value) BEGIN:
+DEBUG  | wrapper  | 2017/07/20 01:45:38 |   P---- | _=bin/app
+DEBUG  | wrapper  | 2017/07/20 01:45:38 |   P---- | ACCT_LIST=sample.log
+DEBUG  | wrapper  | 2017/07/20 01:45:38 |   P---- | CATALINA_HOME=/etc/apache-tomcat-9.0.0.M8
+DEBUG  | wrapper  | 2017/07/20 01:45:38 |   P---- | CLUTTER_IM_MODULE=xim
+DEBUG  | wrapper  | 2017/07/20 01:45:38 |   P---- | COLORTERM=gnome-terminal
+DEBUG  | wrapper  | 2017/07/20 01:45:38 |   P---- | DBUS_SESSION_BUS_ADDRESS=unix:abstract=/tmp/dbus-6ea4KT8D0u
+DEBUG  | wrapper  | 2017/07/20 01:45:38 |   P---- | DEFAULTS_PATH=/usr/share/gconf/gnome-fallback-compiz.default.path
+DEBUG  | wrapper  | 2017/07/20 01:45:38 |   P---- | DERBY_HOME=/usr/lib/jvm/java-8-oracle/db
+DEBUG  | wrapper  | 2017/07/20 01:45:38 |   P---- | DESKTOP_SESSION=gnome-fallback-compiz
+DEBUG  | wrapper  | 2017/07/20 01:45:38 |   P---- | DISPLAY=:0
+DEBUG  | wrapper  | 2017/07/20 01:45:38 |   P---- | GDM_LANG=ru_RU
+DEBUG  | wrapper  | 2017/07/20 01:45:38 |   P---- | GDMSESSION=gnome-fallback-compiz
+DEBUG  | wrapper  | 2017/07/20 01:45:38 |   P---- | GNOME_DESKTOP_SESSION_ID=this-is-deprecated
+DEBUG  | wrapper  | 2017/07/20 01:45:38 |   P---- | GNOME_KEYRING_CONTROL=/run/user/1000/keyring-00VirU
+DEBUG  | wrapper  | 2017/07/20 01:45:38 |   P---- | GNOME_KEYRING_PID=1834
+DEBUG  | wrapper  | 2017/07/20 01:45:38 |   P---- | GPG_AGENT_INFO=/tmp/gpg-JXtkIL/S.gpg-agent:1953:1
+DEBUG  | wrapper  | 2017/07/20 01:45:38 |   P---- | GRADLE_HOME=/usr/share/gradle
+DEBUG  | wrapper  | 2017/07/20 01:45:38 |   P---- | GTK_IM_MODULE=ibus
+DEBUG  | wrapper  | 2017/07/20 01:45:38 |   P---- | GTK_MODULES=overlay-scrollbar:unity-gtk-module
+DEBUG  | wrapper  | 2017/07/20 01:45:38 |   P---- | HBASE_HOME=/usr/lib/hbase/hbase-0.98.24-hadoop2
+DEBUG  | wrapper  | 2017/07/20 01:45:38 |   P---- | HOME=/home/algis
+DEBUG  | wrapper  | 2017/07/20 01:45:38 |   P---- | IM_CONFIG_PHASE=1
+DEBUG  | wrapper  | 2017/07/20 01:45:38 |   P---- | INSTANCE=
+DEBUG  | wrapper  | 2017/07/20 01:45:38 |   P---- | J2REDIR=/usr/lib/jvm/java-8-oracle/jre
+DEBUG  | wrapper  | 2017/07/20 01:45:38 |   P---- | J2SDKDIR=/usr/lib/jvm/java-8-oracle
+DEBUG  | wrapper  | 2017/07/20 01:45:38 |   P---- | JAVA_HOME=/usr/lib/jvm/java-8-oracle
+DEBUG  | wrapper  | 2017/07/20 01:45:38 |   P---- | JOB=dbus
+DEBUG  | wrapper  | 2017/07/20 01:45:38 |   P---- | LANG=ru_RU.UTF-8
+DEBUG  | wrapper  | 2017/07/20 01:45:38 |   P---- | LANGUAGE=ru_RU
+DEBUG  | wrapper  | 2017/07/20 01:45:38 |   P---- | LC_ADDRESS=lv_LV.UTF-8
+DEBUG  | wrapper  | 2017/07/20 01:45:38 |   P---- | LC_IDENTIFICATION=lv_LV.UTF-8
+DEBUG  | wrapper  | 2017/07/20 01:45:38 |   P---- | LC_MEASUREMENT=lv_LV.UTF-8
+DEBUG  | wrapper  | 2017/07/20 01:45:38 |   P---- | LC_MONETARY=lv_LV.UTF-8
+DEBUG  | wrapper  | 2017/07/20 01:45:38 |   P---- | LC_NAME=lv_LV.UTF-8
+DEBUG  | wrapper  | 2017/07/20 01:45:38 |   P---- | LC_NUMERIC=lv_LV.UTF-8
+DEBUG  | wrapper  | 2017/07/20 01:45:38 |   P---- | LC_PAPER=lv_LV.UTF-8
+DEBUG  | wrapper  | 2017/07/20 01:45:38 |   P---- | LC_TELEPHONE=lv_LV.UTF-8
+DEBUG  | wrapper  | 2017/07/20 01:45:38 |   P---- | LC_TIME=lv_LV.UTF-8
+DEBUG  | wrapper  | 2017/07/20 01:45:38 |   P---- | LD_LIBRARY_PATH=/opt/mqm/java/lib64:
+DEBUG  | wrapper  | 2017/07/20 01:45:38 |   P---- | LESSCLOSE=/usr/bin/lesspipe %s %s
+DEBUG  | wrapper  | 2017/07/20 01:45:38 |   P---- | LESSOPEN=| /usr/bin/lesspipe %s
+DEBUG  | wrapper  | 2017/07/20 01:45:38 |   P---- | LOGNAME=algis
+DEBUG  | wrapper  | 2017/07/20 01:45:38 |   P---- | LS_COLORS=rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arj=01;31:*.taz=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lz=01;31:*.xz=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.axv=01;35:*.anx=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.axa=00;36:*.oga=00;36:*.spx=00;36:*.xspf=00;36:
+DEBUG  | wrapper  | 2017/07/20 01:45:38 |   P---- | MANDATORY_PATH=/usr/share/gconf/gnome-fallback-compiz.mandatory.path
+DEBUG  | wrapper  | 2017/07/20 01:45:38 |   P---- | OLDPWD=/home/algis/Desktop/tanuki/APP_ROOT/bin
+DEBUG  | wrapper  | 2017/07/20 01:45:38 |   P---- | PATH=/home/algis/miniconda3/bin:/usr/local/heroku/bin:/home/algis/google-cloud-sdk/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/jvm/java-8-oracle/bin:/usr/lib/jvm/java-8-oracle/db/bin:/usr/lib/jvm/java-8-oracle/jre/bin:/usr/lib/hbase/hbase-0.98.24-hadoop2/bin
+DEBUG  | wrapper  | 2017/07/20 01:45:38 |   P---- | PWD=/home/algis/Desktop/tanuki/APP_ROOT
+DEBUG  | wrapper  | 2017/07/20 01:45:38 |   P---- | QT4_IM_MODULE=xim
+DEBUG  | wrapper  | 2017/07/20 01:45:38 |   P---- | QT_IM_MODULE=ibus
+DEBUG  | wrapper  | 2017/07/20 01:45:38 |   P---- | QT_QPA_PLATFORMTHEME=appmenu-qt5
+DEBUG  | wrapper  | 2017/07/20 01:45:38 |   P---- | SELINUX_INIT=YES
+DEBUG  | wrapper  | 2017/07/20 01:45:38 |   P---- | SESSION=gnome-fallback-compiz
+DEBUG  | wrapper  | 2017/07/20 01:45:38 |   P---- | SESSION_MANAGER=local/Speedy:@/tmp/.ICE-unix/2000,unix/Speedy:/tmp/.ICE-unix/2000
+DEBUG  | wrapper  | 2017/07/20 01:45:38 |   P---- | SESSIONTYPE=gnome-session
+DEBUG  | wrapper  | 2017/07/20 01:45:38 |   P---- | SHELL=/bin/bash
+DEBUG  | wrapper  | 2017/07/20 01:45:38 |   P---- | SHLVL=1
+DEBUG  | wrapper  | 2017/07/20 01:45:38 |   P---- | SSH_AUTH_SOCK=/run/user/1000/keyring-00VirU/ssh
+DEBUG  | wrapper  | 2017/07/20 01:45:38 |   P---- | TERM=xterm
+DEBUG  | wrapper  | 2017/07/20 01:45:38 |   P---- | TEXTDOMAIN=im-config
+DEBUG  | wrapper  | 2017/07/20 01:45:38 |   P---- | TEXTDOMAINDIR=/usr/share/locale/
+DEBUG  | wrapper  | 2017/07/20 01:45:38 |   P---- | UPSTART_SESSION=unix:abstract=/com/ubuntu/upstart-session/1000/1837
+DEBUG  | wrapper  | 2017/07/20 01:45:38 |   P---- | USER=algis
+DEBUG  | wrapper  | 2017/07/20 01:45:38 |   P---- | VTE_VERSION=3409
+DEBUG  | wrapper  | 2017/07/20 01:45:38 |   P---- | WINDOWID=65011724
+DEBUG  | wrapper  | 2017/07/20 01:45:38 |   ---W- | WRAPPER_ARCH=x86
+DEBUG  | wrapper  | 2017/07/20 01:45:38 |   ---W- | WRAPPER_BIN_DIR=/home/algis/Desktop/tanuki/APP_ROOT/bin
+DEBUG  | wrapper  | 2017/07/20 01:45:38 |   ---W- | WRAPPER_BITS=64
+DEBUG  | wrapper  | 2017/07/20 01:45:38 |   ---W- | WRAPPER_CONF_DIR=/home/algis/Desktop/tanuki/APP_ROOT/conf
+DEBUG  | wrapper  | 2017/07/20 01:45:38 |   ---W- | WRAPPER_FILE_SEPARATOR=/
+DEBUG  | wrapper  | 2017/07/20 01:45:38 |   ---W- | WRAPPER_HOST_NAME=Speedy
+DEBUG  | wrapper  | 2017/07/20 01:45:38 |   ---W- | WRAPPER_HOSTNAME=Speedy
+DEBUG  | wrapper  | 2017/07/20 01:45:38 |   P--W- | WRAPPER_INIT_DIR=/home/algis/Desktop/tanuki/APP_ROOT
+DEBUG  | wrapper  | 2017/07/20 01:45:38 |   ---W- | WRAPPER_LANG=en
+DEBUG  | wrapper  | 2017/07/20 01:45:38 |   ---W- | WRAPPER_OS=linux
+DEBUG  | wrapper  | 2017/07/20 01:45:38 |   ---W- | WRAPPER_PATH_SEPARATOR=:
+DEBUG  | wrapper  | 2017/07/20 01:45:38 |   ---W- | WRAPPER_PID=30925
+DEBUG  | wrapper  | 2017/07/20 01:45:38 |   ---W- | WRAPPER_WORKING_DIR=/home/algis/Desktop/tanuki/APP_ROOT/bin
+DEBUG  | wrapper  | 2017/07/20 01:45:38 |   P---- | XAUTHORITY=/home/algis/.Xauthority
+DEBUG  | wrapper  | 2017/07/20 01:45:38 |   P---- | XDG_CONFIG_DIRS=/etc/xdg/xdg-gnome-fallback-compiz:/usr/share/upstart/xdg:/etc/xdg
+DEBUG  | wrapper  | 2017/07/20 01:45:38 |   P---- | XDG_CURRENT_DESKTOP=Unity
+DEBUG  | wrapper  | 2017/07/20 01:45:38 |   P---- | XDG_DATA_DIRS=/usr/share/gnome-fallback-compiz:/usr/share/gnome:/usr/local/share/:/usr/share/
+DEBUG  | wrapper  | 2017/07/20 01:45:38 |   P---- | XDG_GREETER_DATA_DIR=/var/lib/lightdm-data/algis
+DEBUG  | wrapper  | 2017/07/20 01:45:38 |   P---- | XDG_MENU_PREFIX=gnome-
+DEBUG  | wrapper  | 2017/07/20 01:45:38 |   P---- | XDG_RUNTIME_DIR=/run/user/1000
+DEBUG  | wrapper  | 2017/07/20 01:45:38 |   P---- | XDG_SEAT=seat0
+DEBUG  | wrapper  | 2017/07/20 01:45:38 |   P---- | XDG_SEAT_PATH=/org/freedesktop/DisplayManager/Seat0
+DEBUG  | wrapper  | 2017/07/20 01:45:38 |   P---- | XDG_SESSION_ID=c2
+DEBUG  | wrapper  | 2017/07/20 01:45:38 |   P---- | XDG_SESSION_PATH=/org/freedesktop/DisplayManager/Session0
+DEBUG  | wrapper  | 2017/07/20 01:45:38 |   P---- | XDG_VTNR=7
+DEBUG  | wrapper  | 2017/07/20 01:45:38 |   P---- | XMODIFIERS=@im=ibus
+DEBUG  | wrapper  | 2017/07/20 01:45:38 | Environment variables END:
+DEBUG  | wrapper  | 2017/07/20 01:45:38 | 
+DEBUG  | wrapper  | 2017/07/20 01:45:38 | Number of open file descriptors limits: 15000 (soft), 15000 (hard).
+DEBUG  | wrapper  | 2017/07/20 01:45:38 | Use tick timer mutex=FALSE
+DEBUG  | wrapper  | 2017/07/20 01:45:39 | Preparing to restart with mode 1.
+DEBUG  | wrapperp | 2017/07/20 01:45:39 | server listening on port 32000.
+DEBUG  | wrapper  | 2017/07/20 01:45:39 | Unable to resolve the real path of wrapper.java.command as a relative reference: java
+DEBUG  | wrapper  | 2017/07/20 01:45:39 | Attempt to locate wrapper.java.command on system PATH: java
+DEBUG  | wrapper  | 2017/07/20 01:45:39 | Resolved the real path of wrapper.java.command from system PATH: /usr/lib/jvm/java-8-oracle/jre/bin/java
+DEBUG  | wrapper  | 2017/07/20 01:45:39 | Magic number for file /usr/lib/jvm/java-8-oracle/jre/bin/java: 0x7f454c46
+DEBUG  | wrapper  | 2017/07/20 01:45:39 | Startup Timeouts: wrapper.startup.timeout=30, wrapper.startup.delay.console=0, wrapper.startup.delay.service=0, wrapper.restart.delay=5
+DEBUG  | wrapper  | 2017/07/20 01:45:39 | Ping settings: wrapper.ping.interval=5, wrapper.ping.interval.logged=1, wrapper.ping.timeout=30, wrapper.ping.alert.threshold=7
+DEBUG  | wrapper  | 2017/07/20 01:45:39 | Shutdown Timeouts: wrapper.shutdown.timeout=30, wrapper.jvm_exit.timeout=15, wrapper.jvm_cleanup.timeout=10, wrapper.jvm_terminate.timeout=10
+STATUS | wrapper  | 2017/07/20 01:45:39 | Launching a JVM...
+DEBUG  | wrapper  | 2017/07/20 01:45:39 | Java Command Line:
+DEBUG  | wrapper  | 2017/07/20 01:45:39 |   Command[0] : /usr/lib/jvm/java-8-oracle/jre/bin/java
+DEBUG  | wrapper  | 2017/07/20 01:45:39 |   Command[1] : -Djava.library.path=../lib
+DEBUG  | wrapper  | 2017/07/20 01:45:39 |   Command[2] : -classpath
+DEBUG  | wrapper  | 2017/07/20 01:45:39 |   Command[3] : ../lib/wrapper.jar
+DEBUG  | wrapper  | 2017/07/20 01:45:39 |   Command[4] : -Dwrapper.key=I29o4dFOKECqRKsN
+DEBUG  | wrapper  | 2017/07/20 01:45:39 |   Command[5] : -Dwrapper.port=32000
+DEBUG  | wrapper  | 2017/07/20 01:45:39 |   Command[6] : -Dwrapper.jvm.port.min=31000
+DEBUG  | wrapper  | 2017/07/20 01:45:39 |   Command[7] : -Dwrapper.jvm.port.max=31999
+DEBUG  | wrapper  | 2017/07/20 01:45:39 |   Command[8] : -Dwrapper.debug=TRUE
+DEBUG  | wrapper  | 2017/07/20 01:45:39 |   Command[9] : -Dwrapper.pid=30925
+DEBUG  | wrapper  | 2017/07/20 01:45:39 |   Command[10] : -Dwrapper.version=3.5.32
+DEBUG  | wrapper  | 2017/07/20 01:45:39 |   Command[11] : -Dwrapper.native_library=wrapper
+DEBUG  | wrapper  | 2017/07/20 01:45:39 |   Command[12] : -Dwrapper.arch=x86
+DEBUG  | wrapper  | 2017/07/20 01:45:39 |   Command[13] : -Dwrapper.cpu.timeout=10
+DEBUG  | wrapper  | 2017/07/20 01:45:39 |   Command[14] : -Dwrapper.jvmid=1
+DEBUG  | wrapper  | 2017/07/20 01:45:39 |   Command[15] : org.tanukisoftware.wrapper.WrapperJarApp
+DEBUG  | wrapper  | 2017/07/20 01:45:39 |   Command[16] : app.jar
+INFO   | jvm 1    | 2017/07/20 01:45:39 | WrapperManager Debug: WrapperManager class initialized by thread: main   Using classloader: sun.misc.Launcher$AppClassLoader@33909752
+INFO   | jvm 1    | 2017/07/20 01:45:39 | WrapperManager: Initializing...
+INFO   | jvm 1    | 2017/07/20 01:45:39 | WrapperManager Debug: JVM #1
+INFO   | jvm 1    | 2017/07/20 01:45:39 | WrapperManager Debug: Running a 64-bit JVM.
+INFO   | jvm 1    | 2017/07/20 01:45:39 | WrapperManager Debug: org.tanukisoftware.wrapper.WrapperManager package information:
+INFO   | jvm 1    | 2017/07/20 01:45:39 | WrapperManager Debug:   Implementation Title: org.tanukisoftware.wrapper
+INFO   | jvm 1    | 2017/07/20 01:45:39 | WrapperManager Debug:   Implementation Vendor: Tanuki Software, Ltd.
+INFO   | jvm 1    | 2017/07/20 01:45:39 | WrapperManager Debug:   Implementation Version: 3.5.32
+INFO   | jvm 1    | 2017/07/20 01:45:39 | WrapperManager Debug:   Is Sealed?: False
+INFO   | jvm 1    | 2017/07/20 01:45:39 | WrapperManager Debug: org.tanukisoftware.wrapper.WrapperManager protection domain:
+INFO   | jvm 1    | 2017/07/20 01:45:39 | WrapperManager Debug:   Location: file:/home/algis/Desktop/tanuki/APP_ROOT/lib/wrapper.jar
+INFO   | jvm 1    | 2017/07/20 01:45:39 | WrapperManager Debug:     Size: 126 696
+INFO   | jvm 1    | 2017/07/20 01:45:39 | WrapperManager Debug:     MD5: 3257e5a0addf35ad11c38735336643bd
+INFO   | jvm 1    | 2017/07/20 01:45:39 | WrapperManager Debug: Registering shutdown hook
+INFO   | jvm 1    | 2017/07/20 01:45:39 | WrapperManager Debug: Using wrapper
+INFO   | jvm 1    | 2017/07/20 01:45:39 | WrapperManager Debug: Registered MBean with Platform MBean Server: org.tanukisoftware.wrapper:type=WrapperManager
+INFO   | jvm 1    | 2017/07/20 01:45:39 | WrapperManager Debug: Load native library.  There are multiple possible file names and the first to be found will be used.  Errors loading non-existing files is normal and is only a problem if they all fail.
+INFO   | jvm 1    | 2017/07/20 01:45:39 | WrapperManager Debug:   Attempt to load native library with name: libwrapper-linux-x86-64.so  Result: no wrapper-linux-x86-64 in java.library.path
+INFO   | jvm 1    | 2017/07/20 01:45:39 | WrapperManager Debug:   Attempt to load native library with name: libwrapper.so  Result: Success!
+INFO   | jvm 1    | 2017/07/20 01:45:39 | WrapperManager Debug:   Successfully loaded native library.
+INFO   | jvm 1    | 2017/07/20 01:45:39 | WrapperManager Debug: Loaded localized resources.
+INFO   | jvm 1    | 2017/07/20 01:45:39 | WrapperManager Debug: Calling native initialization method.
+INFO   | jvm 1    | 2017/07/20 01:45:39 | WrapperJNI Debug: Inside native WrapperManager initialization method
+INFO   | jvm 1    | 2017/07/20 01:45:39 | WrapperManager Debug: Java PID       : 30927
+INFO   | jvm 1    | 2017/07/20 01:45:39 | WrapperManager Debug: Java Version   : 1.8.0_121-b13 Java HotSpot(TM) 64-Bit Server VM
+INFO   | jvm 1    | 2017/07/20 01:45:39 | WrapperManager Debug: Java VM Vendor : Oracle Corporation
+INFO   | jvm 1    | 2017/07/20 01:45:39 | WrapperManager Debug: OS Name        : Linux
+INFO   | jvm 1    | 2017/07/20 01:45:39 | WrapperManager Debug: OS Arch        : amd64
+INFO   | jvm 1    | 2017/07/20 01:45:39 | WrapperManager Debug: 
+INFO   | jvm 1    | 2017/07/20 01:45:39 | WrapperManager Debug: Control event monitor thread started.
+INFO   | jvm 1    | 2017/07/20 01:45:39 | WrapperManager Debug: Startup runner thread started.
+INFO   | jvm 1    | 2017/07/20 01:45:39 | WrapperJarApp Debug: Jar Main-Class: foo.bar.baz.Main
+INFO   | jvm 1    | 2017/07/20 01:45:39 | WrapperJarApp Debug: Jar Classpath: Not specified.
+INFO   | jvm 1    | 2017/07/20 01:45:39 | WrapperJarApp Debug:     Classpath[0]=file:/home/algis/Desktop/tanuki/APP_ROOT/bin/app.jar
+INFO   | jvm 1    | 2017/07/20 01:45:39 | WrapperManager Debug: WrapperManager.start(a org.tanukisoftware.wrapper.WrapperJarApp, args[]) called by thread: main
+INFO   | jvm 1    | 2017/07/20 01:45:39 | WrapperManager Debug: Initial thread: main Priority: 5
+INFO   | jvm 1    | 2017/07/20 01:45:39 | WrapperManager Debug: Communications runner thread started.
+INFO   | jvm 1    | 2017/07/20 01:45:39 | WrapperManager Debug: Open socket to wrapper...Wrapper-Connection
+INFO   | jvm 1    | 2017/07/20 01:45:39 | WrapperManager Debug: Opened Socket from 31 000 to 32 000
+INFO   | jvm 1    | 2017/07/20 01:45:39 | WrapperManager Debug: Send a packet KEY : I29o4dFOKECqRKsN
+INFO   | jvm 1    | 2017/07/20 01:45:39 | WrapperManager Debug: handleBackend()
+DEBUG  | wrapperp | 2017/07/20 01:45:39 | accepted a socket on port 32000 from 127.0.0.1 at port 31000
+DEBUG  | wrapperp | 2017/07/20 01:45:39 | closing backend server.
+DEBUG  | wrapperp | 2017/07/20 01:45:39 | read a packet KEY : I29o4dFOKECqRKsN
+DEBUG  | wrapper  | 2017/07/20 01:45:39 | Got key from JVM: I29o4dFOKECqRKsN
+DEBUG  | wrapperp | 2017/07/20 01:45:39 | Send a packet LOW_LOG_LEVEL : 1
+DEBUG  | wrapperp | 2017/07/20 01:45:39 | Send a packet LOGFILE : /home/algis/Desktop/tanuki/APP_ROOT/logs/wrapper.log
+DEBUG  | wrapperp | 2017/07/20 01:45:39 | Send a packet PROPERTIES : (Property Values, Size=5444)
+DEBUG  | wrapper  | 2017/07/20 01:45:39 | Start Application.
+DEBUG  | wrapperp | 2017/07/20 01:45:39 | Send a packet START : start
+INFO   | jvm 1    | 2017/07/20 01:45:39 | WrapperManager Debug: Received a packet LOW_LOG_LEVEL : 1
+INFO   | jvm 1    | 2017/07/20 01:45:39 | WrapperManager Debug: LowLogLevel from Wrapper is 1
+INFO   | jvm 1    | 2017/07/20 01:45:39 | WrapperManager Debug: Received a packet LOGFILE : /home/algis/Desktop/tanuki/APP_ROOT/logs/wrapper.log
+INFO   | jvm 1    | 2017/07/20 01:45:39 | WrapperManager Debug: Received a packet PROPERTIES : (Property Values, Size=5444)
+INFO   | jvm 1    | 2017/07/20 01:45:39 | WrapperManager Debug: Received a packet START : start
+INFO   | jvm 1    | 2017/07/20 01:45:39 | WrapperManager Debug: Java temporary directory: /tmp
+INFO   | jvm 1    | 2017/07/20 01:45:39 | WrapperManager Debug: calling WrapperListener.start()
+INFO   | jvm 1    | 2017/07/20 01:45:39 | WrapperManager Debug: WrapperListener.start runner thread started.
+INFO   | jvm 1    | 2017/07/20 01:45:39 | WrapperManager Debug: Application start main thread: WrapperListener_start_runner Priority: 5
+INFO   | jvm 1    | 2017/07/20 01:45:39 | WrapperJarApp Debug: start(args) Will wait up to 2 seconds for the main method to complete.
+INFO   | jvm 1    | 2017/07/20 01:45:39 | WrapperJarApp Debug: invoking main method
+INFO   | jvm 1    | 2017/07/20 01:45:39 | started
+INFO   | jvm 1    | 2017/07/20 01:45:40 | WrapperManager Debug: Send a packet START_PENDING : 5000
+DEBUG  | wrapperp | 2017/07/20 01:45:40 | read a packet START_PENDING : 5000
+DEBUG  | wrapper  | 2017/07/20 01:45:40 | JVM signaled a start pending with waitHint of 5000 millis.
+INFO   | jvm 1    | 2017/07/20 01:45:41 | WrapperManager Debug: Send a packet START_PENDING : 5000
+INFO   | jvm 1    | 2017/07/20 01:45:41 | WrapperJarApp Debug: start(args) end.  Main Completed=false, exitCode=null
+INFO   | jvm 1    | 2017/07/20 01:45:41 | WrapperManager Debug: returned from WrapperListener.start()
+INFO   | jvm 1    | 2017/07/20 01:45:41 | WrapperManager Debug: Send a packet STARTED : 
+INFO   | jvm 1    | 2017/07/20 01:45:41 | WrapperManager Debug: WrapperListener.start runner thread stopped.
+INFO   | jvm 1    | 2017/07/20 01:45:41 | WrapperManager Debug: Startup runner thread stopped.
+DEBUG  | wrapperp | 2017/07/20 01:45:41 | read a packet START_PENDING : 5000
+DEBUG  | wrapper  | 2017/07/20 01:45:41 | JVM signaled a start pending with waitHint of 5000 millis.
+DEBUG  | wrapperp | 2017/07/20 01:45:41 | read a packet STARTED : 
+DEBUG  | wrapper  | 2017/07/20 01:45:41 | JVM signaled that it was started.
+DEBUG  | wrapperp | 2017/07/20 01:45:44 | Send a packet PING : ping fffffe33
+INFO   | jvm 1    | 2017/07/20 01:45:44 | WrapperManager Debug: Received a packet PING : ping fffffe33
+INFO   | jvm 1    | 2017/07/20 01:45:44 | WrapperManager Debug: Send a packet PING : ping fffffe33
+DEBUG  | wrapperp | 2017/07/20 01:45:44 | read a packet PING : ping fffffe33
+INFO   | jvm 1    | 2017/07/20 01:45:44 | This is the content to write into file 2017-07-20T01:45:44.493
+DEBUG  | wrapperp | 2017/07/20 01:45:49 | Send a packet PING : ping fffffe65
+INFO   | jvm 1    | 2017/07/20 01:45:49 | WrapperManager Debug: Received a packet PING : ping fffffe65
+INFO   | jvm 1    | 2017/07/20 01:45:49 | WrapperManager Debug: Send a packet PING : ping fffffe65
+DEBUG  | wrapperp | 2017/07/20 01:45:49 | read a packet PING : ping fffffe65
+INFO   | jvm 1    | 2017/07/20 01:45:49 | This is the content to write into file 2017-07-20T01:45:49.498
+DEBUG  | wrapperp | 2017/07/20 01:45:54 | Send a packet PING : ping fffffe97
+INFO   | jvm 1    | 2017/07/20 01:45:54 | WrapperManager Debug: Received a packet PING : ping fffffe97
+INFO   | jvm 1    | 2017/07/20 01:45:54 | WrapperManager Debug: Send a packet PING : ping fffffe97
+DEBUG  | wrapperp | 2017/07/20 01:45:54 | read a packet PING : ping fffffe97
+INFO   | jvm 1    | 2017/07/20 01:45:54 | This is the content to write into file 2017-07-20T01:45:54.499
+DEBUG  | wrapperp | 2017/07/20 01:45:59 | Send a packet PING : ping fffffec9
+INFO   | jvm 1    | 2017/07/20 01:45:59 | WrapperManager Debug: Received a packet PING : ping fffffec9
+INFO   | jvm 1    | 2017/07/20 01:45:59 | WrapperManager Debug: Send a packet PING : ping fffffec9
+DEBUG  | wrapperp | 2017/07/20 01:45:59 | read a packet PING : ping fffffec9
+INFO   | jvm 1    | 2017/07/20 01:45:59 | This is the content to write into file 2017-07-20T01:45:59.499
+DEBUG  | wrapperp | 2017/07/20 01:46:04 | Send a packet PING : ping fffffefb
+INFO   | jvm 1    | 2017/07/20 01:46:04 | WrapperManager Debug: Received a packet PING : ping fffffefb
+INFO   | jvm 1    | 2017/07/20 01:46:04 | WrapperManager Debug: Send a packet PING : ping fffffefb
+DEBUG  | wrapperp | 2017/07/20 01:46:04 | read a packet PING : ping fffffefb
+INFO   | jvm 1    | 2017/07/20 01:46:04 | This is the content to write into file 2017-07-20T01:46:04.500
+DEBUG  | wrapperp | 2017/07/20 01:46:09 | Send a packet PING : ping ffffff2d
+INFO   | jvm 1    | 2017/07/20 01:46:09 | WrapperManager Debug: Received a packet PING : ping ffffff2d
+INFO   | jvm 1    | 2017/07/20 01:46:09 | WrapperManager Debug: Send a packet PING : ping ffffff2d
+DEBUG  | wrapperp | 2017/07/20 01:46:09 | read a packet PING : ping ffffff2d
+INFO   | jvm 1    | 2017/07/20 01:46:09 | This is the content to write into file 2017-07-20T01:46:09.501
+DEBUG  | wrapperp | 2017/07/20 01:46:14 | Send a packet PING : ping ffffff5f
+INFO   | jvm 1    | 2017/07/20 01:46:14 | WrapperManager Debug: Received a packet PING : ping ffffff5f
+INFO   | jvm 1    | 2017/07/20 01:46:14 | WrapperManager Debug: Send a packet PING : ping ffffff5f
+DEBUG  | wrapperp | 2017/07/20 01:46:14 | read a packet PING : ping ffffff5f
+INFO   | jvm 1    | 2017/07/20 01:46:14 | This is the content to write into file 2017-07-20T01:46:14.501
+DEBUG  | wrapperp | 2017/07/20 01:46:19 | Send a packet PING : ping ffffff91
+INFO   | jvm 1    | 2017/07/20 01:46:19 | WrapperManager Debug: Received a packet PING : ping ffffff91
+INFO   | jvm 1    | 2017/07/20 01:46:19 | WrapperManager Debug: Send a packet PING : ping ffffff91
+DEBUG  | wrapperp | 2017/07/20 01:46:19 | read a packet PING : ping ffffff91
+INFO   | jvm 1    | 2017/07/20 01:46:19 | This is the content to write into file 2017-07-20T01:46:19.502
+DEBUG  | wrapperp | 2017/07/20 01:46:24 | Send a packet PING : ping ffffffc3
+INFO   | jvm 1    | 2017/07/20 01:46:24 | WrapperManager Debug: Received a packet PING : ping ffffffc3
+INFO   | jvm 1    | 2017/07/20 01:46:24 | WrapperManager Debug: Send a packet PING : ping ffffffc3
+DEBUG  | wrapperp | 2017/07/20 01:46:24 | read a packet PING : ping ffffffc3
+INFO   | jvm 1    | 2017/07/20 01:46:24 | This is the content to write into file 2017-07-20T01:46:24.503
+DEBUG  | wrapperp | 2017/07/20 01:46:29 | Send a packet PING : ping fffffff5
+INFO   | jvm 1    | 2017/07/20 01:46:29 | WrapperManager Debug: Received a packet PING : ping fffffff5
+INFO   | jvm 1    | 2017/07/20 01:46:29 | WrapperManager Debug: Send a packet PING : ping fffffff5
+DEBUG  | wrapperp | 2017/07/20 01:46:29 | read a packet PING : ping fffffff5
+INFO   | jvm 1    | 2017/07/20 01:46:29 | This is the content to write into file 2017-07-20T01:46:29.503
+DEBUG  | wrapperp | 2017/07/20 01:46:34 | Send a packet PING : ping 00000027
+INFO   | jvm 1    | 2017/07/20 01:46:34 | WrapperManager Debug: Received a packet PING : ping 00000027
+INFO   | jvm 1    | 2017/07/20 01:46:34 | WrapperManager Debug: Send a packet PING : ping 00000027
+DEBUG  | wrapperp | 2017/07/20 01:46:34 | read a packet PING : ping 00000027
+INFO   | jvm 1    | 2017/07/20 01:46:34 | This is the content to write into file 2017-07-20T01:46:34.504
+DEBUG  | wrapperp | 2017/07/20 01:46:39 | Send a packet PING : ping 00000059
+INFO   | jvm 1    | 2017/07/20 01:46:39 | WrapperManager Debug: Received a packet PING : ping 00000059
+INFO   | jvm 1    | 2017/07/20 01:46:39 | WrapperManager Debug: Send a packet PING : ping 00000059
+DEBUG  | wrapperp | 2017/07/20 01:46:39 | read a packet PING : ping 00000059
+INFO   | jvm 1    | 2017/07/20 01:46:39 | This is the content to write into file 2017-07-20T01:46:39.504
+DEBUG  | wrapperp | 2017/07/20 01:46:44 | Send a packet PING : ping 0000008b
+INFO   | jvm 1    | 2017/07/20 01:46:44 | WrapperManager Debug: Received a packet PING : ping 0000008b
+INFO   | jvm 1    | 2017/07/20 01:46:44 | WrapperManager Debug: Send a packet PING : ping 0000008b
+DEBUG  | wrapperp | 2017/07/20 01:46:44 | read a packet PING : ping 0000008b
+INFO   | jvm 1    | 2017/07/20 01:46:44 | This is the content to write into file 2017-07-20T01:46:44.505
+DEBUG  | wrapperp | 2017/07/20 01:46:49 | Send a packet PING : ping 000000bd
+INFO   | jvm 1    | 2017/07/20 01:46:49 | WrapperManager Debug: Received a packet PING : ping 000000bd
+INFO   | jvm 1    | 2017/07/20 01:46:49 | WrapperManager Debug: Send a packet PING : ping 000000bd
+DEBUG  | wrapperp | 2017/07/20 01:46:49 | read a packet PING : ping 000000bd
+INFO   | jvm 1    | 2017/07/20 01:46:49 | This is the content to write into file 2017-07-20T01:46:49.505
+DEBUG  | wrapperp | 2017/07/20 01:46:54 | Send a packet PING : ping 000000ef
+INFO   | jvm 1    | 2017/07/20 01:46:54 | WrapperManager Debug: Received a packet PING : ping 000000ef
+INFO   | jvm 1    | 2017/07/20 01:46:54 | WrapperManager Debug: Send a packet PING : ping 000000ef
+DEBUG  | wrapperp | 2017/07/20 01:46:54 | read a packet PING : ping 000000ef
+INFO   | jvm 1    | 2017/07/20 01:46:54 | This is the content to write into file 2017-07-20T01:46:54.506
+DEBUG  | wrapperp | 2017/07/20 01:46:59 | Send a packet PING : ping 00000121
+INFO   | jvm 1    | 2017/07/20 01:46:59 | WrapperManager Debug: Received a packet PING : ping 00000121
+INFO   | jvm 1    | 2017/07/20 01:46:59 | WrapperManager Debug: Send a packet PING : ping 00000121
+DEBUG  | wrapperp | 2017/07/20 01:46:59 | read a packet PING : ping 00000121
+INFO   | jvm 1    | 2017/07/20 01:46:59 | This is the content to write into file 2017-07-20T01:46:59.506
+DEBUG  | wrapperp | 2017/07/20 01:47:04 | Send a packet PING : ping 00000153
+INFO   | jvm 1    | 2017/07/20 01:47:04 | WrapperManager Debug: Received a packet PING : ping 00000153
+INFO   | jvm 1    | 2017/07/20 01:47:04 | WrapperManager Debug: Send a packet PING : ping 00000153
+DEBUG  | wrapperp | 2017/07/20 01:47:04 | read a packet PING : ping 00000153
+INFO   | jvm 1    | 2017/07/20 01:47:04 | This is the content to write into file 2017-07-20T01:47:04.507
+DEBUG  | wrapperp | 2017/07/20 01:47:09 | Send a packet PING : ping 00000185
+INFO   | jvm 1    | 2017/07/20 01:47:09 | WrapperManager Debug: Received a packet PING : ping 00000185
+INFO   | jvm 1    | 2017/07/20 01:47:09 | WrapperManager Debug: Send a packet PING : ping 00000185
+DEBUG  | wrapperp | 2017/07/20 01:47:09 | read a packet PING : ping 00000185
+INFO   | jvm 1    | 2017/07/20 01:47:09 | This is the content to write into file 2017-07-20T01:47:09.507
+DEBUG  | wrapperp | 2017/07/20 01:47:14 | Send a packet PING : ping 000001b7
+INFO   | jvm 1    | 2017/07/20 01:47:14 | WrapperManager Debug: Received a packet PING : ping 000001b7
+INFO   | jvm 1    | 2017/07/20 01:47:14 | WrapperManager Debug: Send a packet PING : ping 000001b7
+DEBUG  | wrapperp | 2017/07/20 01:47:14 | read a packet PING : ping 000001b7
+INFO   | jvm 1    | 2017/07/20 01:47:14 | This is the content to write into file 2017-07-20T01:47:14.508
+DEBUG  | wrapper  | 2017/07/20 01:47:15 | Signal trapped.  Details:
+DEBUG  | wrapper  | 2017/07/20 01:47:15 |   signal number=2 (SIGINT), source="the kernel"
+STATUS | wrapper  | 2017/07/20 01:47:15 | INT trapped.  Shutting down.
+DEBUG  | wrapper  | 2017/07/20 01:47:15 | wrapperStopProcess(0, TRUE) called.
+DEBUG  | wrapper  | 2017/07/20 01:47:15 | Sending stop signal to JVM
+DEBUG  | wrapperp | 2017/07/20 01:47:15 | Send a packet STOP : NULL
+INFO   | jvm 1    | 2017/07/20 01:47:15 | WrapperManager Debug: Received a packet STOP : 
+INFO   | jvm 1    | 2017/07/20 01:47:15 | WrapperManager Debug: Thread, Wrapper-Connection, handling the shutdown process.
+INFO   | jvm 1    | 2017/07/20 01:47:15 | WrapperManager Debug: calling listener.stop()
+INFO   | jvm 1    | 2017/07/20 01:47:15 | WrapperManager Debug: Waiting for WrapperListener.stop runner thread to complete.
+INFO   | jvm 1    | 2017/07/20 01:47:15 | WrapperManager Debug: WrapperListener.stop runner thread started.
+INFO   | jvm 1    | 2017/07/20 01:47:15 | WrapperManager Debug: Application stop main thread: WrapperListener_stop_runner Priority: 5
+INFO   | jvm 1    | 2017/07/20 01:47:15 | WrapperJarApp Debug: stop(0)
+INFO   | jvm 1    | 2017/07/20 01:47:15 | WrapperManager Debug: WrapperListener.stop runner thread stopped.
+INFO   | jvm 1    | 2017/07/20 01:47:15 | WrapperManager Debug: returned from listener.stop() -> 0
+INFO   | jvm 1    | 2017/07/20 01:47:15 | WrapperManager Debug: shutdownJVM(0) Thread: Wrapper-Connection
+INFO   | jvm 1    | 2017/07/20 01:47:15 | WrapperManager Debug: wait for 0 shutdown locks to be released.
+INFO   | jvm 1    | 2017/07/20 01:47:15 | WrapperManager Debug: Send a packet STOPPED : 0
+INFO   | jvm 1    | 2017/07/20 01:47:15 | WrapperManager Debug: Stopped checking for control events.
+DEBUG  | wrapperp | 2017/07/20 01:47:15 | read a packet STOPPED : 0
+DEBUG  | wrapper  | 2017/07/20 01:47:15 | JVM signaled that it was stopped.
+DEBUG  | wrapper  | 2017/07/20 01:47:15 | Signal trapped.  Details:
+DEBUG  | wrapper  | 2017/07/20 01:47:15 |   signal number=17 (SIGCHLD), source="unknown"
+DEBUG  | wrapper  | 2017/07/20 01:47:15 | Received SIGCHLD, checking JVM process status.
+DEBUG  | wrapper  | 2017/07/20 01:47:15 | JVM process exited with a code of 0, leaving the wrapper exit code set to 0.
+DEBUG  | wrapper  | 2017/07/20 01:47:15 | JVM exited normally.
+DEBUG  | wrapperp | 2017/07/20 01:47:15 | Closing backend socket.
+INFO   | jvm 1    | 2017/07/20 01:47:15 | WrapperManager Debug: Closing backend connection.
+INFO   | jvm 1    | 2017/07/20 01:47:15 | WrapperManager Debug: calling System.exit(0)
+INFO   | jvm 1    | 2017/07/20 01:47:15 | WrapperManager Debug: WrapperManager stopped due to System Exit
+STATUS | wrapper  | 2017/07/20 01:47:15 | <-- Wrapper Stopped
+DEBUG  | wrapper  | 2017/07/20 01:47:22 | Spawning intermediate process...
+DEBUG  | wrapper  | 2017/07/20 01:47:22 | Spawning daemon process...
+DEBUG  | wrapper  | 2017/07/20 01:47:22 | Reloading configuration.
+DEBUG  | wrapper  | 2017/07/20 01:47:22 | Configured log file set to '/home/algis/Desktop/tanuki/APP_ROOT/logs/wrapper.log'.
+DEBUG  | wrapper  | 2017/07/20 01:47:22 | active log file changed: /home/algis/Desktop/tanuki/APP_ROOT/logs/wrapper.log
+STATUS | wrapper  | 2017/07/20 01:47:22 | --> Wrapper Started as Daemon
+STATUS | wrapper  | 2017/07/20 01:47:22 | Java Service Wrapper Community Edition 64-bit 3.5.32
+STATUS | wrapper  | 2017/07/20 01:47:22 |   Copyright (C) 1999-2017 Tanuki Software, Ltd. All Rights Reserved.
+STATUS | wrapper  | 2017/07/20 01:47:22 |     http://wrapper.tanukisoftware.com
+STATUS | wrapper  | 2017/07/20 01:47:22 | 
+DEBUG  | wrapper  | 2017/07/20 01:47:22 | Release time: 2017/03/31 00:00:00
+DEBUG  | wrapper  | 2017/07/20 01:47:22 | Build time:   2017/03/29 21:59:00
+DEBUG  | wrapper  | 2017/07/20 01:47:22 | Timezone:     EET (EEST) Offset: -7200, hasDaylight: 1
+DEBUG  | wrapper  | 2017/07/20 01:47:22 | Using tick timer.
+DEBUG  | wrapper  | 2017/07/20 01:47:22 | PID:          31117
+DEBUG  | wrapper  | 2017/07/20 01:47:22 | 
+DEBUG  | wrapper  | 2017/07/20 01:47:22 | Wrapper configuration properties (Name=Value) BEGIN:
+DEBUG  | wrapper  | 2017/07/20 01:47:22 |   wrapper.app.parameter.1=app.jar
+DEBUG  | wrapper  | 2017/07/20 01:47:22 |   wrapper.check.deadlock=TRUE
+DEBUG  | wrapper  | 2017/07/20 01:47:22 |   wrapper.check.deadlock.action=RESTART
+DEBUG  | wrapper  | 2017/07/20 01:47:22 |   wrapper.check.deadlock.interval=60
+DEBUG  | wrapper  | 2017/07/20 01:47:22 |   wrapper.check.deadlock.output=FULL
+DEBUG  | wrapper  | 2017/07/20 01:47:22 |   wrapper.console.format=PM
+DEBUG  | wrapper  | 2017/07/20 01:47:22 |   wrapper.console.loglevel=INFO
+DEBUG  | wrapper  | 2017/07/20 01:47:22 |   wrapper.console.title=@app.long.name@
+DEBUG  | wrapper  | 2017/07/20 01:47:22 |   wrapper.daemonize=TRUE
+DEBUG  | wrapper  | 2017/07/20 01:47:22 |   wrapper.debug=TRUE
+DEBUG  | wrapper  | 2017/07/20 01:47:22 |   wrapper.description=@app.description@
+DEBUG  | wrapper  | 2017/07/20 01:47:22 |   wrapper.displayname=console logging app
+DEBUG  | wrapper  | 2017/07/20 01:47:22 |   wrapper.event.jvm_restart.email.body=The JVM was restarted.\n\nPlease check on its status.\n
+DEBUG  | wrapper  | 2017/07/20 01:47:22 |   wrapper.filter.action.1000=NONE
+DEBUG  | wrapper  | 2017/07/20 01:47:22 |   wrapper.filter.action.1001=RESTART
+DEBUG  | wrapper  | 2017/07/20 01:47:22 |   wrapper.filter.message.1001=The JVM has run out of memory.
+DEBUG  | wrapper  | 2017/07/20 01:47:22 |   wrapper.filter.trigger.1000=[Loaded java.lang.OutOfMemoryError
+DEBUG  | wrapper  | 2017/07/20 01:47:22 |   wrapper.filter.trigger.1001=java.lang.OutOfMemoryError
+DEBUG  | wrapper  | 2017/07/20 01:47:22 |   wrapper.ignore_sequence_gaps=TRUE
+DEBUG  | wrapper  | 2017/07/20 01:47:22 |   wrapper.java.additional.1=
+DEBUG  | wrapper  | 2017/07/20 01:47:22 |   wrapper.java.additional.auto_bits=TRUE
+DEBUG  | wrapper  | 2017/07/20 01:47:22 |   wrapper.java.classpath.1=../lib/wrapper.jar
+DEBUG  | wrapper  | 2017/07/20 01:47:22 |   wrapper.java.command=java
+DEBUG  | wrapper  | 2017/07/20 01:47:22 |   wrapper.java.library.path.1=../lib
+DEBUG  | wrapper  | 2017/07/20 01:47:22 |   wrapper.java.mainclass=org.tanukisoftware.wrapper.WrapperJarApp
+DEBUG  | wrapper  | 2017/07/20 01:47:22 |   wrapper.java.statusfile=/home/algis/Desktop/tanuki/APP_ROOT/bin/./app.java.status
+DEBUG  | wrapper  | 2017/07/20 01:47:22 |   wrapper.lang.folder=../lang
+DEBUG  | wrapper  | 2017/07/20 01:47:22 |   wrapper.logfile=../logs/wrapper.log
+DEBUG  | wrapper  | 2017/07/20 01:47:22 |   wrapper.logfile.format=LPTM
+DEBUG  | wrapper  | 2017/07/20 01:47:22 |   wrapper.logfile.loglevel=INFO
+DEBUG  | wrapper  | 2017/07/20 01:47:22 |   wrapper.logfile.maxfiles=0
+DEBUG  | wrapper  | 2017/07/20 01:47:22 |   wrapper.logfile.maxsize=0
+DEBUG  | wrapper  | 2017/07/20 01:47:22 |   wrapper.name=app
+DEBUG  | wrapper  | 2017/07/20 01:47:22 |   wrapper.ntservice.dependency.1=
+DEBUG  | wrapper  | 2017/07/20 01:47:22 |   wrapper.ntservice.interactive=FALSE
+DEBUG  | wrapper  | 2017/07/20 01:47:22 |   wrapper.ntservice.starttype=AUTO_START
+DEBUG  | wrapper  | 2017/07/20 01:47:22 |   wrapper.pidfile=/home/algis/Desktop/tanuki/APP_ROOT/bin/./app.pid
+DEBUG  | wrapper  | 2017/07/20 01:47:22 |   wrapper.pidfile.strict=TRUE
+DEBUG  | wrapper  | 2017/07/20 01:47:22 |   wrapper.script.version=3.5.32
+DEBUG  | wrapper  | 2017/07/20 01:47:22 |   wrapper.statusfile=/home/algis/Desktop/tanuki/APP_ROOT/bin/./app.status
+DEBUG  | wrapper  | 2017/07/20 01:47:22 |   wrapper.syslog.ident=app
+DEBUG  | wrapper  | 2017/07/20 01:47:22 |   wrapper.syslog.loglevel=NONE
+DEBUG  | wrapper  | 2017/07/20 01:47:22 | 
+DEBUG  | wrapper  | 2017/07/20 01:47:22 | Environment variables (Source | Name=Value) BEGIN:
+DEBUG  | wrapper  | 2017/07/20 01:47:22 |   P---- | _=bin/app
+DEBUG  | wrapper  | 2017/07/20 01:47:22 |   P---- | ACCT_LIST=sample.log
+DEBUG  | wrapper  | 2017/07/20 01:47:22 |   P---- | CATALINA_HOME=/etc/apache-tomcat-9.0.0.M8
+DEBUG  | wrapper  | 2017/07/20 01:47:22 |   P---- | CLUTTER_IM_MODULE=xim
+DEBUG  | wrapper  | 2017/07/20 01:47:22 |   P---- | COLORTERM=gnome-terminal
+DEBUG  | wrapper  | 2017/07/20 01:47:22 |   P---- | DBUS_SESSION_BUS_ADDRESS=unix:abstract=/tmp/dbus-6ea4KT8D0u
+DEBUG  | wrapper  | 2017/07/20 01:47:22 |   P---- | DEFAULTS_PATH=/usr/share/gconf/gnome-fallback-compiz.default.path
+DEBUG  | wrapper  | 2017/07/20 01:47:22 |   P---- | DERBY_HOME=/usr/lib/jvm/java-8-oracle/db
+DEBUG  | wrapper  | 2017/07/20 01:47:22 |   P---- | DESKTOP_SESSION=gnome-fallback-compiz
+DEBUG  | wrapper  | 2017/07/20 01:47:22 |   P---- | DISPLAY=:0
+DEBUG  | wrapper  | 2017/07/20 01:47:22 |   P---- | GDM_LANG=ru_RU
+DEBUG  | wrapper  | 2017/07/20 01:47:22 |   P---- | GDMSESSION=gnome-fallback-compiz
+DEBUG  | wrapper  | 2017/07/20 01:47:22 |   P---- | GNOME_DESKTOP_SESSION_ID=this-is-deprecated
+DEBUG  | wrapper  | 2017/07/20 01:47:22 |   P---- | GNOME_KEYRING_CONTROL=/run/user/1000/keyring-00VirU
+DEBUG  | wrapper  | 2017/07/20 01:47:22 |   P---- | GNOME_KEYRING_PID=1834
+DEBUG  | wrapper  | 2017/07/20 01:47:22 |   P---- | GPG_AGENT_INFO=/tmp/gpg-JXtkIL/S.gpg-agent:1953:1
+DEBUG  | wrapper  | 2017/07/20 01:47:22 |   P---- | GRADLE_HOME=/usr/share/gradle
+DEBUG  | wrapper  | 2017/07/20 01:47:22 |   P---- | GTK_IM_MODULE=ibus
+DEBUG  | wrapper  | 2017/07/20 01:47:22 |   P---- | GTK_MODULES=overlay-scrollbar:unity-gtk-module
+DEBUG  | wrapper  | 2017/07/20 01:47:22 |   P---- | HBASE_HOME=/usr/lib/hbase/hbase-0.98.24-hadoop2
+DEBUG  | wrapper  | 2017/07/20 01:47:22 |   P---- | HOME=/home/algis
+DEBUG  | wrapper  | 2017/07/20 01:47:22 |   P---- | IM_CONFIG_PHASE=1
+DEBUG  | wrapper  | 2017/07/20 01:47:22 |   P---- | INSTANCE=
+DEBUG  | wrapper  | 2017/07/20 01:47:22 |   P---- | J2REDIR=/usr/lib/jvm/java-8-oracle/jre
+DEBUG  | wrapper  | 2017/07/20 01:47:22 |   P---- | J2SDKDIR=/usr/lib/jvm/java-8-oracle
+DEBUG  | wrapper  | 2017/07/20 01:47:22 |   P---- | JAVA_HOME=/usr/lib/jvm/java-8-oracle
+DEBUG  | wrapper  | 2017/07/20 01:47:22 |   P---- | JOB=dbus
+DEBUG  | wrapper  | 2017/07/20 01:47:22 |   P---- | LANG=ru_RU.UTF-8
+DEBUG  | wrapper  | 2017/07/20 01:47:22 |   P---- | LANGUAGE=ru_RU
+DEBUG  | wrapper  | 2017/07/20 01:47:22 |   P---- | LC_ADDRESS=lv_LV.UTF-8
+DEBUG  | wrapper  | 2017/07/20 01:47:22 |   P---- | LC_IDENTIFICATION=lv_LV.UTF-8
+DEBUG  | wrapper  | 2017/07/20 01:47:22 |   P---- | LC_MEASUREMENT=lv_LV.UTF-8
+DEBUG  | wrapper  | 2017/07/20 01:47:22 |   P---- | LC_MONETARY=lv_LV.UTF-8
+DEBUG  | wrapper  | 2017/07/20 01:47:22 |   P---- | LC_NAME=lv_LV.UTF-8
+DEBUG  | wrapper  | 2017/07/20 01:47:22 |   P---- | LC_NUMERIC=lv_LV.UTF-8
+DEBUG  | wrapper  | 2017/07/20 01:47:22 |   P---- | LC_PAPER=lv_LV.UTF-8
+DEBUG  | wrapper  | 2017/07/20 01:47:22 |   P---- | LC_TELEPHONE=lv_LV.UTF-8
+DEBUG  | wrapper  | 2017/07/20 01:47:22 |   P---- | LC_TIME=lv_LV.UTF-8
+DEBUG  | wrapper  | 2017/07/20 01:47:22 |   P---- | LD_LIBRARY_PATH=/opt/mqm/java/lib64:
+DEBUG  | wrapper  | 2017/07/20 01:47:22 |   P---- | LESSCLOSE=/usr/bin/lesspipe %s %s
+DEBUG  | wrapper  | 2017/07/20 01:47:22 |   P---- | LESSOPEN=| /usr/bin/lesspipe %s
+DEBUG  | wrapper  | 2017/07/20 01:47:22 |   P---- | LOGNAME=algis
+DEBUG  | wrapper  | 2017/07/20 01:47:22 |   P---- | LS_COLORS=rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arj=01;31:*.taz=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lz=01;31:*.xz=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.axv=01;35:*.anx=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.axa=00;36:*.oga=00;36:*.spx=00;36:*.xspf=00;36:
+DEBUG  | wrapper  | 2017/07/20 01:47:22 |   P---- | MANDATORY_PATH=/usr/share/gconf/gnome-fallback-compiz.mandatory.path
+DEBUG  | wrapper  | 2017/07/20 01:47:22 |   P---- | OLDPWD=/home/algis/Desktop/tanuki/APP_ROOT/bin
+DEBUG  | wrapper  | 2017/07/20 01:47:22 |   P---- | PATH=/home/algis/miniconda3/bin:/usr/local/heroku/bin:/home/algis/google-cloud-sdk/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/jvm/java-8-oracle/bin:/usr/lib/jvm/java-8-oracle/db/bin:/usr/lib/jvm/java-8-oracle/jre/bin:/usr/lib/hbase/hbase-0.98.24-hadoop2/bin
+DEBUG  | wrapper  | 2017/07/20 01:47:22 |   P---- | PWD=/home/algis/Desktop/tanuki/APP_ROOT
+DEBUG  | wrapper  | 2017/07/20 01:47:22 |   P---- | QT4_IM_MODULE=xim
+DEBUG  | wrapper  | 2017/07/20 01:47:22 |   P---- | QT_IM_MODULE=ibus
+DEBUG  | wrapper  | 2017/07/20 01:47:22 |   P---- | QT_QPA_PLATFORMTHEME=appmenu-qt5
+DEBUG  | wrapper  | 2017/07/20 01:47:22 |   P---- | SELINUX_INIT=YES
+DEBUG  | wrapper  | 2017/07/20 01:47:22 |   P---- | SESSION=gnome-fallback-compiz
+DEBUG  | wrapper  | 2017/07/20 01:47:22 |   P---- | SESSION_MANAGER=local/Speedy:@/tmp/.ICE-unix/2000,unix/Speedy:/tmp/.ICE-unix/2000
+DEBUG  | wrapper  | 2017/07/20 01:47:22 |   P---- | SESSIONTYPE=gnome-session
+DEBUG  | wrapper  | 2017/07/20 01:47:22 |   P---- | SHELL=/bin/bash
+DEBUG  | wrapper  | 2017/07/20 01:47:22 |   P---- | SHLVL=1
+DEBUG  | wrapper  | 2017/07/20 01:47:22 |   P---- | SSH_AUTH_SOCK=/run/user/1000/keyring-00VirU/ssh
+DEBUG  | wrapper  | 2017/07/20 01:47:22 |   P---- | TERM=xterm
+DEBUG  | wrapper  | 2017/07/20 01:47:22 |   P---- | TEXTDOMAIN=im-config
+DEBUG  | wrapper  | 2017/07/20 01:47:22 |   P---- | TEXTDOMAINDIR=/usr/share/locale/
+DEBUG  | wrapper  | 2017/07/20 01:47:22 |   P---- | UPSTART_SESSION=unix:abstract=/com/ubuntu/upstart-session/1000/1837
+DEBUG  | wrapper  | 2017/07/20 01:47:22 |   P---- | USER=algis
+DEBUG  | wrapper  | 2017/07/20 01:47:22 |   P---- | VTE_VERSION=3409
+DEBUG  | wrapper  | 2017/07/20 01:47:22 |   P---- | WINDOWID=65011724
+DEBUG  | wrapper  | 2017/07/20 01:47:22 |   ---W- | WRAPPER_ARCH=x86
+DEBUG  | wrapper  | 2017/07/20 01:47:22 |   ---W- | WRAPPER_BIN_DIR=/home/algis/Desktop/tanuki/APP_ROOT/bin
+DEBUG  | wrapper  | 2017/07/20 01:47:22 |   ---W- | WRAPPER_BITS=64
+DEBUG  | wrapper  | 2017/07/20 01:47:22 |   ---W- | WRAPPER_CONF_DIR=/home/algis/Desktop/tanuki/APP_ROOT/conf
+DEBUG  | wrapper  | 2017/07/20 01:47:22 |   ---W- | WRAPPER_FILE_SEPARATOR=/
+DEBUG  | wrapper  | 2017/07/20 01:47:22 |   ---W- | WRAPPER_HOST_NAME=Speedy
+DEBUG  | wrapper  | 2017/07/20 01:47:22 |   ---W- | WRAPPER_HOSTNAME=Speedy
+DEBUG  | wrapper  | 2017/07/20 01:47:22 |   P--W- | WRAPPER_INIT_DIR=/home/algis/Desktop/tanuki/APP_ROOT
+DEBUG  | wrapper  | 2017/07/20 01:47:22 |   ---W- | WRAPPER_LANG=en
+DEBUG  | wrapper  | 2017/07/20 01:47:22 |   ---W- | WRAPPER_OS=linux
+DEBUG  | wrapper  | 2017/07/20 01:47:22 |   ---W- | WRAPPER_PATH_SEPARATOR=:
+DEBUG  | wrapper  | 2017/07/20 01:47:22 |   ---W- | WRAPPER_PID=31117
+DEBUG  | wrapper  | 2017/07/20 01:47:22 |   ---W- | WRAPPER_WORKING_DIR=/home/algis/Desktop/tanuki/APP_ROOT/bin
+DEBUG  | wrapper  | 2017/07/20 01:47:22 |   P---- | XAUTHORITY=/home/algis/.Xauthority
+DEBUG  | wrapper  | 2017/07/20 01:47:22 |   P---- | XDG_CONFIG_DIRS=/etc/xdg/xdg-gnome-fallback-compiz:/usr/share/upstart/xdg:/etc/xdg
+DEBUG  | wrapper  | 2017/07/20 01:47:22 |   P---- | XDG_CURRENT_DESKTOP=Unity
+DEBUG  | wrapper  | 2017/07/20 01:47:22 |   P---- | XDG_DATA_DIRS=/usr/share/gnome-fallback-compiz:/usr/share/gnome:/usr/local/share/:/usr/share/
+DEBUG  | wrapper  | 2017/07/20 01:47:22 |   P---- | XDG_GREETER_DATA_DIR=/var/lib/lightdm-data/algis
+DEBUG  | wrapper  | 2017/07/20 01:47:22 |   P---- | XDG_MENU_PREFIX=gnome-
+DEBUG  | wrapper  | 2017/07/20 01:47:22 |   P---- | XDG_RUNTIME_DIR=/run/user/1000
+DEBUG  | wrapper  | 2017/07/20 01:47:22 |   P---- | XDG_SEAT=seat0
+DEBUG  | wrapper  | 2017/07/20 01:47:22 |   P---- | XDG_SEAT_PATH=/org/freedesktop/DisplayManager/Seat0
+DEBUG  | wrapper  | 2017/07/20 01:47:22 |   P---- | XDG_SESSION_ID=c2
+DEBUG  | wrapper  | 2017/07/20 01:47:22 |   P---- | XDG_SESSION_PATH=/org/freedesktop/DisplayManager/Session0
+DEBUG  | wrapper  | 2017/07/20 01:47:22 |   P---- | XDG_VTNR=7
+DEBUG  | wrapper  | 2017/07/20 01:47:22 |   P---- | XMODIFIERS=@im=ibus
+DEBUG  | wrapper  | 2017/07/20 01:47:22 | Environment variables END:
+DEBUG  | wrapper  | 2017/07/20 01:47:22 | 
+DEBUG  | wrapper  | 2017/07/20 01:47:22 | Number of open file descriptors limits: 15000 (soft), 15000 (hard).
+DEBUG  | wrapper  | 2017/07/20 01:47:22 | Use tick timer mutex=FALSE
+DEBUG  | wrapper  | 2017/07/20 01:47:22 | Preparing to restart with mode 1.
+DEBUG  | wrapperp | 2017/07/20 01:47:23 | server listening on port 32000.
+DEBUG  | wrapper  | 2017/07/20 01:47:23 | Unable to resolve the real path of wrapper.java.command as a relative reference: java
+DEBUG  | wrapper  | 2017/07/20 01:47:23 | Attempt to locate wrapper.java.command on system PATH: java
+DEBUG  | wrapper  | 2017/07/20 01:47:23 | Resolved the real path of wrapper.java.command from system PATH: /usr/lib/jvm/java-8-oracle/jre/bin/java
+DEBUG  | wrapper  | 2017/07/20 01:47:23 | Magic number for file /usr/lib/jvm/java-8-oracle/jre/bin/java: 0x7f454c46
+DEBUG  | wrapper  | 2017/07/20 01:47:23 | Startup Timeouts: wrapper.startup.timeout=30, wrapper.startup.delay.console=0, wrapper.startup.delay.service=0, wrapper.restart.delay=5
+DEBUG  | wrapper  | 2017/07/20 01:47:23 | Ping settings: wrapper.ping.interval=5, wrapper.ping.interval.logged=1, wrapper.ping.timeout=30, wrapper.ping.alert.threshold=7
+DEBUG  | wrapper  | 2017/07/20 01:47:23 | Shutdown Timeouts: wrapper.shutdown.timeout=30, wrapper.jvm_exit.timeout=15, wrapper.jvm_cleanup.timeout=10, wrapper.jvm_terminate.timeout=10
+STATUS | wrapper  | 2017/07/20 01:47:23 | Launching a JVM...
+DEBUG  | wrapper  | 2017/07/20 01:47:23 | Java Command Line:
+DEBUG  | wrapper  | 2017/07/20 01:47:23 |   Command[0] : /usr/lib/jvm/java-8-oracle/jre/bin/java
+DEBUG  | wrapper  | 2017/07/20 01:47:23 |   Command[1] : -Djava.library.path=../lib
+DEBUG  | wrapper  | 2017/07/20 01:47:23 |   Command[2] : -classpath
+DEBUG  | wrapper  | 2017/07/20 01:47:23 |   Command[3] : ../lib/wrapper.jar
+DEBUG  | wrapper  | 2017/07/20 01:47:23 |   Command[4] : -Dwrapper.key=t0EHcbIZvsBfAC4B
+DEBUG  | wrapper  | 2017/07/20 01:47:23 |   Command[5] : -Dwrapper.port=32000
+DEBUG  | wrapper  | 2017/07/20 01:47:23 |   Command[6] : -Dwrapper.jvm.port.min=31000
+DEBUG  | wrapper  | 2017/07/20 01:47:23 |   Command[7] : -Dwrapper.jvm.port.max=31999
+DEBUG  | wrapper  | 2017/07/20 01:47:23 |   Command[8] : -Dwrapper.debug=TRUE
+DEBUG  | wrapper  | 2017/07/20 01:47:23 |   Command[9] : -Dwrapper.disable_console_input=TRUE
+DEBUG  | wrapper  | 2017/07/20 01:47:23 |   Command[10] : -Dwrapper.pid=31117
+DEBUG  | wrapper  | 2017/07/20 01:47:23 |   Command[11] : -Dwrapper.version=3.5.32
+DEBUG  | wrapper  | 2017/07/20 01:47:23 |   Command[12] : -Dwrapper.native_library=wrapper
+DEBUG  | wrapper  | 2017/07/20 01:47:23 |   Command[13] : -Dwrapper.arch=x86
+DEBUG  | wrapper  | 2017/07/20 01:47:23 |   Command[14] : -Dwrapper.service=TRUE
+DEBUG  | wrapper  | 2017/07/20 01:47:23 |   Command[15] : -Dwrapper.cpu.timeout=10
+DEBUG  | wrapper  | 2017/07/20 01:47:23 |   Command[16] : -Dwrapper.jvmid=1
+DEBUG  | wrapper  | 2017/07/20 01:47:23 |   Command[17] : org.tanukisoftware.wrapper.WrapperJarApp
+DEBUG  | wrapper  | 2017/07/20 01:47:23 |   Command[18] : app.jar
+INFO   | jvm 1    | 2017/07/20 01:47:23 | WrapperManager Debug: WrapperManager class initialized by thread: main   Using classloader: sun.misc.Launcher$AppClassLoader@33909752
+INFO   | jvm 1    | 2017/07/20 01:47:23 | WrapperManager: Initializing...
+INFO   | jvm 1    | 2017/07/20 01:47:23 | WrapperManager Debug: JVM #1
+INFO   | jvm 1    | 2017/07/20 01:47:23 | WrapperManager Debug: Running a 64-bit JVM.
+INFO   | jvm 1    | 2017/07/20 01:47:23 | WrapperManager Debug: org.tanukisoftware.wrapper.WrapperManager package information:
+INFO   | jvm 1    | 2017/07/20 01:47:23 | WrapperManager Debug:   Implementation Title: org.tanukisoftware.wrapper
+INFO   | jvm 1    | 2017/07/20 01:47:23 | WrapperManager Debug:   Implementation Vendor: Tanuki Software, Ltd.
+INFO   | jvm 1    | 2017/07/20 01:47:23 | WrapperManager Debug:   Implementation Version: 3.5.32
+INFO   | jvm 1    | 2017/07/20 01:47:23 | WrapperManager Debug:   Is Sealed?: False
+INFO   | jvm 1    | 2017/07/20 01:47:23 | WrapperManager Debug: org.tanukisoftware.wrapper.WrapperManager protection domain:
+INFO   | jvm 1    | 2017/07/20 01:47:23 | WrapperManager Debug:   Location: file:/home/algis/Desktop/tanuki/APP_ROOT/lib/wrapper.jar
+INFO   | jvm 1    | 2017/07/20 01:47:23 | WrapperManager Debug:     Size: 126 696
+INFO   | jvm 1    | 2017/07/20 01:47:23 | WrapperManager Debug:     MD5: 3257e5a0addf35ad11c38735336643bd
+INFO   | jvm 1    | 2017/07/20 01:47:23 | WrapperManager Debug: Registering shutdown hook
+INFO   | jvm 1    | 2017/07/20 01:47:23 | WrapperManager Debug: Using wrapper
+INFO   | jvm 1    | 2017/07/20 01:47:23 | WrapperManager Debug: Registered MBean with Platform MBean Server: org.tanukisoftware.wrapper:type=WrapperManager
+INFO   | jvm 1    | 2017/07/20 01:47:23 | WrapperManager Debug: Load native library.  There are multiple possible file names and the first to be found will be used.  Errors loading non-existing files is normal and is only a problem if they all fail.
+INFO   | jvm 1    | 2017/07/20 01:47:23 | WrapperManager Debug:   Attempt to load native library with name: libwrapper-linux-x86-64.so  Result: no wrapper-linux-x86-64 in java.library.path
+INFO   | jvm 1    | 2017/07/20 01:47:23 | WrapperManager Debug:   Attempt to load native library with name: libwrapper.so  Result: Success!
+INFO   | jvm 1    | 2017/07/20 01:47:23 | WrapperManager Debug:   Successfully loaded native library.
+INFO   | jvm 1    | 2017/07/20 01:47:23 | WrapperManager Debug: Loaded localized resources.
+INFO   | jvm 1    | 2017/07/20 01:47:23 | WrapperManager Debug: Calling native initialization method.
+INFO   | jvm 1    | 2017/07/20 01:47:23 | WrapperJNI Debug: Inside native WrapperManager initialization method
+INFO   | jvm 1    | 2017/07/20 01:47:23 | WrapperManager Debug: Java PID       : 31119
+INFO   | jvm 1    | 2017/07/20 01:47:23 | WrapperManager Debug: Java Version   : 1.8.0_121-b13 Java HotSpot(TM) 64-Bit Server VM
+INFO   | jvm 1    | 2017/07/20 01:47:23 | WrapperManager Debug: Java VM Vendor : Oracle Corporation
+INFO   | jvm 1    | 2017/07/20 01:47:23 | WrapperManager Debug: OS Name        : Linux
+INFO   | jvm 1    | 2017/07/20 01:47:23 | WrapperManager Debug: OS Arch        : amd64
+INFO   | jvm 1    | 2017/07/20 01:47:23 | WrapperManager Debug: 
+INFO   | jvm 1    | 2017/07/20 01:47:23 | WrapperManager Debug: Control event monitor thread started.
+INFO   | jvm 1    | 2017/07/20 01:47:23 | WrapperManager Debug: Startup runner thread started.
+INFO   | jvm 1    | 2017/07/20 01:47:23 | WrapperJarApp Debug: Jar Main-Class: foo.bar.baz.Main
+INFO   | jvm 1    | 2017/07/20 01:47:23 | WrapperJarApp Debug: Jar Classpath: Not specified.
+INFO   | jvm 1    | 2017/07/20 01:47:23 | WrapperJarApp Debug:     Classpath[0]=file:/home/algis/Desktop/tanuki/APP_ROOT/bin/app.jar
+INFO   | jvm 1    | 2017/07/20 01:47:23 | WrapperManager Debug: WrapperManager.start(a org.tanukisoftware.wrapper.WrapperJarApp, args[]) called by thread: main
+INFO   | jvm 1    | 2017/07/20 01:47:23 | WrapperManager Debug: Initial thread: main Priority: 5
+INFO   | jvm 1    | 2017/07/20 01:47:23 | WrapperManager Debug: Communications runner thread started.
+INFO   | jvm 1    | 2017/07/20 01:47:23 | WrapperManager Debug: Open socket to wrapper...Wrapper-Connection
+INFO   | jvm 1    | 2017/07/20 01:47:23 | WrapperManager Debug: Unable to open socket to Wrapper from port 31 000, already in use.
+INFO   | jvm 1    | 2017/07/20 01:47:23 | WrapperManager Debug: Opened Socket from 31 001 to 32 000
+INFO   | jvm 1    | 2017/07/20 01:47:23 | WrapperManager Debug: Send a packet KEY : t0EHcbIZvsBfAC4B
+INFO   | jvm 1    | 2017/07/20 01:47:23 | WrapperManager Debug: handleBackend()
+DEBUG  | wrapperp | 2017/07/20 01:47:23 | accepted a socket on port 32000 from 127.0.0.1 at port 31001
+DEBUG  | wrapperp | 2017/07/20 01:47:23 | closing backend server.
+DEBUG  | wrapperp | 2017/07/20 01:47:23 | read a packet KEY : t0EHcbIZvsBfAC4B
+DEBUG  | wrapper  | 2017/07/20 01:47:23 | Got key from JVM: t0EHcbIZvsBfAC4B
+DEBUG  | wrapperp | 2017/07/20 01:47:23 | Send a packet LOW_LOG_LEVEL : 1
+DEBUG  | wrapperp | 2017/07/20 01:47:23 | Send a packet LOGFILE : /home/algis/Desktop/tanuki/APP_ROOT/logs/wrapper.log
+DEBUG  | wrapperp | 2017/07/20 01:47:23 | Send a packet PROPERTIES : (Property Values, Size=5387)
+DEBUG  | wrapper  | 2017/07/20 01:47:23 | Start Application.
+DEBUG  | wrapperp | 2017/07/20 01:47:23 | Send a packet START : start
+INFO   | jvm 1    | 2017/07/20 01:47:23 | WrapperManager Debug: Received a packet LOW_LOG_LEVEL : 1
+INFO   | jvm 1    | 2017/07/20 01:47:23 | WrapperManager Debug: LowLogLevel from Wrapper is 1
+INFO   | jvm 1    | 2017/07/20 01:47:23 | WrapperManager Debug: Received a packet LOGFILE : /home/algis/Desktop/tanuki/APP_ROOT/logs/wrapper.log
+INFO   | jvm 1    | 2017/07/20 01:47:23 | WrapperManager Debug: Received a packet PROPERTIES : (Property Values, Size=5387)
+INFO   | jvm 1    | 2017/07/20 01:47:23 | WrapperManager Debug: Received a packet START : start
+INFO   | jvm 1    | 2017/07/20 01:47:23 | WrapperManager Debug: Java temporary directory: /tmp
+INFO   | jvm 1    | 2017/07/20 01:47:23 | WrapperManager Debug: calling WrapperListener.start()
+INFO   | jvm 1    | 2017/07/20 01:47:23 | WrapperManager Debug: WrapperListener.start runner thread started.
+INFO   | jvm 1    | 2017/07/20 01:47:23 | WrapperManager Debug: Application start main thread: WrapperListener_start_runner Priority: 5
+INFO   | jvm 1    | 2017/07/20 01:47:23 | WrapperJarApp Debug: start(args) Will wait up to 2 seconds for the main method to complete.
+INFO   | jvm 1    | 2017/07/20 01:47:23 | WrapperJarApp Debug: invoking main method
+INFO   | jvm 1    | 2017/07/20 01:47:23 | started
+INFO   | jvm 1    | 2017/07/20 01:47:24 | WrapperManager Debug: Send a packet START_PENDING : 5000
+DEBUG  | wrapperp | 2017/07/20 01:47:24 | read a packet START_PENDING : 5000
+DEBUG  | wrapper  | 2017/07/20 01:47:24 | JVM signaled a start pending with waitHint of 5000 millis.
+INFO   | jvm 1    | 2017/07/20 01:47:25 | WrapperManager Debug: Send a packet START_PENDING : 5000
+INFO   | jvm 1    | 2017/07/20 01:47:25 | WrapperJarApp Debug: start(args) end.  Main Completed=false, exitCode=null
+INFO   | jvm 1    | 2017/07/20 01:47:25 | WrapperManager Debug: returned from WrapperListener.start()
+INFO   | jvm 1    | 2017/07/20 01:47:25 | WrapperManager Debug: Send a packet STARTED : 
+INFO   | jvm 1    | 2017/07/20 01:47:25 | WrapperManager Debug: WrapperListener.start runner thread stopped.
+DEBUG  | wrapperp | 2017/07/20 01:47:25 | read a packet START_PENDING : 5000
+DEBUG  | wrapper  | 2017/07/20 01:47:25 | JVM signaled a start pending with waitHint of 5000 millis.
+DEBUG  | wrapperp | 2017/07/20 01:47:25 | read a packet STARTED : 
+DEBUG  | wrapper  | 2017/07/20 01:47:25 | JVM signaled that it was started.
+INFO   | jvm 1    | 2017/07/20 01:47:25 | WrapperManager Debug: Startup runner thread stopped.
+DEBUG  | wrapperp | 2017/07/20 01:47:27 | Send a packet PING : ping fffffe33
+INFO   | jvm 1    | 2017/07/20 01:47:28 | WrapperManager Debug: Received a packet PING : ping fffffe33
+INFO   | jvm 1    | 2017/07/20 01:47:28 | WrapperManager Debug: Send a packet PING : ping fffffe33
+DEBUG  | wrapperp | 2017/07/20 01:47:28 | read a packet PING : ping fffffe33
+INFO   | jvm 1    | 2017/07/20 01:47:28 | This is the content to write into file 2017-07-20T01:47:28.453
+DEBUG  | wrapperp | 2017/07/20 01:47:32 | Send a packet PING : ping fffffe65
+INFO   | jvm 1    | 2017/07/20 01:47:33 | WrapperManager Debug: Received a packet PING : ping fffffe65
+INFO   | jvm 1    | 2017/07/20 01:47:33 | WrapperManager Debug: Send a packet PING : ping fffffe65
+DEBUG  | wrapperp | 2017/07/20 01:47:33 | read a packet PING : ping fffffe65
+INFO   | jvm 1    | 2017/07/20 01:47:33 | This is the content to write into file 2017-07-20T01:47:33.460
+DEBUG  | wrapperp | 2017/07/20 01:47:37 | Send a packet PING : ping fffffe97
+INFO   | jvm 1    | 2017/07/20 01:47:38 | WrapperManager Debug: Received a packet PING : ping fffffe97
+INFO   | jvm 1    | 2017/07/20 01:47:38 | WrapperManager Debug: Send a packet PING : ping fffffe97
+DEBUG  | wrapperp | 2017/07/20 01:47:38 | read a packet PING : ping fffffe97
+INFO   | jvm 1    | 2017/07/20 01:47:38 | This is the content to write into file 2017-07-20T01:47:38.461
+DEBUG  | wrapperp | 2017/07/20 01:47:42 | Send a packet PING : ping fffffec9
+INFO   | jvm 1    | 2017/07/20 01:47:43 | WrapperManager Debug: Received a packet PING : ping fffffec9
+INFO   | jvm 1    | 2017/07/20 01:47:43 | WrapperManager Debug: Send a packet PING : ping fffffec9
+DEBUG  | wrapperp | 2017/07/20 01:47:43 | read a packet PING : ping fffffec9
+INFO   | jvm 1    | 2017/07/20 01:47:43 | This is the content to write into file 2017-07-20T01:47:43.461
+DEBUG  | wrapper  | 2017/07/20 01:47:45 | Signal trapped.  Details:
+DEBUG  | wrapper  | 2017/07/20 01:47:45 |   signal number=15 (SIGTERM), source="kill, sigsend or raise"
+DEBUG  | wrapper  | 2017/07/20 01:47:45 |   signal generated by PID: 31197 (Session PID: 28848), UID: 1000 (algis)
+STATUS | wrapper  | 2017/07/20 01:47:45 | TERM trapped.  Shutting down.
+DEBUG  | wrapper  | 2017/07/20 01:47:45 | wrapperStopProcess(0, TRUE) called.
+DEBUG  | wrapper  | 2017/07/20 01:47:45 | Sending stop signal to JVM
+DEBUG  | wrapperp | 2017/07/20 01:47:45 | Send a packet STOP : NULL
+INFO   | jvm 1    | 2017/07/20 01:47:45 | WrapperManager Debug: Received a packet STOP : 
+INFO   | jvm 1    | 2017/07/20 01:47:45 | WrapperManager Debug: Thread, Wrapper-Connection, handling the shutdown process.
+INFO   | jvm 1    | 2017/07/20 01:47:45 | WrapperManager Debug: calling listener.stop()
+INFO   | jvm 1    | 2017/07/20 01:47:45 | WrapperManager Debug: Waiting for WrapperListener.stop runner thread to complete.
+INFO   | jvm 1    | 2017/07/20 01:47:45 | WrapperManager Debug: WrapperListener.stop runner thread started.
+INFO   | jvm 1    | 2017/07/20 01:47:45 | WrapperManager Debug: Application stop main thread: WrapperListener_stop_runner Priority: 5
+INFO   | jvm 1    | 2017/07/20 01:47:45 | WrapperJarApp Debug: stop(0)
+INFO   | jvm 1    | 2017/07/20 01:47:45 | WrapperManager Debug: WrapperListener.stop runner thread stopped.
+INFO   | jvm 1    | 2017/07/20 01:47:45 | WrapperManager Debug: returned from listener.stop() -> 0
+INFO   | jvm 1    | 2017/07/20 01:47:45 | WrapperManager Debug: shutdownJVM(0) Thread: Wrapper-Connection
+INFO   | jvm 1    | 2017/07/20 01:47:45 | WrapperManager Debug: wait for 0 shutdown locks to be released.
+INFO   | jvm 1    | 2017/07/20 01:47:45 | WrapperManager Debug: Send a packet STOPPED : 0
+INFO   | jvm 1    | 2017/07/20 01:47:45 | WrapperManager Debug: Stopped checking for control events.
+DEBUG  | wrapperp | 2017/07/20 01:47:45 | read a packet STOPPED : 0
+DEBUG  | wrapper  | 2017/07/20 01:47:45 | JVM signaled that it was stopped.
+DEBUG  | wrapper  | 2017/07/20 01:47:45 | Signal trapped.  Details:
+DEBUG  | wrapper  | 2017/07/20 01:47:45 |   signal number=17 (SIGCHLD), source="unknown"
+DEBUG  | wrapper  | 2017/07/20 01:47:45 | Received SIGCHLD, checking JVM process status.
+DEBUG  | wrapper  | 2017/07/20 01:47:45 | JVM process exited with a code of 0, leaving the wrapper exit code set to 0.
+DEBUG  | wrapper  | 2017/07/20 01:47:45 | JVM exited normally.
+DEBUG  | wrapperp | 2017/07/20 01:47:45 | Closing backend socket.
+INFO   | jvm 1    | 2017/07/20 01:47:45 | WrapperManager Debug: Closing backend connection.
+INFO   | jvm 1    | 2017/07/20 01:47:45 | WrapperManager Debug: calling System.exit(0)
+INFO   | jvm 1    | 2017/07/20 01:47:45 | WrapperManager Debug: WrapperManager stopped due to System Exit
+STATUS | wrapper  | 2017/07/20 01:47:45 | <-- Wrapper Stopped
