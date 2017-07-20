@@ -89,7 +89,7 @@
                         </mapping>
 
                         <mapping>
-                            <directory>somedestsubdir</directory>
+                            <directory>/somedestsubdir</directory>
                             <sources>
                                 <source>
                                     <location>src/main/resources/somedir/</location>
