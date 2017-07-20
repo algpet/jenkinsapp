@@ -24,6 +24,15 @@
     </dependencies>
     -->
 
+    <dependencies>
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+            <version>5.1.6</version>
+        </dependency>
+    </dependencies>
+
+
     <build>
         <plugins>
             <plugin>
@@ -74,7 +83,13 @@
 
                     <mappings>
                         <mapping>
-                            <directory>/somedestsubdir</directory>
+                            <directory>/huyom/lib/</directory>
+                            <dependency/>
+                            <artifact/>
+                        </mapping>
+
+                        <mapping>
+                            <directory>somedestsubdir</directory>
                             <sources>
                                 <source>
                                     <location>src/main/resources/somedir/</location>
