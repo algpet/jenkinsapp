@@ -13,6 +13,7 @@
     </properties>
 
     <!--
+    !!! deleted /lib/wrapper jar as unneeded 20 jul 23:50
     last available jar from mavencentral dated with year 2008 ... rather download one from tanuki
     <dependencies>
         <dependency>
@@ -71,6 +72,13 @@
                     <packager>SWWDC</packager>
                     <prefix>/usr/local</prefix>
                     <changelogFile>src/changelog</changelogFile>
+
+                    <mappings>
+                        <mapping>
+                            <directory>/somedir</directory>
+                        </mapping>
+                    </mappings>
+
                 </configuration>
             </plugin>
 
